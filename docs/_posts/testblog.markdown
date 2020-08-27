@@ -1,2 +1,8 @@
+---
+layout: post
+title:  "Blog 0"
+date:   2020-08-27 12:40:45 -0700
+categories: senior design
+---
 This is a test
 
