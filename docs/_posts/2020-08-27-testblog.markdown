@@ -1,1 +1,458 @@
 This is a test blog
+
+<html>
+<head>
+	<title> Our Drinks! </title>
+<style ="text/css">
+html,body{
+        margin: 0;
+	padding: 0;
+   }
+   p{
+   margin:0
+   }
+   li{
+        cursor: pointer;
+   }
+   header{
+        width: 100%;
+   }
+ body{
+        background-image: url("http://wallpaperlepi.com/wp-content/uploads/2015/05/Cool-Green-Abstract-Wallpaper.jpg");
+   }
+   a:link{
+        color: black;
+   }
+   a:visited{
+        color:black;
+   }
+   a{
+        text-decoration:none;
+   }
+   a:hover{
+        color: black;
+        text-decoration:underline;
+   }
+   ul {
+   background-color: white;
+    font-size: 20pt;
+    font-family: agency fb;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+   color: white;
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li a:hover {
+    background-color: #86b300;
+text-decoration: underline;
+}
+   #jug{
+	background-image:url("https://i.ytimg.com/vi/kuFYl6E_p2A/maxresdefault.jpg");
+   }
+#speed{
+        background-image:url("https://i.ytimg.com/vi/qKV5p4RUgHs/maxresdefault.jpg");
+   }
+#tap{
+        background-image:url("https://i.ytimg.com/vi/A8ydbCzfFLs/maxresdefault.jpg");
+   }
+#revive{
+        background-image:url("https://i.ytimg.com/vi/gSRBAiXsx4s/maxresdefault.jpg");
+   }
+#staminup{
+        background-image:url("http://i.imgur.com/5AtyrDZ.jpg");
+   }
+#phd{
+        background-image:url("https://i.redd.it/512wfk7mie7z.png");
+   }
+#mule{
+        background-image:url("https://pre00.deviantart.net/c429/th/pre/f/2015/249/9/9/mule_kick_perk_a_cola_ad_by_z0mbie1337-d98m5sp.jpg");
+   }
+#deadshot{
+        background-image:url("https://i.ytimg.com/vi/vZl2YFqhxqU/maxresdefault.jpg");
+   }
+#cherry{
+        background-image:url("http://i.imgur.com/OAMZspw.jpg");
+   }
+#whos{
+        background-image:url("https://i.ytimg.com/vi/65yfrQ3nrZ8/maxresdefault.jpg");
+   }
+#widows{
+        background-image:url("https://orig00.deviantart.net/1b5b/f/2015/250/2/5/widow_wine_perk_a_cola_ad_by_z0mbie1337-d98tcgc.jpg")
+}
+#vulture{
+        background-image:url("https://i.ytimg.com/vi/K8z9soWbV8M/maxresdefault.jpg");
+   }
+   </style>
+</head>
+<header>
+</header>
+<body> 
+	  <ul>
+  <li><img src="https://i.imgur.com/uXAnJ14.png" height="90" width="250"align="left" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'"><a class="home" href="#about"></a></li>
+  <li><a class="home" href="http://jd-cit160a.ecs.csun.edu/team7/index.html">Home</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/coffee.html">Our Dranks</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/games.html">Our Games</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/members.html">Club Members</a></li>
+  <li><a href="https://twitter.com/RefillDranks">Follow Us</a></li>
+
+</ul>
+<center>
+<TABLE width="50" cellspacing="8">
+<TR>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#jug"><img src="https://i.imgur.com/B2MPKP3.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#speed"><img src="https://i.imgur.com/1G94k3p.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#tap"><img src="https://i.imgur.com/6pVi3mW.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#revive"><img src="https://i.imgur.com/BFn7r6M.png" height="100" width="100"></TD>
+<tr/>
+</table>
+	<table width="50" cellspacing="8">
+<TR>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#staminup"><img src="https://i.imgur.com/in8ihhF.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#phd"><img src="https://i.imgur.com/W0wt72P.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#mule"><img src="https://i.imgur.com/RJm8Ttt.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#deadshot"><img src="https://i.imgur.com/3wmplvZ.png" height="100" width="100"></TD>
+</tr>
+	<table width="50" cellspacing="8">
+<TR>
+	      <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#cherry"><img src="https://i.imgur.com/9bAQm7U.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#whos"><img src="https://i.imgur.com/kXvJvgq.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#widows"><img src="https://i.imgur.com/8xUmyzW.png" height="100" width="100"></TD>
+        <TD ROWSPAN="2"  ALIGN="center" VALIGN="bottom"><a href="#vulture"><img src="https://i.imgur.com/1AmU5Rw.png" height="100" width="100"></TD>
+</TR>
+</TABLE>
+</center>
+<p id="jug" style="color: white;font-family: agency fb;font-size:200%">Juggernog<br>
+  ___________________________________________<br>
+Are you in the mood to feel tough? <br>
+Look no further! Juggernog is the<br>
+drink for you! A couple servings<br>
+of this bad boy and you will feel<br>
+as resiliant as ever! A staple here at<br>
+Refill, those that come here say it<br>
+is our best item on the menu!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="speed"style="color: white;font-family: agency fb;font-size:200%">Speed Cola<br>
+  ___________________________________________<br>
+For those with who seek agility! <br>
+Speed Cola, after a couple of<br>
+drinks will leave you ready to do<br>
+everything with god like speed!<br>
+A magicians favorite, this beverage <br>
+will make your sleight of hand skills<br>
+second to none!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="tap"style="color: white;background-color: white;font-family: agency fb;font-size:200%">Double Tap<br>
+  ___________________________________________<br>
+A drink for the hyperactive, <br>
+This root beer inspired drink will<br>
+allow you to pack quite the punch and<br>
+do it at a high speed as well. Favored<br>
+by fighters, Double Tap root beer<br>
+is known for perfectly balancing out<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="revive"style="color: white;background-color: white;font-family: agency fb;font-size:200%"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Quick Revive Soda<br>
+  ___________________________________________<br>
+Feeling down and out and need a <br>
+quick pick me up. Grab some Quick<br>
+Revive Soda! Many who have tried <br>
+this drink before claims it gives them<br>
+new life! You will feel rejouvinated<br>
+as if you were just reborn! Perfect for<br>
+those times where morale is low!<br>
+<br>
+  ___________________________________________<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br><br>
+<br>
+</p>
+<p id="staminup"style="color:lightyellow;background-color: white;font-family: agency fb;font-size:200%">Stamin Up<br>
+<br>
+  ___________________________________________<br>
+Have a long slow day and feel sluggish?<br>
+The Stamin Up beverage is for you!<br>
+This tangy drink will spring you right <br>
+into action and speed up yor life.<br>
+Perfect to drink before, after or during <br>
+a run and will do everything in it's power<br>
+to increase your levels of stamina<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="phd"style="color: white;background-color: white;font-family: agency fb;font-size:200%">PhD Flopper<br>
+  ___________________________________________<br>
+A drink that blows up the competition.<br>
+PhD flopper serves as an excelent <br>
+quencher for those in the mood to blow <br>
+up their tastebuds with an explosion of<br>
+flavor. A must have refreshment for the clumsy <br>
+given it's known effect to decrease pain.<br>
+Also rumored to make you smarter!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="mule"style="color:white;background-color: white;font-family: agency fb;font-size:200%">Mule Kick<br>
+  ___________________________________________<br>
+Arriba! Las bebidas para matar la sed! <br>
+This latin american inspired drink was <br>
+nominated for best the home-brewed drink<br>
+in California...AND WON! Our Mule Kick<br>
+soda is served in 3 servings with each one <br>
+getting hotter. Yes, a spicy drink. Intended<br>
+for the bold, this drink requires you to show ID.<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+Price:<br> 
+Small: $2.50<br>
+Medium: $4.50<br>
+Large: $6.50<br>
+<br>
+</p>
+<p id="deadshot"style="color:white;background-color: white;font-family: agency fb;font-size:200%">Deadshot Daiquiri<br>
+  ___________________________________________<br>
+***Not for the faint of heart***<br>
+A controversial concoction, this recipe <br>
+will make you think twice before ordering. <br>
+Similar to common daiquiri's,  Deadshot Daiquiri <br>
+contains rum and your choice of citrus juice.<br>
+The unique ingedient? The blood of Californian<br> 
+Rainbow Trout. The blood provides a tangy punch and<br> 
+a smooth finish. ID required!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $3.00<br>
+Medium: $4.50<br>
+Large: $5.50<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="cherry"style="color: lightblue;background-color: white;font-family: agency fb;font-size:200%">Electric Cherry<br>
+  ___________________________________________<br>
+Using a newly founded carbonation process, <br>
+Electric Cherry soda will leave your tastebuds <br>
+in shock. Originally produced by science majors<br>
+from San Francisco State University under the name,<br> 
+"Alcatraz Volt" the drink was gifted to Refill<br>
+and allowed to be distributed under the name Electric <br>
+Cherry. The science behind this drink stimulates your<br>
+tastebuds by using the perfect amount of fizz in the drink!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $1.00<br>
+Medium: $2.50<br>
+Large: $3.50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="whos"style="color: white;background-color: white;font-family: agency fb;font-size:200%">Who's Who<br>
+  ___________________________________________<br>
+Disclaimer: Will leave you in a lost state.<br>
+This Russian inspired vodka will leave you<br>
+in search for your physical self as you slowly<br>
+transcend reality. So potent that upon order,<br>
+you are forced to sign a waiver and to stay at our  <br>
+establishment. This drink will allow you to find <br>
+your true self, and rebirth as your actual person! ID required!<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $2.00<br>
+Medium: $3.50<br>
+Large: $4.50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="widows"style="color: white;background-color: white; font-family: agency fb;font-size:200%">Widow's Wine<br>
+  ___________________________________________<br>
+Take a load off and spin in to action by<br>
+unraveling the bliss that is Widow's Wine.<br>
+A standard wine stands no chance against this exotic <br>
+masterpiece of a drink. Infused with the venom of a rare<br>
+spider found only in the Valley, this high class drink will <br>
+open your eyes to the actual world of drinking. Garnished<br>
+with fried tarantula legs, this wine is not for the everyday drinker.<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Shot: $9.00<br>
+Glass: $11.50<br>
+Bottle: $24.50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p id="vulture"style="color:white;background-color: white;font-family: agency fb;font-size:200%">Vulture Aid<br>
+  ___________________________________________<br>
+Thirst wil not be a question after a few <br>
+sips of this! Our Vulture Aid energy drink<br>
+replenishes electrolytes and leaves you ready<br>
+to embark on your next endeavors with ease!<br>
+Avalible in multiple flavors ranging from  <br>
+Rasperry Replenish to Espresso Electro, Vulture<br>
+Aid is affordable and plentiful here at Refill.<br>
+<br>
+  ___________________________________________<br>
+  <br>
+<br>
+<br>
+Price:<br> 
+Small: $0.89<br>
+Medium: $1.50<br>
+Large: $2.00<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<footer>
+<marquee style="color:white; font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><b>Team7 Staff</b>   |   David, Jonathan, Mayerik, Nam, Zeeshan</marquee>
+</footer>
+</html>
+
+
