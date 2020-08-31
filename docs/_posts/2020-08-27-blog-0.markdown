@@ -4,4 +4,4 @@ title:  "Blog 0"
 date:   2020-08-27 12:40:45 -0700
 categories: senior design
 --- 
-This past week was the first week of school for the fall 2020 semester here at CSUN. I am in my final year and I am taking CIT 480 as well as COMP 484. In COMP 484, we are working on editing websites via HTML. I was able to take a website from the professor which was unformatted and format the page so it was legible. I used glitch.com as my text editor. I had some past experience with HTML so I found this task to be rather simple! 
+This past week was the first week of school for the fall 2020 semester here at CSUN. I am in my final year and I am taking CIT 480 as well as COMP 484. In COMP 484, we are working on editing websites via HTML. I was able to take a website from the professor which was unformatted and format the page so it was legible. I used glitch.com as my text editor. I had some past experience with HTML so I found this task to be rather simple! testingggg
