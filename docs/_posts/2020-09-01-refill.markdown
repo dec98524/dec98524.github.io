@@ -22,7 +22,7 @@ categories: senior design
 }
 html, body, h1, h2, h3, h4, h5, h6{
  font-family:  "Courier New", Courier, monospace;  
- text-align: left;
+ text-align: center;
     color: black;
 }
    p{
@@ -96,18 +96,18 @@ text-decoration: underline;
 
    <ul>
   <li><img src="https://i.imgur.com/uXAnJ14.png" height="90" width="250"align="left" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'"><a class="home" href="#about"></a></li>
-  <li><a class="home" href="#about">About Us</a></li>
-  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/coffee.html">Our Dranks</a></li>
-  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/games.html">Our Games</a></li>
-  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/members.html">Club Members</a></li>
+  <li><a class="home" href="#about">Home</a></li>
+  <li><a href="https://github.com/dec98524">My Git</a></li>
+  <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram/</a></li>
+  <li><a href="https://twitter.com/refilldranks">My Twitter</a></li>
   <li><a href="https://twitter.com/RefillDranks">Follow Us</a></li>
 
 </ul>
 <br>
 </header>
 <body>
-<marquee style="color: black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
-<p id="about" style="font-size:160%">Thanks for stopping by<br>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+<p id="about" style="font-family: agency fb;font-size:160%">Thanks for stopping by<br>
 					     <br><hr><br>
     <p style="color: black">This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.</p>
 <br><br>
@@ -118,7 +118,7 @@ text-decoration: underline;
 </p>
 </body>
 <footer>
-  <marquee style="color: black;font-size: 20pt" behavior="scroll" direction="left"><b>Follow me!</b>   |   Instagram: @im.davidcastaneda</marquee>
+  <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><b>Follow me!</b>   |   Instagram: @im.davidcastaneda</marquee>
 </footer>
 </html>
 
