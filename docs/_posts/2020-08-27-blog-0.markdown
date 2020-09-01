@@ -9,15 +9,20 @@ categories: senior design
 
 <style>
 
+p {
+ font-family:  "Courier New", Courier, monospace;  
+}
+
+
 body {
-  background-image: url("https://cdn.hipwallpaper.com/i/19/81/Pb8vFt.jpg");
-  background-repeat: no-repeat, repeat;
+  background-image: url("https://www.fg-a.com/wallpapers/white-marble-3-2018.jpg");
+  background-repeat: repeat;
   background-color: #cccccc;
 }
 
 </style>
 
-<body style="background-color:#86d272">
+<body>
 
 <h1>WELCOME TO MY BLOG BLOOD!! NUMER 1 RULE: FOLLOW PROTOCOL!</h1>
 <center>
