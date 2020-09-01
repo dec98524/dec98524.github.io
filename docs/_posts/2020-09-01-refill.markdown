@@ -23,6 +23,8 @@ categories: senior design
 
    p{
    margin: 0;
+ font-family:  "Courier New", Courier, monospace;  
+ text-align: left;
    }
    li{
 	cursor: pointer;
@@ -98,7 +100,7 @@ text-decoration: underline;
 <body>
 <marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 <p id="about" style="font-family: agency fb;font-size:160%">Thanks for stopping by<br>
-					     ___________________________________________________________________________<br>
+					     <br><br>
 <p>This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.
 <br><br>
 We were tasked with taking the barebones site and formatting it so that it is reader friendly. This includes separating blocks of text and formatting them in paragraphs. To do this, you use the p tag. Additional things that can be done in order to make the website reader friendly are adding headers h1, line breaks br and lists ol or ul. I was able to take a website with essentially a huge block of text and format it so that certain parts relating to one another are grouped together. I made sure to emphasize key terms and important bits of information. Lastly, I played around with the CSS stylesheet. This is used to customize the appearance of the website and can be helpful in making the website more appealing to the eye. Overall, I was proud of the transformation of the site.
