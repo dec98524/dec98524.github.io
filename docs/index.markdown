@@ -21,7 +21,8 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 </style
 <html>
-<body style="background-color:white;">
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+
 
 </body>
 </html>
