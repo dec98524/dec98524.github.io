@@ -9,10 +9,16 @@ categories: senior design
 
 <style>
 
-html, body, h1, h2, h3, h4, h5, h6, p {
+html, body, h2, h3, h4, h5, h6, p {
  font-family:  "Courier New", Courier, monospace;  
  text-align: left;
 }
+    
+    h1{
+        font-family:  "Courier New", Courier, monospace;  
+        text-align: left; 
+        color: red;
+    }
 
 
 body {
