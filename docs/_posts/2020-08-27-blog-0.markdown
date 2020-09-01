@@ -11,6 +11,7 @@ categories: senior design
 
 html, body, h1, h2, h3, h4, h5, h6, p {
  font-family:  "Courier New", Courier, monospace;  
+ text-align: left;
 }
 
 
@@ -28,7 +29,7 @@ background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b0440
   <title>A Meaningful Page Title</title>
 <body>
 
-<h1>WELCOME TO MY BLOG BLOOD!!!  NUMBER ONE RULE: FOLLOW PROTOCOL!</h1>
+<h1>WELCOME TO MY BLOG BLOOD!  NUMBER ONE RULE: FOLLOW PROTOCOL!</h1>
 <center>
 <img src="https://officialpsds.com/imageview/ry/9j/ry9jkp_large.png?1526918731" alt="let em drag" width="300" height="300" align="middle">
 </center>
