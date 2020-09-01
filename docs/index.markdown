@@ -6,6 +6,10 @@ layout: home
 ---
 <style>
 
+.header{
+
+background-image: url("https://www.e-mergemarketing.net/wp-content/uploads/2016/09/background-banner.png");
+}
 .wrapper { background-image: url("https://www.e-mergemarketing.net/wp-content/uploads/2016/09/background-banner.png"); max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
 </style
