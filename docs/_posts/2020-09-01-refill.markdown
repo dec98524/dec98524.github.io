@@ -15,8 +15,12 @@ categories: senior design
    html,body,footer{
 	margin: 0px;
 	padding: 0 ;
-    background-color: white;
    }
+   
+   article{
+	background-color: white;
+}
+
    p{
    margin: 0;
    }
@@ -43,7 +47,7 @@ categories: senior design
 	width: 100%;
    }
    p{
-   color: white;
+   color: black;
 	width:100%;
 	background-width:50%;
    }
