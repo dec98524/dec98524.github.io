@@ -3,8 +3,17 @@ layout: post
 title:  "Blog 0"
 date:   2020-08-27 12:40:45 -0700
 categories: senior design
-background-color: color|transparent|initial|inherit;
 ---
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
 
 <h1 style="background-color:powderblue;">This is a heading</h1>
 
