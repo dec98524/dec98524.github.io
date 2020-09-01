@@ -9,7 +9,7 @@ categories: senior design
 
 <body style="background-color:black;">
 
-<h1>WELCOME TO MY BLOG BLOOD!! NUMER 1 RULE: FOLLOW PROTOCOL!</h1>
+<h1 style="color:white">WELCOME TO MY BLOG BLOOD!! NUMER 1 RULE: FOLLOW PROTOCOL!</h1>
 <center>
 <img src="https://officialpsds.com/imageview/ry/9j/ry9jkp_large.png?1526918731" alt="let em drag" width="300" height="300" align="middle">
 </center>
