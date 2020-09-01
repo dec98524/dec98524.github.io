@@ -9,6 +9,10 @@ categories: senior design
 
 
 <html>
+
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="David's Blogs" /></head>
+
+
    <head>
           <title>Refill</title>
 <style type="text/css">
