@@ -4,7 +4,11 @@
 
 layout: home
 ---
+<style>
 
+.wrapper { height: 300px; max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+</style
 <html>
 <body style="background-color:powderblue;">
 
