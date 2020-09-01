@@ -5,7 +5,6 @@ date:   2020-08-27 12:40:45 -0700
 categories: senior design
 ---
 
-<!DOCTYPE html>
 <html>
 <body style="background-color:powderblue;">
 
@@ -13,7 +12,7 @@ categories: senior design
 <p>This is a paragraph.</p>
 
 </body>
-</html>-
+</html>
 
 This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.
 
