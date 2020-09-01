@@ -22,9 +22,4 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 </style
 <html>
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
-
-
-<footer>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><b>Follow me!</b>   |   Instagram: @im.davidcastaneda</marquee>
-</footer>
 </html>
