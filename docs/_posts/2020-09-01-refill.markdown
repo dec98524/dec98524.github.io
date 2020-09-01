@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "Refill"
+date:   2020-09-01 09:46:00 -0700
+categories: senior design
+---
+
+
+<html>
+   <head>
+          <title>Refill</title>
+<style type="text/css">
+   html,body,footer{
+	margin: 0px;
+	padding: 0 ;
+   }
+   p{
+   margin: 0;
+   }
+   li{
+	cursor: pointer;
+   }
+   body{
+	background-image: url("http://wallpaperlepi.com/wp-content/uploads/2015/05/Cool-Green-Abstract-Wallpaper.jpg");
+   }
+   a:link{
+	color: black;
+   }
+   a:visited{
+	color:black;
+   } 
+   a{
+	text-decoration:none;   
+   }
+   a:hover{
+	color: black;
+	text-decoration:underline;
+   }
+   header{
+	width: 100%;
+   }
+   p{
+   color: white;
+	width:100%;
+	background-width:50%;
+   }
+   table{
+	height:100 px
+   }
+ul {
+   background-color: white;
+    font-size: 20pt;
+    font-family: agency fb;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+   color: white;
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li a:hover {
+    background-color: #86b300;
+text-decoration: underline;
+}
+</style>
+   </head>
+<header>
+
+   <ul>
+  <li><img src="https://i.imgur.com/uXAnJ14.png" height="90" width="250"align="left" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'"><a class="home" href="#about"></a></li>
+  <li><a class="home" href="#about">About Us</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/coffee.html">Our Dranks</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/games.html">Our Games</a></li>
+  <li><a href="http://jd-cit160a.ecs.csun.edu/team7/members.html">Club Members</a></li>
+  <li><a href="https://twitter.com/RefillDranks">Follow Us</a></li>
+
+</ul>
+<br>
+</header>
+<body>
+<marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><i>Refill has the best drinks in the City of Angels!</i></marquee>
+<p id="about" style="font-family: agency fb;font-size:160%">Thanks for stopping by<br>
+					     ___________________________________________________________________________<br>
+<img src="https://i.imgur.com/uXAnJ14.png" height="300" width="550"align="right" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'">
+															<br>
+					     Hello and welcome to the official Refill website! Refill was founded in 2009<br>
+				  	     and has been the source for the highest rated beverages in Los Angeles! With<br>
+					     shop locations spanning from Long Beach to Northridge, Refill allows you to<br>
+					     enjoy our world renowned beverages anywhere in the county! Along with our <br>
+					     highly coveted refreshments, we are amongst the highly rated arcades in LA <br>
+					     as well! All of our shops contain standard seats, booths, lounge areas and <br>
+					     an arcade. Want to stop by, order a drink and work on that paper due in 2 days?<br>
+					     Sit at our standard seating area! Have a group of friends? Reserve a booth!<br>
+					     Trying to just relax? Stop by the lounging area! And finally, in the mood to<br>
+					     climb the leaderboards with a chance to win free drinks? stop by our arcade.<br>
+					     We are more than your everyday coffee shop, run down pub or that crappy arcade,<br>
+					     we are your home away from home! Oh yeah...we have free WiFi, too! We hope to<br>
+					     you see you at Refill soon!
+</p>
+</body>
+<footer>
+  <marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><b>Team7 Staff</b>   |   David, Jonathan, Mayerik, Nam, Zeeshan</marquee>
+</footer>
+</html>
+
+
