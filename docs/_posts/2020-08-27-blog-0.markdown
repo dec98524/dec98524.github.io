@@ -16,9 +16,8 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 
 body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9aM8MjsPo5WIpCx0rHoY5zkZ66pGvOIKixQ&usqp=CAU");
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:repeat;
   background-color: #cccccc;
 }
 
