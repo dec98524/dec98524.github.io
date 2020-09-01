@@ -23,6 +23,7 @@ categories: senior design
 html, body, h1, h2, h3, h4, h5, h6, p {
  font-family:  "Courier New", Courier, monospace;  
  text-align: left;
+    background-color: white;
 }
    p{
    margin: 0;
@@ -61,8 +62,8 @@ html, body, h1, h2, h3, h4, h5, h6, p {
    }
 ul {
    background-color: white;
-    font-size: 20pt;
-    font-family: agency fb;
+    font-size: 12pt;
+    font-family:  "Courier New", Courier, monospace;
     text-align:center;
     list-style-type: none;
     margin: 0;
