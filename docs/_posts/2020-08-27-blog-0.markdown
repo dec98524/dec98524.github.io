@@ -38,6 +38,7 @@ background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b0440
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     <center>
+<img src="https://3.bp.blogspot.com/-7WkkTSJuxjA/W0bMkTmnLcI/AAAAAAAAFHI/UOQ2PoM4f6AEcVWMh0Q0IiijgCz57k82QCLcBGAs/w800/Models%2B-%2BRiley%2BReid%2B-%2BGirlfriend%2Bat%2Bthe%2BAfter%2BParty%2B%25285%2529.png" alt="let em drag" align="middle">
 
 <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
 </center>
