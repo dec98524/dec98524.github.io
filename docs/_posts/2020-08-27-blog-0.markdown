@@ -38,7 +38,7 @@ background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b0440
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     <center>
-/*<img src="https://officialpsds.com/imageview/ry/9j/ry9jkp_large.png?1526918731" alt="let em drag" width="300" height="300" align="middle">*/
+
 <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
 </center>
 
