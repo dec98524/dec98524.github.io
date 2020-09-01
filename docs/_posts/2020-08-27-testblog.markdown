@@ -1,4 +1,0 @@
-<h1 style="background-color:powderblue;">This is a heading</h1>
-
-This is a test blog
-
