@@ -16,6 +16,9 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 .site-footer { background-color: burlywood; border-top: 1px solid #e8e8e8; padding: 30px 0; }
 
+.footer-col-wrapper { font-size: 13px; color: #828282; margin-left: -15px; }
+
+
 </style
 <html>
 <body style="background-color:white;">
