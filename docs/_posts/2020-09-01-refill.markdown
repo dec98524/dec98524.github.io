@@ -95,12 +95,12 @@ text-decoration: underline;
 <header>
 
    <ul>
-  <li><img src="https://i.imgur.com/uXAnJ14.png" height="90" width="250"align="left" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'"><a class="home" href="#about"></a></li>
+       <img src="https://i.imgur.com/uXAnJ14.png" alt="let em drag" width="250" height="90" align="left" />
+
   <li><a class="home" href="#about">Home</a></li>
   <li><a href="https://github.com/dec98524">My Git</a></li>
-  <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram/</a></li>
+  <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
   <li><a href="https://twitter.com/refilldranks">My Twitter</a></li>
-  <li><a href="https://twitter.com/RefillDranks">Follow Us</a></li>
 
 </ul>
 <br>
