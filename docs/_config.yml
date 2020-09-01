@@ -21,10 +21,13 @@
 title: David's Blogs
 email: david.castaneda.409@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site! Here I will upload weekly blogs discussing what I am working on in school. This will mostly consist of work from my CIT 480 class as well as work from my COMP 484 class. Thanks for stopping by!!  
+  CSUN CIT
+  Senior Design
+  David Castaneda
+    
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: RefillDranks
 github_username:  dec98524
 
 # Build settings
