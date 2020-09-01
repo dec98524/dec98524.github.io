@@ -6,6 +6,8 @@ categories: senior design
 ---
 
 
+
+
 <html>
    <head>
           <title>Refill</title>
@@ -13,6 +15,7 @@ categories: senior design
    html,body,footer{
 	margin: 0px;
 	padding: 0 ;
+    background-color: white;
    }
    p{
    margin: 0;
@@ -89,7 +92,7 @@ text-decoration: underline;
 <br>
 </header>
 <body>
-<marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><i>Refill has the best drinks in the City of Angels!</i></marquee>
+<marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 <p id="about" style="font-family: agency fb;font-size:160%">Thanks for stopping by<br>
 					     ___________________________________________________________________________<br>
 <img src="https://i.imgur.com/uXAnJ14.png" height="300" width="550"align="right" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'">
@@ -110,8 +113,7 @@ text-decoration: underline;
 </p>
 </body>
 <footer>
-  <marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><b>Team7 Staff</b>   |   David, Jonathan, Mayerik, Nam, Zeeshan</marquee>
+  <marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><b>Follow me!</b>   |   Instagram: @im.davidcastaneda</marquee>
 </footer>
 </html>
-
 
