@@ -22,8 +22,7 @@ html, body, h2, h3, h4, h5, h6, p {
 
 
 body {
-/*background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b044024313332d1ef8/1556474281600-4IJ603AMV0F01P2PLV6Y/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/White+Marble2.jpg?format=2500w");*/
-  background-image: url(https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png);
+background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b044024313332d1ef8/1556474281600-4IJ603AMV0F01P2PLV6Y/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/White+Marble2.jpg?format=2500w");
   background-size: cover;
   background-position: center;
   background-repeat:repeat;
@@ -39,7 +38,8 @@ body {
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     <center>
-<img src="https://officialpsds.com/imageview/ry/9j/ry9jkp_large.png?1526918731" alt="let em drag" width="300" height="300" align="middle">
+/*<img src="https://officialpsds.com/imageview/ry/9j/ry9jkp_large.png?1526918731" alt="let em drag" width="300" height="300" align="middle">*/
+<img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
 </center>
 
 <p>This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.
