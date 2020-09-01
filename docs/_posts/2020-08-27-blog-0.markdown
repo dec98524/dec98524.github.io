@@ -10,7 +10,7 @@ categories: senior design
 <style>
 
 body {
-  background-image: url("https://i.pinimg.com/originals/39/46/c4/3946c46e4f3386b68a4cefb4a916c4df.jpg");
+  background-image: url("https://cdn.hipwallpaper.com/i/19/81/Pb8vFt.jpg");
   background-repeat: no-repeat, repeat;
   background-color: #cccccc;
 }
