@@ -25,10 +25,7 @@ background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b0440
 </style>
 
 <html>
-<head>
   <title>A Meaningful Page Title</title>
-</head>
-
 <body>
 
 <h1>WELCOME TO MY BLOG BLOOD!!!  NUMBER ONE RULE: FOLLOW PROTOCOL!</h1>
