@@ -99,21 +99,12 @@ text-decoration: underline;
 <marquee style="color:white;font-size: 20pt; font-family: agency fb" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 <p id="about" style="font-family: agency fb;font-size:160%">Thanks for stopping by<br>
 					     ___________________________________________________________________________<br>
-<img src="https://i.imgur.com/uXAnJ14.png" height="300" width="550"align="right" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'">
-															<br>
-					     Hello and welcome to the official Refill website! Refill was founded in 2009<br>
-				  	     and has been the source for the highest rated beverages in Los Angeles! With<br>
-					     shop locations spanning from Long Beach to Northridge, Refill allows you to<br>
-					     enjoy our world renowned beverages anywhere in the county! Along with our <br>
-					     highly coveted refreshments, we are amongst the highly rated arcades in LA <br>
-					     as well! All of our shops contain standard seats, booths, lounge areas and <br>
-					     an arcade. Want to stop by, order a drink and work on that paper due in 2 days?<br>
-					     Sit at our standard seating area! Have a group of friends? Reserve a booth!<br>
-					     Trying to just relax? Stop by the lounging area! And finally, in the mood to<br>
-					     climb the leaderboards with a chance to win free drinks? stop by our arcade.<br>
-					     We are more than your everyday coffee shop, run down pub or that crappy arcade,<br>
-					     we are your home away from home! Oh yeah...we have free WiFi, too! We hope to<br>
-					     you see you at Refill soon!
+<p>This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.
+<br><br>
+We were tasked with taking the barebones site and formatting it so that it is reader friendly. This includes separating blocks of text and formatting them in paragraphs. To do this, you use the p tag. Additional things that can be done in order to make the website reader friendly are adding headers h1, line breaks br and lists ol or ul. I was able to take a website with essentially a huge block of text and format it so that certain parts relating to one another are grouped together. I made sure to emphasize key terms and important bits of information. Lastly, I played around with the CSS stylesheet. This is used to customize the appearance of the website and can be helpful in making the website more appealing to the eye. Overall, I was proud of the transformation of the site.
+<br> <br>
+This is the link to the assignment talked about above (https://glitch.com/~david-castaneda-hw1). Our class is using an online IDE known as Glitch where you are able to code and preview how it looks all on one platform. I have a personal interest in web design so I found the first week of COMP 484 to be enjoyable. I hope to expand my knowledge on web design in order to pursue a career in web development once I graduate.
+
 </p>
 </body>
 <footer>
