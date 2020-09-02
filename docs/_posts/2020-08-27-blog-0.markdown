@@ -29,6 +29,8 @@ background-image: url("https://images.squarespace-cdn.com/content/v1/595db0b0440
   background-color: #cccccc;
 }
 
+.footer-col-wrapper { font-size: 13px; color: #828282; margin-left: -15px; }
+
 </style>
 
 <html>
