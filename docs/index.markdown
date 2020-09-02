@@ -6,7 +6,7 @@ layout: home
 ---
 <style>
 
-
+/*
 main { display: block; background-color: powderblue; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 html, body, h1, h2, h3, h4, h5, h6, p{
@@ -20,7 +20,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 .footer-col-wrapper { font-size: 13px; color: #828282; margin-left: -15px; }
 
-
+*/
 </style
 <html>
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</I></marquee>
