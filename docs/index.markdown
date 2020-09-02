@@ -14,7 +14,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: white;
 }
 
-.site-header { height: 150px; background-image: url("https://i.imgur.com/3mHCFA7.png");  border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; background-size: contain;  background-repeat: no-repeat;}
+.site-header { height: 150px; background-image: url("https://i.imgur.com/TsG1jA0.png");  border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; background-size: contain;  background-repeat: no-repeat;}
 
 .site-footer { background-color: burlywood; border-top: 1px solid #e8e8e8; padding: 30px 0; }
 
