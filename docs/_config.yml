@@ -22,10 +22,8 @@ title: David's Blogs
 email: david.castaneda.409@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
   CSUN CIT 
-  kramdown:
   hard_wrap: true
   Senior Design  
-  kramdown:
   hard_wrap: true
   David Castaneda
     
