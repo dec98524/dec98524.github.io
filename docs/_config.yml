@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: David's Blogs
+title: David Castaneda's Blogs - CIT 480
 email: david.castaneda.409@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
   CSUN CIT 
-  hard_wrap: true
+  |
   Senior Design  
-  hard_wrap: true
+  |
   David Castaneda
     
 baseurl: "" # the subpath of your site, e.g. /blog
