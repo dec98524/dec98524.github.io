@@ -14,6 +14,8 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: white;
 }
 
+.site-header { height: 150px; background-image: url(https://b.thumbs.redditmedia.com/imipcMB7YP9-Dzl04w8QkPOmU7HJ7qxb0bIjSpIs6Fo.png");  border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+
 .site-footer { background-color: burlywood; border-top: 1px solid #e8e8e8; padding: 30px 0; }
 
 .footer-col-wrapper { font-size: 13px; color: #828282; margin-left: -15px; }
