@@ -6,14 +6,13 @@ layout: home
 ---
 <html>
 
-<style>
+<head>
+<link rel="stylesheet" href="{{- 'assets/css/main.css' | relative_url -}}" />
+<link rel="stylesheet" href="{{- 'assets/css/style.css' | relative_url -}}" />
 
-
-@import "{{ site.theme }}";
-</style>
-
+</head>
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> hey Welcome to my blog site!</I></marquee>
 
 </body>
 </html>
