@@ -12,7 +12,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
  }
 
 /** Basic styling */
-body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #B0E0E6 !important; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #b31a1b !important; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -40,9 +40,9 @@ p{
 font-family:  "Courier New", Courier, monospace;
 }
 /** Links */
-a { color: #2a7ae2; text-decoration: none; }
+a { color: white; text-decoration: none; }
 
-a:visited { color: #1756a9; }
+a:visited { color: white; }
 
 a:hover { color: #111; text-decoration: underline; }
 
@@ -307,7 +307,6 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</i></marquee>
-
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</i></marquee>
 </body>
 </html>
