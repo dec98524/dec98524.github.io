@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Playing around with CSS!"
-date:   2020-09-03 03:25:30 -0700
+title:  "Blog 0"
+date:   2020-08-27 12:40:45 -0700
 categories: senior design
 ---
 
@@ -117,7 +117,14 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link { color: #111; line-height: 1.5; margin: 40px;}
+.site-nav .page-link{
+    color: #111;
+    line-height: 1.5;
+    margin: 40px;
+    position: fixed;
+    top: -15px;
+    right: -15px;
+}
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
