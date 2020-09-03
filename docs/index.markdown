@@ -8,7 +8,7 @@ layout: home
 
 <style>
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; font-family:  "Courier New", Courier, monospace;
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; 
  }
 
 /** Basic styling */
@@ -34,7 +34,8 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; font-family:  "Courier New", Courier, monospace; 
+ }
 
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
@@ -299,7 +300,7 @@ table td { border: 1px solid #e8e8e8; }
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</I></marquee>
 
 </body>
 </html>
