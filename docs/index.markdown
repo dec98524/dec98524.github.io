@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-
+@import "{{ site.theme }}";
 ---
 <html>
 <head>
