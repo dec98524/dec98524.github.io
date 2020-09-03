@@ -318,6 +318,20 @@ font-family:  "Courier New", Courier, monospace;
 </style>
 
   <title>A Meaningful Page Title</title>
+
+<header>    
+    
+<ul>
+       <img src="https://i.imgur.com/uXAnJ14.png" alt="let em drag" width="250" height="90" align="left" />
+
+  <li><a class="home" href="#about">Home</a></li>
+  <li><a href="https://github.com/dec98524">My Git</a></li>
+  <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
+  <li><a href="https://twitter.com/refilldranks">My Twitter</a></li>
+
+</ul>
+
+</header>
 <body>
 
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
