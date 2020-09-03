@@ -118,7 +118,7 @@ table td { border: 1px solid #e8e8e8; }
     color: #111;
     line-height: 1.5;
     margin: 40px;
-    position: fixed;
+    position: absolute;
     top: -15px;
     right: -15px;
 }
@@ -316,6 +316,6 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</i></marquee>
 </body>
 </html>
