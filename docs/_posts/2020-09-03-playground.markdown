@@ -315,6 +315,33 @@ table td { border: 1px solid #e8e8e8; }
 marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
+
+ul {
+  background-color: transparent;
+    font-size: 8pt;
+    font-family:  "Courier New", Courier, monospace;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+   color: white;
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li a:hover {
+    background-color: #86b300;
+text-decoration: underline;
+}
 </style>
 
   <title>A Meaningful Page Title</title>
@@ -322,7 +349,6 @@ font-family:  "Courier New", Courier, monospace;
 <header>    
     
 <ul>
-       <img src="https://i.imgur.com/uXAnJ14.png" alt="let em drag" width="250" height="90" align="left" />
 
   <li><a class="home" href="#about">Home</a></li>
   <li><a href="https://github.com/dec98524">My Git</a></li>
@@ -334,7 +360,7 @@ font-family:  "Courier New", Courier, monospace;
 </header>
 <body>
 
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>testing stuff in CSS, IGNORE :D !</i></marquee>
 
     <center>
 <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
