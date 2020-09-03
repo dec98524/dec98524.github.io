@@ -5,5 +5,11 @@
 layout: home
 ---
 <html>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</I></marquee>
+
+<head>
+
+<link rel="stylesheet" href="/assets/main.css">
+
+</head>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</I></marquee>
 </html>
