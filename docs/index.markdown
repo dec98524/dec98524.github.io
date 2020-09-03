@@ -296,11 +296,15 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .il { color: #099; }
 
 /*# sourceMappingURL=main.css.map */
+
+marquee{
+font-family:  "Courier New", Courier, monospace;  
+}
 </style>
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</I></marquee>
 
 </body>
 </html>
