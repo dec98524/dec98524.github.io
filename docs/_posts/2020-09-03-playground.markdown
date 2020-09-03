@@ -326,7 +326,7 @@ ul {
     padding: 0;
 }
 li {
-   color: white;
+   color: black;
   display: inline-block;
 }
 li a {
@@ -339,7 +339,7 @@ li a {
     width; 100%;
 }
 li a:hover {
-    background-color: #86b300;
+    background-color: #b31a1b;
 text-decoration: underline;
 }
 </style>
