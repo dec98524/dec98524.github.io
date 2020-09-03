@@ -121,7 +121,7 @@ table td { border: 1px solid #e8e8e8; }
     color: #111;
     line-height: 1.5;
     margin: 40px;
-    position: fixed;
+    position: absoulute;
     top: -15px;
     right: -15px;
 }
