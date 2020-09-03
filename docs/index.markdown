@@ -3,15 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-@import "{{ site.theme }}";
 ---
 <html>
 <head>
-<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/main.css>
 </head>
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> hi Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi Welcome to my blog site!</I></marquee>
 
 </body>
 </html>
