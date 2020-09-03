@@ -339,6 +339,7 @@ li a {
     width; 100%;
 }
 li a:hover {
+    color: white;
     background-color: #b31a1b;
 text-decoration: underline;
 }
