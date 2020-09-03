@@ -7,6 +7,12 @@ layout: home
 
 ---
 <html>
+<head>
 <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>hi Welcome to my blog site!</I></marquee>
+</head>
+
+<body>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</I></marquee>
+
+</body>
 </html>
