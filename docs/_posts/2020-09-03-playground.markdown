@@ -352,9 +352,9 @@ text-decoration: underline;
 <ul class="menu">
 
   <li><a class="home" href="#about">Home</a></li>
-  <li class="menu"><a href="https://github.com/dec98524">My GitHub</a></li>
-  <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
-  <li><a href="https://twitter.com/refilldranks">My Twitter</a></li>
+  <li class="menu"><a href="https://github.com/dec98524">My Git</a></li>
+  <li class="menu"><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
+  <li class="menu"><a href="https://twitter.com/refilldranks">My Twitter</a></li>
 
 </ul>
 
