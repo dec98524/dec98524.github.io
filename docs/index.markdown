@@ -99,7 +99,8 @@ table td { border: 1px solid #e8e8e8; }
     background-image: url(https://i.imgur.com/TsG1jA0.png);
 }
 
-.site-title { font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+.site-title { font-family:  "Courier New", Courier, monospace;  
+ text-align: left; font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
 .site-title, .site-title:visited { color: #424242; }
 
@@ -304,7 +305,7 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</i></marquee>
 
 </body>
 </html>
