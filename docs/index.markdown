@@ -313,6 +313,34 @@ marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
 
+ul {
+  background-color: transparent;
+    font-size: 8pt;
+    font-family:  "Courier New", Courier, monospace;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+   color: black;
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li a:hover {
+    color: white;
+    background-color: #b31a1b;
+text-decoration: underline;
+}
+
 </style>
 
 
