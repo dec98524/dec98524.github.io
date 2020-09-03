@@ -313,36 +313,10 @@ marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
 
-ul {
-  background-color: transparent;
-    font-size: 8pt;
-    font-family:  "Courier New", Courier, monospace;
-    text-align:center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-   color: white;
-  display: inline-block;
-}
-li a {
-    display: block;
-    color: transparent;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-    width; 100%;
-}
-li a:hover {
-    background-color: #86b300;
-text-decoration: underline;
-}
 </style>
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Using this post to test things, IGNORE :D !</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</i></marquee>
 </body>
 </html>
