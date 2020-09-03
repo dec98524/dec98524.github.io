@@ -7,7 +7,7 @@ categories: senior design
 
 <html>
 
-<html>
+
 
 <style>
 /** Reset some basic elements */
@@ -69,7 +69,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-.wrapper { height: 150px; max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
@@ -309,8 +309,6 @@ font-family:  "Courier New", Courier, monospace;
 }
 </style>
 
-
-<html>
   <title>A Meaningful Page Title</title>
 <body>
 
@@ -328,13 +326,9 @@ This is the link to the assignment talked about above (https://glitch.com/~david
 
 </p>
   
-    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Bye! Thanks for reading. See you next week!</marquee>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
 
 
 </body>
-
-<footer>
-
-</footer>
 </html>
 
