@@ -114,14 +114,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link{
-    color: #111;
-    line-height: 1.5;
-    margin: 40px;
-    position: absoulute;
-    top: -15px;
-    right: -15px;
-}
+
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
@@ -316,6 +309,6 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>WWelcome to my blog site!</i></marquee>
 </body>
 </html>
