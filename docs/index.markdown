@@ -312,6 +312,33 @@ table td { border: 1px solid #e8e8e8; }
 marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
+
+ul {
+  background-color: transparent;
+    font-size: 8pt;
+    font-family:  "Courier New", Courier, monospace;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+   color: white;
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li a:hover {
+    background-color: #86b300;
+text-decoration: underline;
+}
 </style>
 
 
