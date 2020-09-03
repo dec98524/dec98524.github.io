@@ -91,6 +91,7 @@ table td { border: 1px solid #e8e8e8; }
 
 /** Site header */
 .site-header  {
+    height: 150px;
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
     background-color: #1110;
