@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing around with CSS!"
-date:   2020-09-03 03:25:30 -0700
+date:   2020-08-26 03:25:30 -0700
 categories: senior design
 ---
 
