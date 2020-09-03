@@ -343,6 +343,6 @@ text-decoration: underline;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Using this post to test things, IGNORE :D !</i></marquee>
 </body>
 </html>
