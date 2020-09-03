@@ -313,7 +313,7 @@ marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
 
-ul {
+/*ul {
   background-color: transparent;
     font-size: 8pt;
     font-family:  "Courier New", Courier, monospace;
@@ -334,7 +334,7 @@ li a {
     text-decoration: none;
     float: left;
     width; 100%;
-}
+}*/
 li a:hover {
     color: white;
     background-color: #b31a1b;
@@ -345,6 +345,6 @@ text-decoration: underline;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 </body>
 </html>
