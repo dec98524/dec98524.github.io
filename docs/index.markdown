@@ -31,7 +31,7 @@ figcaption { font-size: 14px; }
 /** Lists */
 ul, ol { margin-left: 30px; }
 
-li > ul, li > ol { margin-bottom: 0; }
+li > ul, li > ol { font-family:  "Courier New", Courier, monospace; margin-bottom: 0; }
 
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; font-family:  "Courier New", Courier, monospace; 
@@ -305,7 +305,7 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</i></marquee>
 
 </body>
 </html>
