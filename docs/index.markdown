@@ -93,13 +93,13 @@ table td { border: 1px solid #e8e8e8; }
 .site-header  {
     border-top: 5px solid #424242;
     border-bottom: 1px solid #e8e8e8;
-    background-color: white;
+    background-color: #1110;
     min-height: 55.95px;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url(https://i.imgur.com/TsG1jA0.png);
+    background-image: url("https://i.imgur.com/aAYC3PI.png");
 }
 
 .site-title { font-family:  "Courier New", Courier, monospace;  
