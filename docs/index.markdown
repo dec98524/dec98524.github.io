@@ -8,7 +8,8 @@ layout: home
 
 <style>
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; font-family:  "Courier New", Courier, monospace;
+ }
 
 /** Basic styling */
 body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #B0E0E6 !important; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
@@ -107,7 +108,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link { color: #111; line-height: 1.5; margin: 40px;}
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
@@ -298,7 +299,7 @@ table td { border: 1px solid #e8e8e8; }
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</I></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</I></marquee>
 
 </body>
 </html>
