@@ -36,7 +36,9 @@ li > ul, li > ol { font-family:  "Courier New", Courier, monospace; margin-botto
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; font-family:  "Courier New", Courier, monospace; 
  }
-
+p{
+font-family:  "Courier New", Courier, monospace;
+}
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
 
@@ -117,7 +119,7 @@ table td { border: 1px solid #e8e8e8; }
 @media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; } .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; } .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; } .site-nav .menu-icon > svg { fill: #424242; } .site-nav input ~ .trigger { clear: both; display: none; } .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; } .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; } .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
 /** Site footer */
-.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.site-footer { border-top: 1px solid #e8e8e8; height: 1px; padding: 0/*30px 0;*/ }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
@@ -305,7 +307,7 @@ font-family:  "Courier New", Courier, monospace;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hi! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i> Hey! Welcome to my blog site!</i></marquee>
 
 </body>
 </html>
