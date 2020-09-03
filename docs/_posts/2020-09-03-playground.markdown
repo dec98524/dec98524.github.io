@@ -316,7 +316,7 @@ marquee{
 font-family:  "Courier New", Courier, monospace;  
 }
 
-ul {
+ul.menu > li.menu{
   background-color: transparent;
     font-size: 8pt;
     font-family:  "Courier New", Courier, monospace;
@@ -325,11 +325,11 @@ ul {
     margin: 0;
     padding: 0;
 }
-li {
+li.menu {
    color: black;
   display: inline-block;
 }
-li a {
+li.menu a {
     display: block;
     color: black;
     text-align: center;
@@ -338,7 +338,7 @@ li a {
     float: left;
     width; 100%;
 }
-li a:hover {
+li.menu a:hover {
     color: white;
     background-color: #b31a1b;
 text-decoration: underline;
@@ -349,10 +349,10 @@ text-decoration: underline;
 
 <header>    
     
-<ul>
+<ul class="menu">
 
   <li><a class="home" href="#about">Home</a></li>
-  <li><a href="https://github.com/dec98524">My Git</a></li>
+  <li class="menu"><a href="https://github.com/dec98524">My GitHub</a></li>
   <li><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
   <li><a href="https://twitter.com/refilldranks">My Twitter</a></li>
 
