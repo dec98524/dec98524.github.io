@@ -132,7 +132,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
-.contact-list, .social-media-list {  font-family:  "Courier New", Courier, monospace; text-align: center; word-wrap: break-word; list-style: none; margin-left: 0; }
+.contact-list, .social-media-list {  font-family:  "Courier New", Courier, monospace;x text-align: center;  list-style: none; margin-left: 0; }
 
 .footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
 
