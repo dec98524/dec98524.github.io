@@ -169,21 +169,21 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
 
-@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+.post-title { font-size: 36px; } 
 
 .post-content { margin-bottom: 30px; }
 
 .post-content h2 { font-size: 32px; }
 
-@media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
+.post-content h2 { font-size: 28px; } 
 
 .post-content h3 { font-size: 26px; }
 
-@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
+ .post-content h3 { font-size: 22px; } 
 
 .post-content h4 { font-size: 20px; }
 
-@media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+ .post-content h4 { font-size: 18px; } 
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
@@ -363,8 +363,8 @@ text-decoration: underline;
   <title>A Meaningful Page Title</title>
 <div class="warning">
     <img src="/media/examples/leopard.jpg"
-         alt="An intimidating Leopards.">
-    <p>Beware of the Leopards</p>
+         alt="An intimidating leopards.">
+    <p>Beware of the leopards</p>
 </div>
 <header>    
     
