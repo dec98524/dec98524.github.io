@@ -68,6 +68,10 @@ pre { padding: 8px 12px; overflow-x: auto; }
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
+/** Wrapper */
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
@@ -369,7 +373,7 @@ text-decoration: underline;
 <ul class="menu">
 
   <li><a class="home" href="#about">Home</a></li>
-  <li class="menu"><a href="https://github.com/dec98524">My Git Hub</a></li>
+  <li class="menu"><a href="https://github.com/dec98524">My Git</a></li>
   <li class="menu"><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
   <li class="menu"><a href="https://twitter.com/refilldranks">My Twitter</a></li>
 
