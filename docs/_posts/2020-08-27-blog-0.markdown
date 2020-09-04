@@ -38,7 +38,7 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { font-family:  "Courier New", Courier, monospace; margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 400; font-family:  "Courier New", Courier, monospace; 
+h1, h2, h3, h4, h5, h6 { color: #b31a1b; font-weight: 400; font-family:  "Courier New", Courier, monospace; 
  }
 p{
 text-align: justify;
