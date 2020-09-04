@@ -7,12 +7,14 @@ categories: senior design
 
 <html>
 <head>
+    <link rel="stylesheet" href="docs/_site/assets/main.css">
+    docs/_site/assets/main.css
         <title>Introduction to HTML </title>
 
 </head>
 <body>
     
-    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>hey!! Welcome to my blog site!</i></marquee>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>hi! Welcome to my blog site!</i></marquee>
 
 </body>
 </html>
