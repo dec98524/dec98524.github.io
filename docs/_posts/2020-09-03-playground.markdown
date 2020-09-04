@@ -69,7 +69,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
@@ -403,7 +403,11 @@ text-decoration: underline;
 </style>
 
   <title>A Meaningful Page Title</title>
-
+<div class="warning">
+    <img src="/media/examples/leopard.jpg"
+         alt="An intimidating leopardd.">
+    <p>Beware of the leopard</p>
+</div>
 <header>    
     
 <ul class="menu">
@@ -414,27 +418,10 @@ text-decoration: underline;
   <li class="menu"><a href="https://twitter.com/refilldranks">My Twitter</a></li>
 
 </ul>
-<div class="warning">
-    <img src="/media/examples/leopard.jpg"
-         alt="An intimidating leopard.">
-    <p>Beware of the leopard</p>
-</div>
 </header>
 
 <body>
     
-    <!-- Side navigation -->
-<div class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
-
-<!-- Page content -->
-<div class="main">
-  YERRR
-</div>
 
 
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>testing stuff in CSS, IGNORE :D !</i></marquee>
