@@ -145,7 +145,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+.footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } 
 
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
@@ -371,7 +371,7 @@ text-decoration: underline;
 <ul class="menu">
 
   <li><a class="home" href="#about">Home</a></li>
-  <li class="menu"><a href="https://github.com/dec98524">My Git</a></li>
+  <li class="menu"><a href="https://github.com/dec98524">My Git Hub</a></li>
   <li class="menu"><a href="https://www.instagram.com/im.davidcastaneda">My Instagram</a></li>
   <li class="menu"><a href="https://twitter.com/refilldranks">My Twitter</a></li>
 
