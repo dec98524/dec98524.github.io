@@ -364,7 +364,7 @@ text-decoration: underline;
 
   <title>A Meaningful Page Title</title>
 <div class="warning">
-    <img src="/media/examples/leopard.jpg"
+    <img src="https://c402277.ssl.cf1.rackcdn.com/photos/878/images/hero_small/amur-leopard_99144569.jpg?1345532564"
          alt="An intimidating leopardd.">
     <p>Beware of the leopard</p>
 </div>
