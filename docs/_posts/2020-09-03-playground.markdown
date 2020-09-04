@@ -68,8 +68,6 @@ pre { padding: 8px 12px; overflow-x: auto; }
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
-/** Wrapper */
-.wrapper {padding-right: 30px; padding-left: 30px; }
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
@@ -145,7 +143,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
-.footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } 
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
 @media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 
@@ -169,21 +167,21 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-title { font-size: 42px; letter-spacing: -1px; line-height: 1; }
 
-.post-title { font-size: 36px; } 
+@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
 
 .post-content { margin-bottom: 30px; }
 
 .post-content h2 { font-size: 32px; }
 
-.post-content h2 { font-size: 28px; } 
+@media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
 
 .post-content h3 { font-size: 26px; }
 
- .post-content h3 { font-size: 22px; } 
+@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
 
 .post-content h4 { font-size: 20px; }
 
- .post-content h4 { font-size: 18px; } 
+@media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
@@ -363,8 +361,8 @@ text-decoration: underline;
   <title>A Meaningful Page Title</title>
 <div class="warning">
     <img src="/media/examples/leopard.jpg"
-         alt="An intimidating leopards.">
-    <p>Beware of the leopards</p>
+         alt="An intimidating leopardd.">
+    <p>Beware of the leopard</p>
 </div>
 <header>    
     
