@@ -71,8 +71,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Wrapper */
 .wrapper {padding-right: 30px; padding-left: 30px; }
 
-@media screen and (max-width: 800px) {}
-
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
 
@@ -365,8 +363,8 @@ text-decoration: underline;
   <title>A Meaningful Page Title</title>
 <div class="warning">
     <img src="/media/examples/leopard.jpg"
-         alt="An intimidating leopards.">
-    <p>Beware of the leopards</p>
+         alt="An intimidating Leopards.">
+    <p>Beware of the Leopards</p>
 </div>
 <header>    
     
