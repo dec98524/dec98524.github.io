@@ -329,10 +329,8 @@ li {
 li a {
     display: block;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float: left;
     width; 100%;
 }
 li a:hover {
@@ -345,6 +343,6 @@ text-decoration: underline;
 
 
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hello! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 </body>
 </html>
