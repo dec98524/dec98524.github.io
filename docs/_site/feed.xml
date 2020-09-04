@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-04T11:52:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">David’s Blogs - CIT 480</title><subtitle>CSUN CIT - Senior Design - David Castaneda
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-04T11:56:42-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">David’s Blogs - CIT 480</title><subtitle>CSUN CIT - Senior Design - David Castaneda
   </subtitle><entry><title type="html">Blog 0</title><link href="http://localhost:4000/senior/design/2020/08/27/blog-0.html" rel="alternate" type="text/html" title="Blog 0" /><published>2020-08-27T12:40:45-07:00</published><updated>2020-08-27T12:40:45-07:00</updated><id>http://localhost:4000/senior/design/2020/08/27/blog-0</id><content type="html" xml:base="http://localhost:4000/senior/design/2020/08/27/blog-0.html">&lt;html&gt;
 
 
@@ -369,14 +369,12 @@ font-family:  &quot;Courier New&quot;, Courier, monospace;
 
 &lt;p&gt;hello&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Playing around with CSS!</title><link href="http://localhost:4000/senior/design/2020/08/26/playground.html" rel="alternate" type="text/html" title="Playing around with CSS!" /><published>2020-08-26T03:25:30-07:00</published><updated>2020-08-26T03:25:30-07:00</updated><id>http://localhost:4000/senior/design/2020/08/26/playground</id><content type="html" xml:base="http://localhost:4000/senior/design/2020/08/26/playground.html">&lt;html&gt;
 &lt;head&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;/docs/_site/assets/main.css&quot; /&gt;
-    docs/_site/assets/main.css
         &lt;title&gt;Introduction to HTML &lt;/title&gt;
 
 &lt;/head&gt;
 &lt;body&gt;
     
-    &lt;marquee style=&quot;color:black;font-size: 20pt&quot; behavior=&quot;scroll&quot; direction=&quot;left&quot;&gt;&lt;i&gt;hi! Welcome to my blog site!&lt;/i&gt;&lt;/marquee&gt;
+    &lt;marquee style=&quot;color:black;font-size: 20pt&quot; behavior=&quot;scroll&quot; direction=&quot;left&quot;&gt;&lt;i&gt;heyo! Welcome to my blog site!&lt;/i&gt;&lt;/marquee&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><category term="senior" /><category term="design" /><summary type="html">docs/_site/assets/main.css Introduction to HTML</summary></entry></feed>
+&lt;/html&gt;</content><author><name></name></author><category term="senior" /><category term="design" /><summary type="html">Introduction to HTML</summary></entry></feed>
