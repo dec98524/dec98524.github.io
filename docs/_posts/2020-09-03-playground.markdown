@@ -7,7 +7,7 @@ categories: senior design
 
 <html>
 <head>
-    <link rel="stylesheet" href="docs/_site/assets/main.css">
+    <link rel="stylesheet" href="/docs/_site/assets/main.css">
     docs/_site/assets/main.css
         <title>Introduction to HTML </title>
 
