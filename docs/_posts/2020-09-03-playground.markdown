@@ -8,7 +8,6 @@ categories: senior design
 <html>
 <head>
         <title>Introduction to HTML</title>
-    <link href="david/dec98524/docs/_site/assets/main.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
