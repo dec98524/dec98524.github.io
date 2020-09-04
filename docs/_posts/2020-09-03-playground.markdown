@@ -382,6 +382,24 @@ text-decoration: underline;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }    
+
+.warning {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 100%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
 </style>
 
   <title>A Meaningful Page Title</title>
@@ -411,6 +429,11 @@ text-decoration: underline;
   ...
 </div>
 <body>
+<div class="warning">
+    <img src="/media/examples/leopard.jpg"
+         alt="An intimidating leopard.">
+    <p>Beware of the leopard</p>
+</div>
 
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>testing stuff in CSS, IGNORE :D !</i></marquee>
 
