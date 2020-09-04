@@ -71,7 +71,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Wrapper */
 .wrapper {padding-right: 30px; padding-left: 30px; }
 
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+@media screen and (max-width: 800px) {
 
 /** Clearfix */
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
@@ -342,10 +342,32 @@ li.menu a:hover {
     color: white;
     background-color: #b31a1b;
 text-decoration: underline;
-}    
+} 
+.warning {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 100%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
 </style>
 
   <title>A Meaningful Page Title</title>
+<div class="warning">
+    <img src="/media/examples/leopard.jpg"
+         alt="An intimidating leopardd.">
+    <p>Beware of the leopard</p>
+</div>
 <header>    
     
 <ul class="menu">
