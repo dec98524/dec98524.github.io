@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Testblog"
 date:   2020-08-26 12:40:45 -0700
 categories: senior design
