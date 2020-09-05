@@ -56,7 +56,7 @@ categories: senior design
      <img src="https://miro.medium.com/max/512/1*vZWl35P2WKk_GWnVQlI2iA.png" alt="MDN Logo" align="right" width="300" height="300">
 </a>
 
-<button onclick="revialMessage()">Click Me!</button>
+<button onclick="revealMessage()">Click Me!</button>
 <p id="hiddenMessage" style="display: none"> You are going on a cruise!!</p>
     <br>
     <h2>Final Thoughts</h2>

@@ -1,1 +1,6 @@
-alert("Welcome to David's blog site!");
+alert("hello!");
+
+function revealMessage() {
+    
+    document.getElementById("hiddenMessage").style.display = 'block';
+}
