@@ -8,8 +8,15 @@ categories: senior design
 <html>
     
     
+<script>
+    
+    alert("Welcome to David's blog site!");
+    
+    </script>
 
 <style>
+
+
 {% include custom.css %}
 </style>
    
