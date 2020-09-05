@@ -303,5 +303,31 @@ marquee{
 font-family:  "Courier New", Courier, monospace;
 }
 
+   ul.navbar {
+   background-color: white;
+    font-size: 20pt;
+    font-family: agency fb;
+    text-align:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.navbar {
+   color: transparent;
+  display: inline-block;
+}
+li.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    width; 100%;
+}
+li.navbar a:hover {
+    background-color:  #b31a1b;
+text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
 
