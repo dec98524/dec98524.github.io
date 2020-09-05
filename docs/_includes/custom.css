@@ -58,7 +58,7 @@ pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
-.wrapper {  padding-right: 30px; padding-left: 30px; }
+.wrapper {  padding-right: 30px !important; padding-left: 30px!important; }
 
 @media screen and (max-width: 800px) { .wrapper {padding-right: 15px; padding-left: 15px; } }
 
