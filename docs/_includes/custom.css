@@ -318,7 +318,7 @@ li.navbar {
 }
 li.navbar a {
     display: block;
-    color: white;
+    color: #b31a1b;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -326,6 +326,7 @@ li.navbar a {
     width; 100%;
 }
 li.navbar a:hover {
+    color: white;
     background-color:  #b31a1b;
 text-decoration: underline;
 }
