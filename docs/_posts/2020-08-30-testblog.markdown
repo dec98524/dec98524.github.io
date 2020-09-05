@@ -9,6 +9,9 @@ categories: senior design
     
     
 
+<style>
+
+
 {% include custom.css %}
 </style>
    
@@ -26,7 +29,11 @@ categories: senior design
 <br>
 <body>
     
-
+<script>
+    
+    alert("Welcome to David's blog site!");
+    
+    </script>
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 <h1>hi</h1>
     <center>
@@ -58,13 +65,7 @@ categories: senior design
 </p>
   
     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
-<script>
-    
-    alert("Welcome to David's blog site!");
-    
-    </script>
 
-<style>
 
 </body>
 </html>
