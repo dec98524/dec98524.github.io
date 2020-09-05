@@ -22,6 +22,6 @@ layout: home
   <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
 
 </ul>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hi! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 </body>
 </html>
