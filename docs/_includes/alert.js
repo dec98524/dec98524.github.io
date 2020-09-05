@@ -1,5 +1,1 @@
-function revealMessage() {
-    
-    document.getElementById("hiddenMessage").style.display = 'block';
-    
-}
+alert("Welcome to David's blog site!");
