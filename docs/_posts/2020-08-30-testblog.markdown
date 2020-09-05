@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Blog 0"
+date:   2020-08-27 12:40:45 -0700
+categories: senior design
+{% include custom.css %}
+---
+
+<html>
+<body>
+
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+
+    
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
+
+
+</body>
+</html>
+
+
+
+
