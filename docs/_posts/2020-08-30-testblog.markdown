@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "testblog"
 date:   2020-08-30 11:41:41 -0700
 categories: senior design
@@ -11,7 +10,7 @@ categories: senior design
 {% include custom.css %}
 </style>
 <body>
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Hi! Welcome to my blog site!</i></marquee>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
