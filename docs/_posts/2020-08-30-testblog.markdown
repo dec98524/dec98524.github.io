@@ -6,9 +6,12 @@ categories: senior design
 ---
 
 <html>
-<body>
+
+<style>
 {% include custom.css %}
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>HI!Welcome to my blog site!</i></marquee>
+</style>
+<body>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
