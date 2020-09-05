@@ -304,7 +304,8 @@ font-family:  "Courier New", Courier, monospace;
 }
 
    ul.navbar {
-   background-color: transparent;
+    border-radius: 100px;
+   background-color: white;
     font-size: 20pt;
     font-family: "Courier New", Courier, monospace;
     text-align:center;

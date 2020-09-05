@@ -22,7 +22,6 @@ categories: senior design
   <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">My Git Hub</a></li>
   <li class="navbar"><a href="instagram.com/im.davidcastaneda">My Instagram</a></li>
   <li class="navbar"><a href="twitter.com/RefillDranks">My Twitter</a></li>
-  <li class="navbar"><a href="https://twitter.com/RefillDranks">Follow Us</a></li>
 
 </ul>
      
