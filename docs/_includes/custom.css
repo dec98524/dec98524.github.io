@@ -327,6 +327,7 @@ li.navbar a {
     width; 100%;
 }
 li.navbar a:hover {
+    border-radius: 100px;
     color: white;
     background-color:  #b31a1b;
 text-decoration: underline;
