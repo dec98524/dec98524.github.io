@@ -303,7 +303,7 @@ marquee{
 font-family:  "Courier New", Courier, monospace;
 }
 
-   ul {
+   ul.navbar {
     border-radius: 100px;
    background-color: white;
     font-size: 20pt;
@@ -313,11 +313,11 @@ font-family:  "Courier New", Courier, monospace;
     margin: 0;
     padding: 0;
 }
-li {
+li.navbar {
    color: transparent;
   display: inline-block;
 }
-li a {
+li.navbar a {
     display: block;
     color: #b31a1b;;
     text-align: center;
@@ -326,7 +326,7 @@ li a {
     float: left;
     width; 100%;
 }
-li a:hover {
+li.navbar a:hover {
     color: white;
     background-color:  #b31a1b;
 text-decoration: underline;

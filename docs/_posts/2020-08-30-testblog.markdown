@@ -16,15 +16,15 @@ categories: senior design
      <title>A Meaningful Page Title</title>
      
      
-      <ul class="navbar">
+   <ul class="navbar">
  
-  <li><a class="home" href="http://dec98524.github.io/">Home</a></li>
-  <li><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
-  <li><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
-  <li><a href="https://twitter.com/refilldranks">Twitter</a></li>
+  <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+  <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+  <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+  <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
 
 </ul>
-     
+
 <body>
 
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
