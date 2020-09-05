@@ -17,7 +17,7 @@ categories: senior design
      
      
       <ul class="navbar">
-  <li><img src="https://i.imgur.com/uXAnJ14.png" height="90" width="250"align="left" onclick="window.location='http://jd-cit160a.ecs.csun.edu/team7/index.html'"><a class="home" href="#about"></a></li>
+ 
   <li class="navbar"><a class="home" href="dec98524.github.io">Home</a></li>
   <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">My Git Hub</a></li>
   <li class="navbar"><a href="instagram.com/im.davidcastaneda">My Instagram</a></li>

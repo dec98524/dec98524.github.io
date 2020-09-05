@@ -304,9 +304,9 @@ font-family:  "Courier New", Courier, monospace;
 }
 
    ul.navbar {
-   background-color: white;
+   background-color: transparent;
     font-size: 20pt;
-    font-family: agency fb;
+    font-family: "Courier New", Courier, monospace;
     text-align:center;
     list-style-type: none;
     margin: 0;
