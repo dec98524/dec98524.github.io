@@ -71,9 +71,10 @@ categories: senior design
      <br><code> $ apt-get install apache2 </code><br><code> $ apache2 -v</code><br></p>
 <p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
   
-<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
  
-<p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a></p> 
+<p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a><br> 
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
+</p> 
       
  
 </body>
