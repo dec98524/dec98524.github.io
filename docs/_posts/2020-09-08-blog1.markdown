@@ -56,7 +56,8 @@ categories: senior design
 <img src="https://i.imgur.com/g8fujvU.png" alt="Docker Logo" align="middle" width="auto" height="auto">
 </center>
 <br><br>
-After getting familiar with a few of the Docker commands, the next step was to install Apache.    
+    
+After I got familiar with a few of the Docker commands, the next step was to install Apache.    
 
 </p>
 
