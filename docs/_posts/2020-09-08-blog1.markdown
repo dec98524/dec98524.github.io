@@ -57,12 +57,9 @@ categories: senior design
 </center>
 <br><br>
     
-<p>After I got familiar with a few of the Docker commands, the next step was to install Apache.    
-
-</p>
-
+<p>After I got familiar with a few of the Docker commands, the next step was to install Apache.</p>
       <center>
-<img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Docker Logo" align="middle">
+      <img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Docker Logo" align="middle">
 </center>
 
   <dl>
@@ -72,6 +69,7 @@ categories: senior design
 
 <p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: 
      <br><code> $ apt-get install apache2 </code><br><code> $ apache2 -v</code><br></p>
+<p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
   
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
  
