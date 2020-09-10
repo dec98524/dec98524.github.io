@@ -344,5 +344,12 @@ dd {
     margin-left: 45px;
     text-align: justify;
 }
+
+code{
+    
+    background-color: lightgray;
+    font-family: "Courier New", Courier, monospace;
+
+}
 /*# sourceMappingURL=main.css.map */
 

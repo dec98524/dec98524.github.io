@@ -57,7 +57,7 @@ categories: senior design
 </center>
 <br><br>
     
-After I got familiar with a few of the Docker commands, the next step was to install Apache.    
+<p>After I got familiar with a few of the Docker commands, the next step was to install Apache.    
 
 </p>
 
@@ -69,6 +69,15 @@ After I got familiar with a few of the Docker commands, the next step was to ins
   <dt><b>Apache</b></dt>
   <dd>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.</dd>
 </dl>
+
+<p> In order to install Apache, and to check the version, type these commands into the command line on your terminal:
+    <code> $ apt-get install apache2 </code>
+    <code> $ apache2 -v</code>
+    
+    
+    
+
+</p>
   
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
  
