@@ -51,13 +51,13 @@ categories: senior design
      Then click on the download tab and select your corresponding operating system.
  <br><br>
   <center>
-<img src="https://i.imgur.com/wZxrVif.png" alt="Docker Logo" align="middle" width="1000" height="500">
+<img src="https://i.imgur.com/wZxrVif.png" alt="Docker Logo" align="middle" width="1000" height="300">
  <br><br>
-<img src="https://i.imgur.com/g8fujvU.png" alt="Docker Logo" align="middle" width="1000" height="500">
+<img src="https://i.imgur.com/g8fujvU.png" alt="Docker Logo" align="middle" width="1000" height="300">
 </center>
 
 
-
+</p>
 <p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a></p> 
    
    
