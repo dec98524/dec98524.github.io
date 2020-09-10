@@ -30,29 +30,22 @@ categories: senior design
 <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
 </center>
 
-<br>
-<h2>Intro - Welcome to my first Blog!</h2>
-<p>This semester I am taking both CIT 480 and COMP 484. The classes have some overlapping content and stuff I learn in one class often helps me with assignments in the other class. This week in COMP 484 we learned about the fundamentals of HTML. Our class was given a very basic website about the history of HTML, as well as some references that can help with your coding. Some of these references include W3C, Mozilla Developer Network and Markup Validation Service.</p>
-<br>
-   
+Blog 1
 
-<a href="https://developer.mozilla.org/en-US/">
-    <img src="https://www.mozillaphilippines.org/wp-content/uploads/2016/04/mdn-logo-dino-head.png" alt="MDN Logo" align="left" width="300" height="300">
-</a>
-    <br>
-    
-    <h2>Working on the assignment</h2>
-<p>We were tasked with taking the barebones site and formatting it so that it is reader friendly. This includes separating blocks of text and formatting them in paragraphs. To do this, you use the p tag. Additional things that can be done in order to make the website reader friendly are adding headers h1, line breaks br and lists ol or ul. I was able to take a website with essentially a huge block of text and format it so that certain parts relating to one another are grouped together. I made sure to emphasize key terms and important bits of information. Lastly, I played around with the CSS stylesheet. This is used to customize the appearance of the website and can be helpful in making the website more appealing to the eye. Overall, I was proud of the transformation of the site.</p>
-<br>
-    
-<a href="https://glitch.com/">    
-     <img src="https://miro.medium.com/max/512/1*vZWl35P2WKk_GWnVQlI2iA.png" alt="MDN Logo" align="right" width="300" height="300">
-</a>
-    <br>
-    <h2>Final Thoughts</h2>
-<p>This is the link to the assignment talked about above (https://glitch.com/~david-castaneda-hw1). Our class is using an online IDE known as Glitch where you are able to code and preview how it looks all on one platform. I have a personal interest in web design so I found the first week of COMP 484 to be enjoyable. I hope to expand my knowledge on web design in order to pursue a career in web development once I graduate!
+<h2>Introduction - Assignments Worked On</h1>
+
+<p>Welcome back to my blog site! For Blog 1, I will be discussing various assignments I worked on this week, things I learned and even things I struggled with. Once again, I will be discussing the stuff I worked on in my COMP 484 and CIT 480 classes. This week in COMP 484 I was given three homework assignments all relating to HTML. In addition to those assignments, I was also given a lab to work on in my CIT 480 class. This lab consisted of using a program known as Docker to build a lamp stack. In the sections below, I’ll discuss each assignment, covering the steps I took to complete them. At the end, you can find a reflection where I will cover what I learned.</p>
+
+<h2>CIT 480 - Lab 1 - Lamp Stack<h2> 
+
+<p>This assignment consisted of installing certain  and using it to install packages via the command line and using web server software to display the webpage. The first step I had to do was install Docker.
+<dl>
+  <dt>Docker</dt>
+  <dd>Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.</dd>
+</dl>
 
 </p>
+
 <p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a></p>  
     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
 
