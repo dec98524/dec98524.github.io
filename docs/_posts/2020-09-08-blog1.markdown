@@ -70,9 +70,11 @@ categories: senior design
   <dd>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.</dd>
 </dl>
 
-<p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: <br>
+<p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: 
     
+    <br>
     <code> $ apt-get install apache2 </code>
+    <br>
     <code> $ apache2 -v</code>
     <br>
     
