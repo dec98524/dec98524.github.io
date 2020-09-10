@@ -71,17 +71,7 @@ categories: senior design
 </dl>
 
 <p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: 
-    
-    <br>
-    <code> $ apt-get install apache2 </code>
-    <br>
-    <code> $ apache2 -v</code>
-    <br>
-    
-    
-    
-
-</p>
+     <br><code> $ apt-get install apache2 </code><br><code> $ apache2 -v</code><br></p>
   
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
  
