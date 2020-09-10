@@ -332,5 +332,16 @@ li.navbar a:hover {
     background-color:  #b31a1b;
 text-decoration: underline;
 }
+dt {
+    font-family:  "Courier New", Courier, monospace;
+	font-style: italic;
+	font-size:1.2em;
+
+}
+dd {
+    font-family:  "Courier New", Courier, monospace;
+	margin-bottom: 1.4em;
+
+}
 /*# sourceMappingURL=main.css.map */
 
