@@ -339,9 +339,10 @@ dt {
 
 }
 dd {
-    font-family:  "Courier New", Courier, monospace;
-	margin-bottom: 1.4em;
-
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 1.4em;
+    margin-left: 45px;
+    text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */
 
