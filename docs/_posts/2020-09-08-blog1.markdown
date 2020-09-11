@@ -13,7 +13,7 @@ categories: senior design
 {% include custom.css %}
 </style>
 
-  <title>Blog 0</title>
+  <title>Blog 1</title>
 <body>
 <ul class="navbar">
  
@@ -38,8 +38,11 @@ categories: senior design
 
 <p>This assignment consisted of installing certain  and using it to install packages via the command line and using web server software to display the webpage. The first step I had to do was install Docker.</p>
 
+
     <center>
+    <a href="https://www.docker.com/">
 <img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png" alt="Docker Logo" align="middle">
+</a>
 </center>
 <br> <br>
 
@@ -59,7 +62,9 @@ categories: senior design
     
 <p>After I got familiar with a few of the Docker commands, the next step was to install Apache.</p>
       <center>
-      <img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Docker Logo" align="middle">
+      <a href="https://httpd.apache.org/">
+      <img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Apache Logo" align="middle">
+    </a>      
 </center>
 
   <dl>
@@ -73,7 +78,9 @@ categories: senior design
 
 <p>In the lab, I also used a database management system known as MySQL</p>
       <center>
+     <a href="https://www.mysql.com/">
       <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="SQL Logo" align="middle">
+    </a>
 </center>
 
   <dl>
@@ -84,7 +91,9 @@ categories: senior design
      
 <p>I then went on to install PHP and all of it's required packages</p>
       <center>
+        <a href="https://www.php.net/">
       <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP Logo" align="middle">
+    </a>
 </center>
 
   <dl>
@@ -97,7 +106,9 @@ categories: senior design
 
 <p>The final thing I needed to install was Composer</p>
       <center>
+        <a href="https://getcomposer.org/">
       <img src="https://getcomposer.org/img/logo-composer-transparent.png" alt="Composer Logo" align="middle">
+    </a>
 </center>
 
   <dl>
