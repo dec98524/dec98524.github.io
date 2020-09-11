@@ -324,7 +324,7 @@ li.navbar a {
     padding: 14px 16px;
     text-decoration: none;
     float: left;
-    width; 100%;
+    width: 100%;
 }
 li.navbar a:hover {
     border-radius: 100px;
@@ -354,7 +354,8 @@ code{
 }
 .dropbtn {
   background-color: transparent;
-  color: #827256;
+font-family:  "Courier New", Courier, monospace;
+  color: #b31a1b;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -362,7 +363,9 @@ code{
 .dropbtn:hover{
   text-decoration: underline;
   color: white;
-  background-color: #827256;
+  background-color: #b31a1b;
+border-radius: 100px;
+
 }
 .dropdown {
   position: relative;
