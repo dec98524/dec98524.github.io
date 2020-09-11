@@ -19,7 +19,14 @@ categories: senior design
      
 <nav>     
    <ul class="navbar">
- 
+ <li><div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div></li>
   <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
   <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
   <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
