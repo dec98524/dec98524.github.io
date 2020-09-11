@@ -95,6 +95,19 @@ categories: senior design
      <br><code>$ apt-get install -y php libapache2-mod-php php-mysql php7.2-cli php7.2-curl php7.2-gd php7.2-mbstring php7.2-mysql php7.2-xmlphp-xml</code><br><code>$ php -v</code><br></p>
 
 
+<p>The final thing I needed to install was Composer</p>
+      <center>
+      <img src="https://getcomposer.org/img/logo-composer-transparent.png" alt="Composer Logo" align="middle">
+</center>
+
+  <dl>
+  <dt><b>Composer</b></dt>
+  <dd>Composer is an application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries. It was developed by Nils Adermann and Jordi Boggiano, who continue to manage the project.</dd>
+</dl>
+ <p> In order to install composer type this command into the command line on your terminal: 
+     <br><code>$ curl -sS https://getcomposer.org/installer | php ----install-dir=/usr/local/bin --filename=composer</code></p>
+
+
 <p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a><br> 
     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
 </p> 
