@@ -134,18 +134,34 @@ categories: senior design
 
 <h2>COMP 484 - Homework - HTML</h2> 
 
-<p>In my COMP 484 class, I was assigned three homework assignments. Though it seems like a lot, these assignments were rather simple. Homework 2 consisted of taking an html file and editing it to structure the page using elements such header, nav, body, article, section, aside and footer.We were then asked to add ARIA roles to the elements. Below you can find the meaning to some of these very important HTML Terms:</p>
+<p>In my COMP 484 class, I was assigned three homework assignments. Though it seems like a lot, these assignments were rather simple. Homework 2 consisted of taking an html file and editing it to structure the page using elements such header, nav, main, article, section, aside and footer.We were then asked to add ARIA roles to the elements. Below you can find the meaning to some of these very important HTML Terms:</p>
  
   <center>
-    <a href="https://www.docker.com/">
-<img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png" alt="Docker Logo" align="middle">
+    <a href="https://www.w3schools.com/html/">
+<img src="https://cdn.mos.cms.futurecdn.net/hFm4iWXhbw4c4rdcMH8tUD.jpg" alt="HTML Logo" align="middle">
 </a>
 </center>
 <br> <br>
-
+<h3>All definitions from <a href="https://www.w3schools.com">w3schools.com</a></h3>
 <dl>
-  <dt><b>Docker</b></dt>
-  <dd>Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.</dd>
+  <dt><b>Header</b></dt>
+  <dd>The header element represents a container for introductory content or a set of navigational links. Headers often include one or more heading elements (h1 - h6), logos or icons and authorship information</dd>
+  <dt><b>Nav</b></dt>
+  <dd>The nav tag defines a set of navigation links. Notice that NOT all links of a document should be inside a nav element. The nav element is intended only for major block of navigation links. Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.</dd>
+  <dt><b>Main</b></dt>
+  <dd>The main tag specifies the main content of a document. The content inside the main element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.</dd>
+  <dt><b>Article</b></dt>
+  <dd>The article tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. Potential uses include Forum posts, Blog posts and News stories.
+
+</dd>
+  <dt><b>Section</b></dt>
+  <dd>The section tag simply defines a section in a document.
+</dd>
+  <dt><b>Aside</b></dt>
+  <dd>The aside tag defines some content aside from the content it is placed in. The aside content should be indirectly related to the surrounding content.</dd>
+  <dt><b>Footer</b></dt>
+  <dd>The footer tag defines a footer for a document or section. A footer element typically contains: authorship information, copyright information, contact information, sitemap, back to top links and related documents. You can have several footer elements in one document.</dd>
+    
 </dl>
       
  
