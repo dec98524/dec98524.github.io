@@ -70,7 +70,16 @@ categories: senior design
 <p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: 
      <br><code> $ apt-get install apache2 </code><br><code> $ apache2 -v</code><br></p>
 <p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
-  
+
+<p>In the lab, I also used a database management system known as MySQL</p>
+      <center>
+      <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="SQL Logo" align="middle">
+</center>
+
+  <dl>
+  <dt><b>MySQL</b></dt>
+  <dd>MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language.</dd>
+</dl>
  
 <p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link</a><br> 
     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
