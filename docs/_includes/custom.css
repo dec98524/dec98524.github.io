@@ -351,7 +351,6 @@ code{
 
 }
 .dropbtn {
-  border-radius: 100px;
   background-color: white;
   font-family:  "Courier New", Courier, monospace;
   color: #b31a1b;
@@ -361,8 +360,8 @@ code{
 }
 .dropbtn:hover{
   text-decoration: underline;
-  color: white; 
-  background-color: #b31a1b;
+  color: #b31a1b; 
+  background-color: white;
 }
 .dropdown {
   position: relative;
