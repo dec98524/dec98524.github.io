@@ -347,7 +347,7 @@ dd {
 }
 
 code{
-    
+    display: block;
     background-color: lightgray;
     font-family: "Courier New", Courier, monospace;
 
