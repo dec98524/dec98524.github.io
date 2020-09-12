@@ -395,7 +395,7 @@ border-radius: 100px;
   background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {
-  background-color: #827256;
+  background-color: transparent;
   display: block;
 }
 /*# sourceMappingURL=main.css.map */
