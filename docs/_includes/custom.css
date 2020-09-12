@@ -399,7 +399,8 @@ code{
 }
 
 .dropdown:hover .dropdown-content {
- background-color: transparent;
+border-radius: 100px;
+ background-color: #b31b1c;
   color: white;
   display: block;
 }
