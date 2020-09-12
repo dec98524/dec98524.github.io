@@ -377,6 +377,8 @@ code{
   min-width: 160px;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
   z-index: 1;
+    border-radius: 100px;
+
 }
 
 .dropdown-content a {
@@ -389,7 +391,7 @@ code{
 }
 
 .dropdown-content a:hover {
-  
+      border-radius: 100px;
   background-color: transparent;
   color: white;
 }
