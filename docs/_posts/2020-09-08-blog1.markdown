@@ -121,7 +121,7 @@ categories: senior design
  <p> In order to install composer type this command into the command line on your terminal: 
      <br><code>$ curl -sS https://getcomposer.org/installer | php ----install-dir=/usr/local/bin --filename=composer</code></p>
 <br>
-<p>After installing all of these packages, I was able to successfully set up a LAMP stack and display it on a a web page. Her was my output:</p>
+<p>After installing all of these packages, I was able to successfully set up a LAMP stack and display it on a a web page. Here was my output:</p>
 
 <br><br>
   <center>
@@ -134,7 +134,7 @@ categories: senior design
 
 <h2>COMP 484 - Homework - HTML</h2> 
 
-<p>In my COMP 484 class, I was assigned three homework assignments. Though it seems like a lot, these assignments were rather simple. Homework 2 consisted of taking an html file and editing it to structure the page using elements such header, nav, main, article, section, aside and footer.We were then asked to add ARIA roles to the elements. Below you can find the meaning to some of these very important HTML Terms:</p>
+<p>In my COMP 484 class, I was assigned three homework assignments. Though it seems like a lot, these assignments were rather simple. A main part if the homework consisted of taking an html file and editing it to structure the page using elements such header, nav, main, article, section, aside and footer.We were then asked to add ARIA roles to the elements. Below you can find the meaning to some of these very important HTML Terms:</p>
  
   <center>
     <a href="https://www.w3schools.com/html/">
@@ -163,7 +163,9 @@ categories: senior design
   <dd>The footer tag defines a footer for a document or section. A footer element typically contains: authorship information, copyright information, contact information, sitemap, back to top links and related documents. You can have several footer elements in one document.</dd>
     
 </dl>
-      
+
+<h2>Reflection - Things I learned</h2>
+<p>After completeing all my assignments this week, there were definitely some new things I learned. </p>
  
  
      <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
