@@ -27,7 +27,7 @@ categories: senior design
 </ul>
 <br>
 <div class="dropdown">
-  <button class="dropbtn">Blogs</button>
+  <button class="dropbtn">All Blog Posts</button>
   <div class="dropdown-content">
     <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
     <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
