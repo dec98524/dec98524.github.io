@@ -362,7 +362,6 @@ code{
 .dropbtn:hover{
   text-decoration: underline;
   color: white; 
-  border-radius: 100px;
   background-color: #b31a1b;
 }
 .dropdown {
@@ -377,7 +376,6 @@ code{
   min-width: 160px;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
   z-index: 1;
-    border-radius: 100px;
 
 }
 
