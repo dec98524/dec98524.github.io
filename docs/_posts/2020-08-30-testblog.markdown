@@ -20,11 +20,10 @@ categories: senior design
 <nav>     
    <ul class="navbar">
  <li><div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">Blogs</button>
   <div class="dropdown-content">
-    <a href="#">Link One</a>
-    <a href="#">Link Two</a>
-    <a href="#">Link 3</a>
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
   </div>
 </div></li>
   <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
