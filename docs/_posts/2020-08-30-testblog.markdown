@@ -18,19 +18,20 @@ categories: senior design
      <title>A Meaningful Page Title</title>
      
 <nav>   
-    <div class="dropdown">
-  <button class="dropbtn">Blogs</button>
-  <div class="dropdown-content">
-    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
-    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
-  </div>
-</div>
+  
    <ul class="navbar">
   <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
   <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
   <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
   <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
-
+<li>  <div class="dropdown">
+  <button class="dropbtn">Blogs</button>
+  <div class="dropdown-content">
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+  </div>
+</div></li>
+    
 </ul>
 <nav>
 <br>
