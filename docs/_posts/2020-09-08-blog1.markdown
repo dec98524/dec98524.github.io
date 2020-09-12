@@ -173,7 +173,7 @@ categories: senior design
 </dl>
 
 <h2>Reflection - Things I learned</h2>
-<p>After completeing all my assignments this week, there were definitely some new things I learned. </p>
+<p>After completeing all my assignments this week, there were definitely some new things I learned. One of the main things I learned was the importance of a LAMP stack and the role it plays in web development. Despite many of my peers using Docker in previous classes, this was the first time I had used Docker. I ran into some issues while doing the lab, for example, at the end of the lab I was getting some error messages. I checked the class Slack channel and realized others were having the same issue. Without the Slack channel, I would not have been able to complete the lab assignment. As for my COMP 484 work, I definitely learned some useful tips. In the past, when making HTML files, I would not use tags such as main, article and section. I now understand the importance of these tags and the ARIA roles. They allow the code to be legible, and can help with styling and scripting large amounts of similar code. Structure is very important when it comes to building websites and these tags are the way to properly structure your HTML file.</p>
  
  
      <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
