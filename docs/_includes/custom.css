@@ -29,7 +29,6 @@ li > ul, li > ol { font-family:  "Courier New", Courier, monospace; margin-botto
 h1, h2, h3, h4, h5, h6 { color: #b31a1b; font-weight: 400; font-family:  "Courier New", Courier, monospace; 
  }
 p{
-text-align: justify;
 font-family:  "Courier New", Courier, monospace;
 }
 /** Links */
@@ -342,7 +341,6 @@ dd {
     font-family: "Courier New", Courier, monospace;
     margin-bottom: 1.4em;
     margin-left: 45px;
-    text-align: justify;
     font-style: italic;
 }
 
