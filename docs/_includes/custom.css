@@ -395,8 +395,8 @@ code{
 }
 
 .dropdown:hover .dropdown-content {
- background-color: #b31b1c;
-  color: white;
+ background-color: white;
+  color: #b31a1b;
   display: block;
 }
 /*# sourceMappingURL=main.css.map */
