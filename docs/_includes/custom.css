@@ -363,7 +363,7 @@ code{
   text-decoration: underline;
   color: white; 
   border-radius: 100px;
-  background-color: #b31a1b;
+  background-color: transparent;
 }
 .dropdown {
   position: relative;
@@ -387,6 +387,8 @@ code{
     font-family: "Courier New", Courier, monospace;
     text-decoration: underline;
     display: block;
+    margin: 5px;
+    border-radius: 100px;
     background-color: #ffffff;
 }
 
