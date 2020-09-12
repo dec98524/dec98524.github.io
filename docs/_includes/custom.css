@@ -390,10 +390,13 @@ code{
 
 .dropdown-content a:hover {
   
-  background-color: #ffffff;}
+  background-color: #b31b1c;
+  color: white;
+}
 
 .dropdown:hover .dropdown-content {
-  background-color: transparent;
+ background-color: #b31b1c;
+  color: white;
   display: block;
 }
 /*# sourceMappingURL=main.css.map */
