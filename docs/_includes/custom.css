@@ -363,7 +363,7 @@ code{
   text-decoration: underline;
   color: white; 
   border-radius: 100px;
-  background-color: transparent;
+  background-color: #b31a1b;
 }
 .dropdown {
   position: relative;
@@ -399,7 +399,7 @@ code{
 }
 
 .dropdown:hover .dropdown-content {
- background-color: #b31b1c;
+ background-color: transparent;
   color: white;
   display: block;
 }
