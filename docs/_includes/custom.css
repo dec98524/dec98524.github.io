@@ -380,17 +380,17 @@ code{
 }
 
 .dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  font-family:  "Courier New", Courier, monospace;
-  text-decoration: underline;
-  display: block;
-  background-color: #b31a1b; 
+     color: #b31b1c;
+    padding: 12px 16px;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: underline;
+    display: block;
+    background-color: #ffffff;
 }
 
 .dropdown-content a:hover {
   
-  background-color: #b31a1b;}
+  background-color: #ffffff;}
 
 .dropdown:hover .dropdown-content {
   background-color: transparent;
