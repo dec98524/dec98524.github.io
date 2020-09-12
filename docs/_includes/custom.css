@@ -393,13 +393,11 @@ code{
 }
 
 .dropdown-content a:hover {
-      border-radius: 100px;
   background-color: transparent;
   color: white;
 }
 
 .dropdown:hover .dropdown-content {
-border-radius: 100px;
  background-color: #b31b1c;
   color: white;
   display: block;
