@@ -95,7 +95,7 @@ In the second screenshot, you are able to see the same webpage, with the same so
 </dl>
 
 <p> Below is an example of some basic CSS syntax: 
-     <br><code>h1{ </code><br><code> color: red</code><br><code>}</code><br></p>
+     <br><code>h1{ <br> color: red<br>}</code><br></p>
 <p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
 
 <p>In the lab, I also used a database management system known as MySQL</p>
