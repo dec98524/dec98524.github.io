@@ -68,7 +68,7 @@ categories: senior design
   <center>
 <img src="https://i.imgur.com/PqXBDk3.png" alt="no style" align="middle" width="auto" height="auto">
  <br><br>
-<img src="https://i.imgur.com/g8fujvU.png" alt="styled" align="middle" width="auto" height="auto">
+<img src="https://i.imgur.com/lP82xDg.png" alt="styled" align="middle" width="auto" height="auto">
 </center>
 <br><br>
     
@@ -76,18 +76,26 @@ categories: senior design
 In the second screenshot, you are able to see the same webpage, with the same source HTML code, but with one major difference, an external stylesheet. Stylesheets are seperate .css files that contain all the properties that enable a website to look pretty. You are able to see right away, that in comparison to the first imaage, this one is much more organized, appealing and overall more styled.
 </p>
       <center>
-      <a href="https://httpd.apache.org/">
-      <img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Apache Logo" align="middle">
-    </a>      
+      <img src="https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/04/LV2OI0TM.png?fit=1024%2C333&ssl=1" alt="css code" align="middle">
 </center>
 
   <dl>
-  <dt><b>Apache</b></dt>
-  <dd>The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.</dd>
+  <dt><b>CSS Elements</b></dt>
+  <dd>Here are a list of some elements that are used in CSS:
+    <ul>
+      <li>margin</li>
+      <li>padding</li>
+      <li>float</li>
+      <li>display</li>
+      <li>color</li>
+      <li>font</li>
+      <li>text</li>
+      </ul>
+    </dd>
 </dl>
 
-<p> In order to install Apache, and to check the version, type these commands into the command line on your terminal: 
-     <br><code> $ apt-get install apache2 </code><br><code> $ apache2 -v</code><br></p>
+<p> Below is an example of some basic CSS syntax: 
+     <br><code>h1{ </code><br><code> color: red</code><br><code>}</code><br></p>
 <p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
 
 <p>In the lab, I also used a database management system known as MySQL</p>
