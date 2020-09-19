@@ -95,14 +95,10 @@ In the second screenshot, you are able to see the same webpage, with the same so
 </dl>
 
 <p> Below is an example of some basic CSS syntax: 
-     <br><code>h1{ <br> color: pink<br>font-family: Courier<br>background-color: black<br>}</code><br></p>
-<p>Then to start it, chack the status and test it, input the following commands:  <br><code> service apache2 start </code><br><code> service apache2 status</code><br><code>localhost:8080</code></p>     
-
-<p>In the lab, I also used a database management system known as MySQL</p>
+     <br><code>h1{ <br> color: pink;<br>font-family: Courier;<br>background-color: black;<br>}</code><br></p>
+<p>You start off a basic CSS block of code by determining which element you want to style, in this case it is h1. Next, inside two curly brackets, you add in the styling elements that you want to apply. Once all the style elements are marked down, every h1 will be styled according to the elements in the CSS file. Here is an example of what it looks like before and after.</p>
       <center>
-     <a href="https://www.mysql.com/">
-      <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="SQL Logo" align="middle">
-    </a>
+      <img src="https://i.imgur.com/6LL9kmX.png" alt="example" align="middle">
 </center>
 
   <dl>
