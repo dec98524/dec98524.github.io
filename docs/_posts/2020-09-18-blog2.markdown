@@ -13,7 +13,7 @@ categories: senior design
 {% include custom.css %}
 </style>
 
-  <title>Blog 1</title>
+  <title>Blog 2</title>
 <body>
 <ul class="navbar">
  
@@ -29,6 +29,8 @@ categories: senior design
   <div class="dropdown-content">
     <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
     <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+          <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+
   </div>
 </div><br>
 <br>
@@ -40,29 +42,28 @@ categories: senior design
 
 <h2>Introduction - Assignments Worked On</h2>
 
-<p>Welcome back to my blog site! For Blog 1, I will be discussing various assignments I worked on this week, things I learned and even things I struggled with. Once again, I will be discussing the stuff I worked on in my COMP 484 and CIT 480 classes. This week in COMP 484 I was given three homework assignments all relating to HTML. In addition to those assignments, I was also given a lab to work on in my CIT 480 class. This lab consisted of using a program known as Docker to build a lamp stack. In the sections below, I’ll discuss each assignment, covering the steps I took to complete them. At the end, you can find a reflection where I will cover what I learned.</p>
+<p>For Blog #2, I will be writing about the work I did in my COMP 484 class, similar to the last 2 blogs. Last week we talked about certain HTML elements that are useful in regards to structuring your webpage. This pretty much concluded basic HTML. The next thing we were introduced to was CSS. I will go into detail on what this means, but in a nutshell: it is what makes your website look good. Going into this semester I was looking forward to learning this. I have a little bit of an understanding of CSS, but I am eager to learn methods, tips, strategies and practices that can elevate my web development to the next level. For those unaware of what CSS is, a breif synopsis follows.</p>
 
-<h2>CIT 480 - Lab 1 - Lamp Stack</h2> 
-<p><a href="https://canvas.csun.edu/courses/81618/files/10141705/download?wrap=1" style="text-decoration: underline">Lab link - <b>CLICKING THIS WILL DOWNLOAD A PDF FILE OF THE LAB</b></a><br> 
-</p> 
+<h2>COMP 484 - Introduction to CSS</h2> 
+
       
 
-<p>This assignment consisted of installing certain  and using it to install packages via the command line and using web server software to display the webpage. The first step I had to do was install Docker.</p>
+<p>A website needs a number of thing to be successful, and one of them is style. This is where CSS comes into play.</p>
 
 
     <center>
-    <a href="https://www.docker.com/">
-<img src="https://miro.medium.com/max/2404/1*JUOITpaBdlrMP9D__-K5Fw.png" alt="Docker Logo" align="middle">
+    <a href="w3schools.com/css/">
+<img src="https://sabe.io/classes/css/hero.png" alt="CSS Logo" align="middle">
 </a>
 </center>
 <br> <br>
 
 <dl>
-  <dt><b>Docker</b></dt>
-  <dd>Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.</dd>
+  <dt><b>CSS</b></dt>
+  <dd>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.    
+    </dd>
 </dl>
-<p>To install docker, visit <a href="https://www.docker.com/" style="text-decoration: underline">docker.com</a> and click on get started.<br>
-    Then click on the download tab and select your corresponding operating system.</p>
+<p>Down below, you will see some examples regardingf the presence and abscence of CSS, which will show how important implementing it into your website is.</p>
  <br><br>
   <center>
 <img src="https://i.imgur.com/wZxrVif.png" alt="Docker Logo" align="middle" width="auto" height="auto">
