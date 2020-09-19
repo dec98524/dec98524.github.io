@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Blog 1"
-date:   2020-09-08 12:40:45 -0700
+title:  "Blog 2"
+date:   2020-09-18 12:40:45 -0700
 categories: senior design
 ---
 
