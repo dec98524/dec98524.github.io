@@ -66,13 +66,15 @@ categories: senior design
 <p>Down below, you will see some examples regardingf the presence and abscence of CSS, which will show how important implementing it into your website is.</p>
  <br><br>
   <center>
-<img src="https://i.imgur.com/wZxrVif.png" alt="Docker Logo" align="middle" width="auto" height="auto">
+<img src="https://i.imgur.com/PqXBDk3.png" alt="no style" align="middle" width="auto" height="auto">
  <br><br>
-<img src="https://i.imgur.com/g8fujvU.png" alt="Docker Logo" align="middle" width="auto" height="auto">
+<img src="https://i.imgur.com/g8fujvU.png" alt="styled" align="middle" width="auto" height="auto">
 </center>
 <br><br>
     
-<p>After I got familiar with a few of the Docker commands, the next step was to install Apache.</p>
+<p>In the two pictures above you can see two images of the same website. The first screenshot consists of pure HTML. This means that the website has all the necessary source code to display a basic webpage. Despite being able to display a page, this page is not so appealing to the eye. There is no color, organization or any sort of style. <br>
+In the second screenshot, you are able to see the same webpage, with the same source HTML code, but with one major difference, an external stylesheet. Stylesheets are seperate .css files that contain all the properties that enable a website to look pretty. You are able to see right away, that in comparison to the first imaage, this one is much more organized, appealing and overall more styled.
+</p>
       <center>
       <a href="https://httpd.apache.org/">
       <img src="https://lh3.googleusercontent.com/FhcvMIodMAcv0JrG1jctJ2N8yNC9R8SR59FuVuK8im5EwSVfpqqOXsY1ml_uUfDxRBFTc20rJ9nU3ka5sOL-wv9HOXQgq6vpebxWr5BgUQXDtXAlfSPHq1ExfLaRE3sk3uL5XPso" alt="Apache Logo" align="middle">
