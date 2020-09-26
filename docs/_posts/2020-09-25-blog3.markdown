@@ -68,11 +68,12 @@ categories: senior design
 </p>
  
     
-<p>In the two pictures above you can see two images of the same website. The first screenshot consists of pure HTML. This means that the website has all the necessary source code to display a basic webpage. Despite being able to display a page, this page is not so appealing to the eye. There is no color, organization or any sort of style. <br>
-In the second screenshot, you are able to see the same webpage, with the same source HTML code, but with one major difference, an external stylesheet. Stylesheets are seperate .css files that contain all the properties that enable a website to look pretty. You are able to see right away, that in comparison to the first imaage, this one is much more organized, appealing and overall more styled.
+<p>What this does is establish a section, which we can style, for the header. The next step is to ad CSS. in your.css stylesheet file, insert the following:
+     <br><code>  #header {<br> overflow: hidden; <br>background: #080a42;<br> }<br> </code><br>
+    The #header will style the div element with the id of header. Overflow set to hidden will contain everything in the div and the background color allows you to select a color of your choice. This is what you should have so far:
 </p>
       <center>
-      <img src="https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/04/LV2OI0TM.png?fit=1024%2C333&ssl=1" alt="css code" align="middle">
+      <img src="https://i.imgur.com/JsLYkQ8.png" align="middle">
 </center>
 
   <dl>
