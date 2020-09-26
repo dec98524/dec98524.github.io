@@ -81,7 +81,6 @@ categories: senior design
 
 <p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
      <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
-<p>You start off a basic CSS block of code by determining which element you want to style, in this case it is h1. Next, inside two curly brackets, you add in the styling elements that you want to apply. Once all the style elements are marked down, every h1 will be styled according to the elements in the CSS file. Here is an example of what it looks like before and after.</p>
      <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
      <br><code>   #body{<br>
     overflow: hidden;<br>
@@ -99,47 +98,46 @@ categories: senior design
       <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
 </center>
 
-    <h1>wrapping it up - Footer Section</h1>  
+    <h1>Wrapping it up - Footer Section</h1>  
 
-<p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
-     <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
-<p>You start off a basic CSS block of code by determining which element you want to style, in this case it is h1. Next, inside two curly brackets, you add in the styling elements that you want to apply. Once all the style elements are marked down, every h1 will be styled according to the elements in the CSS file. Here is an example of what it looks like before and after.</p>
-     <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
-     <br><code>   #body{<br>
-    overflow: hidden;<br>
-    width: 100%;<br>
-    max-width: 1000px;<br>
-    margin: 50px auto 50px auto;<br>
-    padding: 10px;<br>
-    height: auto;<br>
-    background-color: black;<br>
-    border-color: red;<br>
-    border-style: solid;<br>}<br> </code><br>
-   We already know what the #body part does. But this time we have some extra stuff. We added some margins to add some space to the sides, some padding for similar reasons, a border for style, and a height set to auto to fit all our content. This is what you should have so far:
+<p>The last thing we have to do is simply add a footer. Insert the following block of code into your file: 
+     <br><code> &lt;div id="footer"&gt;<br>&lt;/div&gt; <br> </code><br></p>
+     <p>Typically, footers should stay at the bottom of the page, but they don't do that by default. In your.css stylesheet file, insert the following:
+     <br><code>   #footer{<br>
+   overflow: hidden;<br>
+   position:static;<br>
+    background: black;<br> </code><br>
+   The difference between this and the header is the position element. We have it set to static in order to assure it stays at the bottom. This is what you should have so far:
 </p>
       <center>
-      <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
+      <img src="https://i.imgur.com/p8SfzuL.png">
 </center>
-
+<p>With these steps complete, you have a basic webpage set up. In the next section I will cover how I was able to style a page with this structure.</p>
 
 <h2>Personal Project</h2>
-<p>After learning some things in my class, I decided to get a head start on the project for the class. the project is to make and design your own website using HTML and CSS. I decided to make up a restaurant and construct a website for it. Here is what it looks like with no CSS applied:</p>
+<p>Using the same structure discussed in this blog, here is a website I was able to make (just HTML, no CSS yet).</p>
 
 <center>
-      <img src="https://i.imgur.com/HNUWHgB.png" alt="example" align="middle">
+      <img src="https://i.imgur.com/Rg8TG8B.png" alt="example" align="middle">
 </center>
  
- <p>After giving the site some structure, it was time to add some style with CSS, this is the difference:</p>
+ <p>This is what the site looks like after some CSS:</p>
  
  <center>
-      <img src="https://i.imgur.com/AVJU2NC.png" alt="example" align="middle">
+      <img src="https://i.imgur.com/XTjBS5C.png" alt="example" align="middle">
+</center>
+<center>
+      <img src="https://i.imgur.com/4ug0w0H.png" alt="example" align="middle">
+</center>
+<center>
+      <img src="blob:https://imgur.com/0bf08b66-69ad-4dfa-8ca0-c24b3abc589a" alt="example" align="middle">
 </center>
 
-<p> Overall, I am proud at what I was able to accomplish. I was able to build a website with 5 pages completely from scratch and style it using CSS.</p>
+<p> I like this site much more than my site from last week.</p>
  
  
 <h2>Reflection - Things I learned</h2>
-<p>This week was a fun one for me. I am very interested in improving my web designing skills and this week helped my a lot. I learned a lot of useful tips that I did not know before. One example is giving an element an id. This can be useful because you can use this id to style that specific element, but not the others. For example, if you want all h1 header tags to have red text, but also want one to have blue text you would style h1 with red text and style the other h1 along with its id to have blue text. I am interested in what's to come next in my COMP 484 class. I am eager to learn more Java Script in order to improve my ability to make websites more interactive. As for senior design, we were introduced to AWS, but I do not know enough about it to write a blog about it. I am excited to work with AWS for the first time, abd hopefully learn some helpful things.</p>
+<p>I feel like I was able to improve my CSS skills a lot compared to last week. My first site was more of a playground where I was able to get a feel for elements, attributes and terms. This week, I took something I am passionate about with sports and turned it into a website I am proud to share. I know there is much more I can accomplish and that this is just the begining of my web design journey. I look forward to seeing what areas I can improve on and will keep on practicing. </p>
  
  
      <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
