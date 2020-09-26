@@ -45,7 +45,7 @@ categories: senior design
 
 <p>For Blog #3, I will be writing about some cool new things I learned in my COMP 484 class. Last week I talked about the basics and fundementals of CSS. We discussed how usefull CSS can be when it comes to styling your webpage. What we talked about last week was just the begining, there is so much more to CSS, so much so that I learn new things everytime I work on a project. This week I will go into greater depth regarding CSS. I will cover how to design a basic webpage, while making it visually appealing. I will discuss various CSS elements in addition to the basic ones we learned last week. </p>
 
-<h2>COMP 484 - Using CSS to Structure/Style</h2> 
+<h2>COMP 484 - Using CSS to Structure</h2> 
 
       
 
@@ -64,7 +64,7 @@ categories: senior design
     </dd>
 </dl>
 <p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
-    <br><code>  <plaintext><div id="header"><br></div></plaintext><br> </code><br>
+    <br><code>  &lt;div id="header"&gt;<br>&lt;/div&gt; <br> </code><br>
 </p>
  
     
