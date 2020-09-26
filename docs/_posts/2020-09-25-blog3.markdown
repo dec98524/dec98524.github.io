@@ -126,11 +126,15 @@ categories: senior design
  <center>
       <img src="https://i.imgur.com/XTjBS5C.png" alt="example" align="middle">
 </center>
+ <p>&nbsp;</p>
+
 <center>
       <img src="https://i.imgur.com/4ug0w0H.png" alt="example" align="middle">
 </center>
+ <p>&nbsp;</p>
+
 <center>
-      <img src="blob:https://imgur.com/0bf08b66-69ad-4dfa-8ca0-c24b3abc589a" alt="example" align="middle">
+      <img src="https://i.imgur.com/nMfQiGW.png" alt="example" align="middle">
 </center>
 
 <p> I like this site much more than my site from last week.</p>
