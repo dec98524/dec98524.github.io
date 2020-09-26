@@ -76,26 +76,49 @@ categories: senior design
       <img src="https://i.imgur.com/JsLYkQ8.png" align="middle">
 </center>
 
-  <dl>
-  <dt><b>CSS Elements</b></dt>
-  <dd>Here are a list of some elements that are used in CSS:
-    <ul>
-      <li>margin</li>
-      <li>padding</li>
-      <li>float</li>
-      <li>display</li>
-      <li>color</li>
-      <li>font</li>
-      <li>text</li>
-      </ul>
-    </dd>
-</dl>
+  
+   <h1>Main COntent - Body Section</h1>  
 
-<p> Below is an example of some basic CSS syntax: 
-     <br><code>h1{ <br> color: pink;<br>font-family: Courier;<br>background-color: black;<br>}</code><br></p>
+<p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
+     <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
 <p>You start off a basic CSS block of code by determining which element you want to style, in this case it is h1. Next, inside two curly brackets, you add in the styling elements that you want to apply. Once all the style elements are marked down, every h1 will be styled according to the elements in the CSS file. Here is an example of what it looks like before and after.</p>
+     <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
+     <br><code>   #body{<br>
+    overflow: hidden;<br>
+    width: 100%;<br>
+    max-width: 1000px;<br>
+    margin: 50px auto 50px auto;<br>
+    padding: 10px;<br>
+    height: auto;<br>
+    background-color: black;<br>
+    border-color: red;<br>
+    border-style: solid;<br>}<br> </code><br>
+   We already know what the #body part does. But this time we have some extra stuff. We added some margins to add some space to the sides, some padding for similar reasons, a border for style, and a height set to auto to fit all our content. This is what you should have so far:
+</p>
       <center>
-      <img src="https://i.imgur.com/6LL9kmX.png" alt="example" align="middle">
+      <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
+</center>
+
+    <h1>wrapping it up - Footer Section</h1>  
+
+<p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
+     <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
+<p>You start off a basic CSS block of code by determining which element you want to style, in this case it is h1. Next, inside two curly brackets, you add in the styling elements that you want to apply. Once all the style elements are marked down, every h1 will be styled according to the elements in the CSS file. Here is an example of what it looks like before and after.</p>
+     <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
+     <br><code>   #body{<br>
+    overflow: hidden;<br>
+    width: 100%;<br>
+    max-width: 1000px;<br>
+    margin: 50px auto 50px auto;<br>
+    padding: 10px;<br>
+    height: auto;<br>
+    background-color: black;<br>
+    border-color: red;<br>
+    border-style: solid;<br>}<br> </code><br>
+   We already know what the #body part does. But this time we have some extra stuff. We added some margins to add some space to the sides, some padding for similar reasons, a border for style, and a height set to auto to fit all our content. This is what you should have so far:
+</p>
+      <center>
+      <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
 </center>
 
 
