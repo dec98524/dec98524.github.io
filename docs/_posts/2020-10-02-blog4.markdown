@@ -1,0 +1,151 @@
+---
+layout: post
+title:  "Blog 3"
+date:   2020-09-25 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+
+<style>
+{% include custom.css %}
+</style>
+
+  <title>Blog 2</title>
+<body>
+<ul class="navbar">
+ 
+  <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+  <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+  <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+  <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+</ul>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">All Blog Posts</button>
+  <div class="dropdown-content">
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+          <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+      <a href="https://dec98524.github.io/senior/design/2020/09/25/blog2.html">Blog 3</a>
+
+  </div>
+</div><br>
+<br>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+
+    <center>
+<img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+</center>
+
+<h2>Introduction - Assignments Worked On</h2>
+
+<p>For Blog #3, I will be writing about some cool new things I learned in my COMP 484 class. Last week I talked about the basics and fundementals of CSS. We discussed how usefull CSS can be when it comes to styling your webpage. What we talked about last week was just the begining, there is so much more to CSS, so much so that I learn new things everytime I work on a project. This week I will go into greater depth regarding CSS. I will cover how to design a basic webpage, while making it visually appealing. I will discuss various CSS elements in addition to the basic ones we learned last week. </p>
+
+<h2>COMP 484 - Using CSS to Structure</h2> 
+
+      
+
+<p>For this blog, we will specifically go over how to design a webpage that contains: a header with navigation, a body with blocks of various content, and a footer with contact information. </p>
+
+
+ <h1>Getting Started - Header Section</h1>  
+
+<p>Whenever you visit a website, the first thing you see, in most cases, is a header. *This is not the header element, below is the distinction:</p>
+<dl>
+  <dt><b>Header</b></dt>
+  <dd>A header is typically located at the top of the website and should be consisted across all pages within the site. In the header, you can expect to find a navigation, containing links redirecting you to important parts of the page.     
+    </dd>
+     <dt><b>Header Tag</b></dt>
+  <dd>The header tag represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.     
+    </dd>
+</dl>
+<p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
+    <br><code>  &lt;div id="header"&gt;<br>&lt;/div&gt; <br> </code><br>
+</p>
+ 
+    
+<p>What this does is establish a section, which we can style, for the header. The next step is to ad CSS. in your.css stylesheet file, insert the following:
+     <br><code>  #header {<br> overflow: hidden; <br>background: #080a42;<br> }<br> </code><br>
+    The #header will style the div element with the id of header. Overflow set to hidden will contain everything in the div and the background color allows you to select a color of your choice. This is what you should have so far:
+</p>
+      <center>
+      <img src="https://i.imgur.com/JsLYkQ8.png" align="middle">
+</center>
+
+  
+   <h1>Main COntent - Body Section</h1>  
+
+<p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
+     <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
+     <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
+     <br><code>   #body{<br>
+    overflow: hidden;<br>
+    width: 100%;<br>
+    max-width: 1000px;<br>
+    margin: 50px auto 50px auto;<br>
+    padding: 10px;<br>
+    height: auto;<br>
+    background-color: black;<br>
+    border-color: red;<br>
+    border-style: solid;<br>}<br> </code><br>
+   We already know what the #body part does. But this time we have some extra stuff. We added some margins to add some space to the sides, some padding for similar reasons, a border for style, and a height set to auto to fit all our content. This is what you should have so far:
+</p>
+      <center>
+      <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
+</center>
+
+    <h1>Wrapping it up - Footer Section</h1>  
+
+<p>The last thing we have to do is simply add a footer. Insert the following block of code into your file: 
+     <br><code> &lt;div id="footer"&gt;<br>&lt;/div&gt; <br> </code><br></p>
+     <p>Typically, footers should stay at the bottom of the page, but they don't do that by default. In your.css stylesheet file, insert the following:
+     <br><code>   #footer{<br>
+   overflow: hidden;<br>
+   position:static;<br>
+    background: black;<br> </code><br>
+   The difference between this and the header is the position element. We have it set to static in order to assure it stays at the bottom. This is what you should have so far:
+</p>
+      <center>
+      <img src="https://i.imgur.com/p8SfzuL.png">
+</center>
+<p>With these steps complete, you have a basic webpage set up. In the next section I will cover how I was able to style a page with this structure.</p>
+
+<h2>Personal Project</h2>
+<p>Using the same structure discussed in this blog, here is a website I was able to make (just HTML, no CSS yet).</p>
+
+<center>
+      <img src="https://i.imgur.com/Rg8TG8B.png" alt="example" align="middle">
+</center>
+ 
+ <p>This is what the site looks like after some CSS:</p>
+ 
+ <center>
+      <img src="https://i.imgur.com/XTjBS5C.png" alt="example" align="middle">
+</center>
+ <p>&nbsp;</p>
+
+<center>
+      <img src="https://i.imgur.com/4ug0w0H.png" alt="example" align="middle">
+</center>
+ <p>&nbsp;</p>
+
+<center>
+      <img src="https://i.imgur.com/nMfQiGW.png" alt="example" align="middle">
+</center>
+
+<p> I like this site much more than my site from last week.</p>
+ 
+ 
+<h2>Reflection - Things I learned</h2>
+<p>I feel like I was able to improve my CSS skills a lot compared to last week. My first site was more of a playground where I was able to get a feel for elements, attributes and terms. This week, I took something I am passionate about with sports and turned it into a website I am proud to share. I know there is much more I can accomplish and that this is just the begining of my web design journey. I look forward to seeing what areas I can improve on and will keep on practicing. </p>
+ 
+ 
+     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
+</body>
+</html>
+
+
