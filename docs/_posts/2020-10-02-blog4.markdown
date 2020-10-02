@@ -46,7 +46,10 @@ categories: senior design
 <h2>Introduction - Assignments Worked On</h2>
 
 <p>For Blog #4, I will build off of last week's blog and go in depth on how I was able to create the page I showed at the end. In case you missed it, <a style="text-decoration: underline" href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">here is a link</a> to last week's blog post where I went over a basic webpage structure. Down below you will be able to see the finished product of my personal sports blog.
-    <iframe src="https://davidwebsite2.glitch.me/" title"David's Sports Blog" ></iframe>
+    <iframe src="https://davidwebsite2.glitch.me/" title="David's Sports Blog" ></iframe>
+    <iframe src="https://davidwebsite2.glitch.me/" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
 <h2>COMP 484 - Using CSS to Structure</h2> 
 
 <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
