@@ -45,25 +45,30 @@ categories: senior design
 
 <h2>Introduction - Assignments Worked On</h2>
 
-<p>For Blog #4, I will build off of last week's blog and go in depth on how I was able to create the page I showed at the end. In case you missed it, <a style="text-decoration: underline" href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">here is a link</a> to last week's blog post where I went over a basic webpage structure. Down below you will be able to see the finished product of my personal sports blog.
-    <center>
-    <iframe style="width: 500px; height 500px;" src="https://davidwebsite2.glitch.me/" title="David's Sports Blog" ></iframe>
-</center>
-<h2>COMP 484 - Using CSS to Structure</h2> 
-
+<p>For Blog #4, I will build off of last week's blog and go in depth on how I was able to create the page I showed at the end. In case you missed it, <a style="text-decoration: underline" href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">here is a link</a> to last week's blog post where I went over a basic webpage structure. Down below you will be able to see the finished product of my personal sports blog. After reading this blog, you should have a decent understanding about creating styled webpages, with a constant, consistent structure.
 
 
       
 
-<p>For blog 4, we will specifically go over how to design a webpage that contains: a header with navigation, a body with blocks of various content, and a footer with contact information. </p>
+</p>
 
 
- <h1>Getting Started - Header Section</h1>  
+ <h1>Styling The Header Section</h1>  
 
-<p>Whenever you visit a website, the first thing you see, in most cases, is a header. *This is not the header element, below is the distinction:</p>
+<p>In the last blog, we made a div section for the header, but it was pretty barebones. In my finished product, I included a navigation bar that redirected the user to other important parts of the website. I also included a photo in the header. These are  the steps that were taken to make the header look nice. </p>
 <dl>
-  <dt><b>Header</b></dt>
-  <dd>A header is typically located at the top of the website and should be consisted across all pages within the site. In the header, you can expect to find a navigation, containing links redirecting you to important parts of the page.     
+  <dt><b>Step 1 - Insert The Image</b></dt>
+  <dd>It is very common to see a photo atop a webpage when visiting a website. This photo can be anything, but is often the logo of whatever company the site is about. In this case, I chose to add a simple wordmark titled David's Sports Blog for my image. So in the header div of the document, I added the following code:
+       <br><code>  
+       &lt;a href="https://davidwebsite2.glitch.me/"&gt;<br>
+        &lt;img<br>
+          alt="davids sports blog"<br>
+          src="https://cdn.glitch.com/d58d3551-a865-47fd-af08-aa7ea179d659%2Fsportsblogtitle.png?v=1600997823450"<br>
+          height="300"<br>
+          width="350"<br>
+        /&gt;<br>
+      &lt;/a&gt;<br>
+      </code><br>
     </dd>
      <dt><b>Header Tag</b></dt>
   <dd>The header tag represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.     
