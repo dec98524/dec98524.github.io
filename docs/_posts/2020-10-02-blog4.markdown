@@ -119,7 +119,8 @@ li.navbar a:hover {<br>
 }<br>      
       </code><br>
       At first glance this looks like a lot, but its simple: We align everything center with text align, change the display to inline-block to make it horizsontal, and edit the syles to alter on hover. The rest is simply spacing, color and font customization.
-      </dd><b>Step 3 - Social Media Navigation </b></dt>
+      </dd>
+      <dt><b>Step 3 - Social Media Navigation </b></dt>
       <dd> The final thing included in my header section is a navigation to various social media links. For this, I elected to use a list, similar to step 2. This is the code I inserted into my html file:
       <br><code>
      &lt;ul style="float:right; margin-right: 10px;" class="navbar"&gt;<br>
@@ -165,7 +166,7 @@ The only thing different here is that we inserted an image as a list item instea
   
    <h1>Finished Header Section</h1>  
 
-<p>Here is an image of the finished header section with and without the css:
+<p>Here is an image of the finished header section with and without the css:</p>
       <center>
     <b>Without CSS</b>
       <img src="https://i.imgur.com/gJvhxLM.png" align="middle">
@@ -174,8 +175,8 @@ The only thing different here is that we inserted an image as a list item instea
     <b>With CSS</b>
       <img src="https://i.imgur.com/w2QwzLj.png" align="middle">
 </center>
-In order to get a complete view of the website and to see how the navigations and header image work, visit my site at <a href="https://davidwebsite2.glitch.me">Davis's Sports Blog!</a>
-   </p>
+<p>In order to get a complete view of the website and to see how the navigations and header image work, visit my site at <a href="https://davidwebsite2.glitch.me">Davis's Sports Blog!</a></p>
+   
 <h2>Next steps</h2>
 <p>Now that we know how to properly style a div section and all the elements inside of it, next week we will go over how to style the main body content of a page. This may sound easy, but keeping certain things in certain positions is no easy task. For example, in some cases, you may want to keep an image next to a paragraph, or even nect to another image. Although it sounds easy, you need to calculate every single pixle to ensure nothing overflows and that everything stays in place. In Blog 5, I will go over certain tips and tricks to structure and style the main body content of a page!  <p>
  
