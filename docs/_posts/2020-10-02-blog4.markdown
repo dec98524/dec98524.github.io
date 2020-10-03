@@ -119,8 +119,7 @@ li.navbar a:hover {<br>
 }<br>      
       </code><br>
       At first glance this looks like a lot, but its simple: We align everything center with text align, change the display to inline-block to make it horizsontal, and edit the syles to alter on hover. The rest is simply spacing, color and font customization.
-      </dd>
-      <dt>Step 3 - Social Media Navigation </dt>
+      </dd><b>Step 3 - Social Media Navigation </b></dt>
       <dd> The final thing included in my header section is a navigation to various social media links. For this, I elected to use a list, similar to step 2. This is the code I inserted into my html file:
       <br><code>
      &lt;ul style="float:right; margin-right: 10px;" class="navbar"&gt;<br>
