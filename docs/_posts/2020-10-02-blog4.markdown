@@ -45,7 +45,7 @@ categories: senior design
 
 <h2>Introduction - Assignments Worked On</h2>
 
-<p>For Blog #4, I will build off of last week's blog and go in depth on how I was able to create the page I showed at the end. In case you missed it, <a style="text-decoration: underline" href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">here is a link</a> to last week's blog post where I went over a basic webpage structure. Down below you will be able to see the finished product of my personal sports blog. After reading this blog, you should have a decent understanding about creating styled webpages, with a constant, consistent structure.
+<p>For Blog #4, I will build off of last week's blog and go in depth on how I was able to create the page I showed at the end. In case you missed it, <a style="text-decoration: underline" href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">here is a link</a> to last week's blog post where I went over a basic webpage structure. Down below, you will be able to see how I was able to construct and style the header section  of my personal sports blog. After reading this blog, you should have a decent understanding about creating styled header sections, with a constant, consistent structure. This includes a navigation and an image for your site.
 
 
       
@@ -69,9 +69,27 @@ categories: senior design
         /&gt;<br>
       &lt;/a&gt;<br>
       </code><br>
+      The a tag makes the image a clickable link that redirects to the homepage, the src attribute links the image source, the alt attribute provides placeholder text if the image is not loading, and height and width are simply the dimensions. 
     </dd>
-     <dt><b>Header Tag</b></dt>
-  <dd>The header tag represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.     
+     <dt><b>Step 2 - Navigation</b></dt>
+  <dd>Having a list of links at the top of a webpage can be useful when traversing a website. It can lead you to and from various pages, making every single page of a website accessible from a single location. In my  case, I added a link to all the [4] pages in my site. First, I added this to my HTML code:
+       <br><code>  
+      &lt;ul style="float:left;" class="navbar"&gt;
+        &lt;li class="navbar"&gt;
+          &lt;a href="https://davidwebsite2.glitch.me/pages/angels.html"&gt;Angels&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="navbar"&gt;
+          &lt;a href="https://davidwebsite2.glitch.me/pages/lakers.html"&gt;Lakers&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="navbar"&gt;
+          &lt;a href="https://davidwebsite2.glitch.me/pages/rams.html"&gt;Rams&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="navbar"&gt;
+          &lt;a href="https://davidwebsite2.glitch.me/pages/players.html"&gt;Players&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      </code><br>
+      
     </dd>
 </dl>
 <p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
