@@ -89,7 +89,36 @@ categories: senior design
         &lt;/li&gt;<br>
       &lt;/ul&gt;<br>
       </code><br>
-      The ul element constructs an un ordered list, which we will then float to the left. 
+      The ul element constructs an un ordered list, which we will then float to the left. We then make every item of the list a clickable link with the a tag. We then need to add CSS to style the list and its items: I chose to make the list items horizontal, specific colors, and a color change on hover. This is the code I added: 
+      <br><code>  
+      
+      ul.navbar {<br>
+  background-color: transparent;<br>
+  font-size: 15pt;<br>
+  font-family: "tahoma";<br>
+  text-align: center;<br>
+  list-style-type: none;<br>
+  padding: 10px;<br>
+}<br>
+li.navbar {<br>
+  color: transparent;<br>
+  display: inline-block;<br>
+}<br>
+li.navbar a {<br>
+  display: block;<br>
+  color: #faf6dc;<br>
+  text-align: center;<br>
+  margin: 30px auto;<br>
+  padding: 1px 10px;<br>
+  text-decoration: none;<br>
+  width: 100%;<br>
+}<br>
+li.navbar a:hover {<br>
+  opacity: 50%;<br>
+  transition: all 0.4s ease;<br>
+}<br>      
+      </code><br>
+      At first glance this looks like a lot, but its simple: We align everything center with text align, change the display to inline-block to make it horizsontal, and edit the syles to alter on hover. The rest is simply spacing, color and font customization.
       </dd>
 </dl>
 <p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
