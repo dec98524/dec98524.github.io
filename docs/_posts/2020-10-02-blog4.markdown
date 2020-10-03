@@ -74,23 +74,23 @@ categories: senior design
      <dt><b>Step 2 - Navigation</b></dt>
   <dd>Having a list of links at the top of a webpage can be useful when traversing a website. It can lead you to and from various pages, making every single page of a website accessible from a single location. In my  case, I added a link to all the [4] pages in my site. First, I added this to my HTML code:
        <br><code>  
-      &lt;ul style="float:left;" class="navbar"&gt;
-        &lt;li class="navbar"&gt;
-          &lt;a href="https://davidwebsite2.glitch.me/pages/angels.html"&gt;Angels&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="navbar"&gt;
-          &lt;a href="https://davidwebsite2.glitch.me/pages/lakers.html"&gt;Lakers&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="navbar"&gt;
-          &lt;a href="https://davidwebsite2.glitch.me/pages/rams.html"&gt;Rams&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="navbar"&gt;
-          &lt;a href="https://davidwebsite2.glitch.me/pages/players.html"&gt;Players&lt;/a&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
+      &lt;ul style="float:left;" class="navbar"&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://davidwebsite2.glitch.me/pages/angels.html"&gt;Angels&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://davidwebsite2.glitch.me/pages/lakers.html"&gt;Lakers&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://davidwebsite2.glitch.me/pages/rams.html"&gt;Rams&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://davidwebsite2.glitch.me/pages/players.html"&gt;Players&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
       </code><br>
-      
-    </dd>
+      The ul element constructs an un ordered list, which we will then float to the left. 
+      </dd>
 </dl>
 <p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
     <br><code>  &lt;div id="header"&gt;<br>&lt;/div&gt; <br> </code><br>
