@@ -178,7 +178,7 @@ The only thing different here is that we inserted an image as a list item instea
 <p>In order to get a complete view of the website and to see how the navigations and header image work, visit my site at <a href="https://davidwebsite2.glitch.me">Davis's Sports Blog!</a></p>
    
 <h2>Next steps</h2>
-<p>Now that we know how to properly style a div section and all the elements inside of it, next week we will go over how to style the main body content of a page. This may sound easy, but keeping certain things in certain positions is no easy task. For example, in some cases, you may want to keep an image next to a paragraph, or even nect to another image. Although it sounds easy, you need to calculate every single pixle to ensure nothing overflows and that everything stays in place. In Blog 5, I will go over certain tips and tricks to structure and style the main body content of a page!  <p>
+<p>Now that we know how to properly style a div section and all the elements inside of it, next week we will go over how to style the main body content of a page. This may sound easy, but keeping certain things in certain positions is no easy task. For example, in some cases, you may want to keep an image next to a paragraph, or even nect to another image. Although it sounds easy, you need to calculate every single pixle to ensure nothing overflows and that everything stays in place. In Blog 5, I will go over certain tips and tricks to structure and style the main body content of a page!  </p>
  
  
      <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
