@@ -164,71 +164,22 @@ The only thing different here is that we inserted an image as a list item instea
 
 
   
-   <h1>Main COntent - Body Section</h1>  
+   <h1>Finished Header Section</h1>  
 
-<p> Now that we have a header established, we need to allocate an area for the main content of the page, the body. The next step is to do what we did for header, make a div for the body. Insert the following block of code into your file: 
-     <br><code> &lt;div id="body"&gt;<br>&lt;/div&gt; <br> </code><br></p>
-     <p>Similar to the header, this makes a section for the body, which we will go on to style. In your.css stylesheet file, insert the following:
-     <br><code>   #body{<br>
-    overflow: hidden;<br>
-    width: 100%;<br>
-    max-width: 1000px;<br>
-    margin: 50px auto 50px auto;<br>
-    padding: 10px;<br>
-    height: auto;<br>
-    background-color: black;<br>
-    border-color: red;<br>
-    border-style: solid;<br>}<br> </code><br>
-   We already know what the #body part does. But this time we have some extra stuff. We added some margins to add some space to the sides, some padding for similar reasons, a border for style, and a height set to auto to fit all our content. This is what you should have so far:
+<p>Here is an image of the finished header section with and without the css:
 </p>
       <center>
-      <img src="https://i.imgur.com/k8j4wBF.png" align="middle">
+    <b>Without CSS</b>
+      <img src="https://i.imgur.com/gJvhxLM.png" align="middle">
 </center>
-
-    <h1>Wrapping it up - Footer Section</h1>  
-
-<p>The last thing we have to do is simply add a footer. Insert the following block of code into your file: 
-     <br><code> &lt;div id="footer"&gt;<br>&lt;/div&gt; <br> </code><br></p>
-     <p>Typically, footers should stay at the bottom of the page, but they don't do that by default. In your.css stylesheet file, insert the following:
-     <br><code>   #footer{<br>
-   overflow: hidden;<br>
-   position:static;<br>
-    background: black;<br> </code><br>
-   The difference between this and the header is the position element. We have it set to static in order to assure it stays at the bottom. This is what you should have so far:
-</p>
-      <center>
-      <img src="https://i.imgur.com/p8SfzuL.png">
-</center>
-<p>With these steps complete, you have a basic webpage set up. In the next section I will cover how I was able to style a page with this structure.</p>
-
-<h2>Personal Project</h2>
-<p>Using the same structure discussed in this blog, here is a website I was able to make (just HTML, no CSS yet).</p>
-
-<center>
-      <img src="https://i.imgur.com/Rg8TG8B.png" alt="example" align="middle">
-</center>
- 
- <p>This is what the site looks like after some CSS:</p>
- 
  <center>
-      <img src="https://i.imgur.com/XTjBS5C.png" alt="example" align="middle">
+    <b>With CSS</b>
+      <img src="https://i.imgur.com/w2QwzLj.png" align="middle">
 </center>
- <p>&nbsp;</p>
-
-<center>
-      <img src="https://i.imgur.com/4ug0w0H.png" alt="example" align="middle">
-</center>
- <p>&nbsp;</p>
-
-<center>
-      <img src="https://i.imgur.com/nMfQiGW.png" alt="example" align="middle">
-</center>
-
-<p> I like this site much more than my site from last week.</p>
- 
- 
-<h2>Reflection - Things I learned</h2>
-<p>I feel like I was able to improve my CSS skills a lot compared to last week. My first site was more of a playground where I was able to get a feel for elements, attributes and terms. This week, I took something I am passionate about with sports and turned it into a website I am proud to share. I know there is much more I can accomplish and that this is just the begining of my web design journey. I look forward to seeing what areas I can improve on and will keep on practicing. </p>
+In order to get a complete view of the website and to see how the navigations and header image work, visit my site at <a href="https://davidwebsite2.glitch.me">Davis's Sports Blog!</a>
+   </p>
+<h2>Next steps</h2>
+<p>Now that we know how to properly style a div section and all the elements inside of it, next week we will go over how to style the main body content of a page. This may sound easy, but keeping certain things in certain positions is no easy task. For example, in some cases, you may want to keep an image next to a paragraph, or even nect to another image. Although it sounds easy, you need to calculate every single pixle to ensure nothing overflows and that everything stays in place. In Blog 5, I will go over certain tips and tricks to structure and style the main body content of a page!  <p>
  
  
      <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
