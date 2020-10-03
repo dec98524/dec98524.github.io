@@ -120,19 +120,48 @@ li.navbar a:hover {<br>
       </code><br>
       At first glance this looks like a lot, but its simple: We align everything center with text align, change the display to inline-block to make it horizsontal, and edit the syles to alter on hover. The rest is simply spacing, color and font customization.
       </dd>
+      <dt>Step 3 - Social Media Navigation </dt>
+      <dd> The final thing included in my header section is a navigation to various social media links. For this, I elected to use a list, similar to step 2. This is the code I inserted into my html file:
+      <br><code>
+     &lt;ul style="float:right; margin-right: 10px;" class="navbar"&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://twitter.com/CrustaceanEats"<br>
+            &gt;&lt;img<br>
+              src="https://cdn.glitch.com/d58d3551-a865-47fd-af08-aa7ea179d659%2FtwitterIcon.svg?v=1601187329033"<br>
+              height="30"<br>
+              width="30"<br>
+          /&gt;&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://www.instagram.com/im.davidcastaneda/"<br>
+            &gt;&lt;img<br>
+              src="https://cdn.glitch.com/d58d3551-a865-47fd-af08-aa7ea179d659%2FigIcon.svg?v=1601187313548"<br>
+              height="30"<br>
+              width="30"<br>
+          /&gt;&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://www.facebook.com/crustacean.salvastion"<br>
+            &gt;&lt;img<br>
+              src="https://cdn.glitch.com/d58d3551-a865-47fd-af08-aa7ea179d659%2FfacebookIcon.svg?v=1601187311264"<br>
+              height="30"<br>
+              width="30"<br>
+          /&gt;&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+        &lt;li class="navbar"&gt;<br>
+          &lt;a href="https://soundcloud.com/lucidityworldwide"<br>
+            &gt;&lt;img<br>
+              src="https://cdn.glitch.com/d58d3551-a865-47fd-af08-aa7ea179d659%2FsoundcloudIcon.svg?v=1601187314817"<br>
+              height="30"<br>
+              width="30"<br>
+          /&gt;&lt;/a&gt;<br>
+        &lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
+    </code><br>
+The only thing different here is that we inserted an image as a list item instead of just text. This makes it so that the list item appears as a picture of the corresponding social media icon.
+</dd>
 </dl>
-<p>After creating a basic page using all the necessary HTML elements, the next step is to establish a heaser section. We will use the div tag to establish a section for the header. Insert the following block of code into your file:
-    <br><code>  &lt;div id="header"&gt;<br>&lt;/div&gt; <br> </code><br>
-</p>
- 
-    
-<p>What this does is establish a section, which we can style, for the header. The next step is to ad CSS. in your.css stylesheet file, insert the following:
-     <br><code>  #header {<br> overflow: hidden; <br>background: #080a42;<br> }<br> </code><br>
-    The #header will style the div element with the id of header. Overflow set to hidden will contain everything in the div and the background color allows you to select a color of your choice. This is what you should have so far:
-</p>
-      <center>
-      <img src="https://i.imgur.com/JsLYkQ8.png" align="middle">
-</center>
+
 
   
    <h1>Main COntent - Body Section</h1>  
