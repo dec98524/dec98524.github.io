@@ -24,6 +24,19 @@ categories: senior design
 
 </ul>
 <br>
+<div class="dropdown">
+  <button class="dropbtn">All Blog Posts</button>
+  <div class="dropdown-content">
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+          <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+
+
+
+  </div>
 <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
 
     <center>

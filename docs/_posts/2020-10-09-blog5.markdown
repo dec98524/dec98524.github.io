@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Blog 5"
+date:   2020-10-09 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+
+<style>
+{% include custom.css %}
+</style>
+
+  <title>Blog 5</title>
+<body>
+<ul class="navbar">
+ 
+  <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+  <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+  <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+  <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+</ul>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">All Blog Posts</button>
+  <div class="dropdown-content">
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+
+
+
+  </div>
+</div><br>
+<br>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+
+    <center>
+<img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+</center>
+
+<h2>Introduction - Assignments Worked On</h2>
+
+<p>For Blog #5, I will be discussing how I was able to build a resume website in my COMP 484 class. For the assignment, we were tasked with composing a website for our resumes. This is convinient for a number of reasons. The first reason being the convinience. If someone asks for your resume, you can simply send a link. Another reason being the interactive factors of the website. If you are viewing it on a webpage as opposed to a pdf, you are able to jump to specific sections and navigate to any included links, such as social media. The final reason being that the website itself is a good way to show off your experience. Making a website for your resume from scratch shows that you understand at least the basics of web design.  
+
+
+      
+
+</p>
+
+
+ <h1>Structuring The Page</h1>  
+<!-- <embed type="text/html" src="https://david-resume.glitch.me/" width="500" height="200"> -->
+<p>The first step we need to take is the same as it would be for any other page: structuring the page. This includes setting up heading, paragraph, list and anchor tags and filling them up with all your information. For this site, we will make a section for our profile, work experience and education, so take some time to gather all the information that you would like to include on your resume. After that, insert everything into a basic HTML file. At this point you should have an unstyled webpage with all your information, like this:</p>
+   <center>
+      <img src="https://i.imgur.com/5TAQbFb.png" align="middle">
+</center>
+   <h1>Adding Containers</h1>  
+<p> The next thing we are going to want to do is to add containers for all of our content. For example, if we want a container containing the text &quot;Education&quot; on the left and another with the actual education history on the right, we will need two containers side by side. In addition, we want all that content to stay centered on the page, that will require another container. Here is the code for the containers we will use:
+  <br>
+  <code>
+  .content-wrap {<br>
+  overflow: hidden;<br>
+  max-width: 950px;<br>
+  margin: 0 auto;<br>
+  padding: 50px;<br>
+}<br>
+  .column-narrow {<br>
+  width: 30%;<br>
+  float: left;<br>
+  padding-right: 3%;<br>
+  min-height: 175px;<br>
+}<br>
+  .column-wide {<br>
+  width: 70%;<br>
+  float: left;<br>
+  min-height: 225px;<br>
+}<br>
+  </code>
+  The first style is for our wrapper container. This ensures that all our content stays centered and has free space on both sides. The margins center everything, overflow ensures everything stays in the container, and width obviously sets the width. The next two are for our side by side containers. The narrow class will float to the left for 30% while the wide class will take up the remainding 70%. After all this is implemented, we will have all the necessary containers to design our resume.  Simply insert a div tag for for our wrapper and inside the wrapper div, add the narrow and wide divs when applicable. 
+  </p>
+  <h1><b>Adding a Navigation</b></h1>
+  <p>
+    The next thing we want to do is add a navigation that can redirect our reader to important parts of the page. To do this, we simply insert a nav tag in our header. In the nav tag, we will add anchor tags that jump to specific IDs in the page. Once we have this in our HTML file, we will style the nav element in our CSS file. Here is the css code for our navigation:
+        <br>
+  <code>
+ nav {<br>
+  position: fixed;<br>
+    top: 0px;<br>
+  width: 100%;<br>
+  background-color: #126f6d;<br>
+  text-align: center;<br>
+  height: 70px;<br>
+  padding: 25px 0px; <br>
+}<br>
+nav a {<br>
+  text-decoration: none;<br>
+  color: #cbf1f9;<br>
+  font-size: x-large;<br>
+  padding: 30px;<br>
+}<br>
+nav a:hover {<br>
+  text-decoration: underline;<br>
+  opacity: 50%;<br>
+  transition: all 0.4s ease;<br>
+}<br>
+  </code>
+ We have a number of things going on here. First we are making it so that the position of the navigation is fixed. this makes it so that it stays at the top with us when we scroll. We gave it a width of 100% so that it goes the entire width of the page. After we are done customizing the nav tag, we move on to the links in the nav bar. We adjusted the color of the links and took off the default underline that comes with links. Finally we changed up how the links look when you hover over them. We made it so that it changes color and gets underlined when hovered over.  
+    </p>
+    
+    <h1><b>Finishing With a Footer</b></h1>
+  <p>
+   The last thing our page needs is a footer. In the footer, we will have contact information, as well as links to our social medias. To do this, simply insert a footer tag at the bottom of your HTML file. In the footer tag, add a div called contact-info and inside that div container, add links to all your information. Here is the css code we will add to style the footer:
+        <br>
+  <code>
+ footer {<br>
+  background-color: #effec6;<br>
+  color: #126f6d;<br>
+  text-align: center;<br>
+}<br>
+
+.contact-info a {<br>
+  text-decoration: none;<br>
+  color: #126f6d;<br>
+  padding: 10px;<br>
+  display: inline-block;<br>
+}<br>
+.contact-info a:hover {<br>
+  text-decoration: underline;<br>
+  opacity: 50%;<br>
+  transition: all 0.4s ease;<br>
+}
+  </code>
+Similar to the nav bar, we have a few things being styled. The footer itself is changing colors and is being centered, the contact-info div is being changed to remove the underline from the links and to add the underline back on hover. This is all we are doing for the footer, changing up some colors and centering it.
+    </p>
+
+  
+   <h1>Finished product</h1>  
+  
+ <center>
+      <img src="https://i.imgur.com/OO5yxY6.png" align="middle">
+</center>
+<p>In order to get a complete view of the website and to see how the navigations and footer work, visit my site <a href="https://davidwebsite2.glitch.me">here!</a></p>
+   
+<h2>Next steps</h2>
+<p>I very much enjoyed working on this assignment. It gave me an opportunity to demonstrate some of my skills in a professional manner. Whenever I am asked for my resume, I can simply send a link to my site and they will be able to see everything. I definitely want to improve my web design skills and feel like this assignment was a very important step in doing so. I hope that I soon have an opportunity to show this project to a potential employer!</p>
+ 
+ 
+     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
+</body>
+</html>
+
+
