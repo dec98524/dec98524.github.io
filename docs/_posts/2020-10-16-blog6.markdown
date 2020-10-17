@@ -74,7 +74,7 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
 </blockquote>
   
   To simplify things, the Bootstrap framework uses a series of boxes using div tags to structure a page. These boxes can be broken up into 3 main boxes: containers, rows and columns.
-  
+  </p>
   <dl>
     <dt>Containers</dt>
     <dd>Containers are sections of content in a webpage. In Bootstrap, containers will contain both rows and columns that essentially build the section of content. You can have multiple containers, and even containers in containers. Here is an example of how the HTML syntax of a container should look:<br>
@@ -134,7 +134,7 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
    </h2>
  <embed type="text/html" src="https://david-resume.glitch.me/" width="500" height="200">   
 </center>
-  <a href="https://david-resume.glitch.me/">Open this link across multiple devices to see how it distorts</a>
+  <p><a href="https://david-resume.glitch.me/">Open this link across multiple devices to see how it distorts</a></p>
 </p>
 
 <p>
@@ -145,7 +145,7 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
    </h2>
  <embed type="text/html" src="https://david-website-3.glitch.me/" width="500" height="200">
 </center>
-  <a href="https://david-website-3.glitch.me/">Open this link across multiple devices to see how it adjusts to each device.</a>
+  <p><a href="https://david-website-3.glitch.me/">Open this link across multiple devices to see how it adjusts to each device.</a></p>
 </p>
 
    
