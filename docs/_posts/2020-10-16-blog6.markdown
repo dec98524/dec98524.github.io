@@ -71,9 +71,9 @@ categories: senior design
 
 <blockquote cite="https://getbootstrap.com/docs/4.0/layout/grid/">
 Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.
-</blockquote>
+</blockquote></p>
   
-  To simplify things, the Bootstrap framework uses a series of boxes using div tags to structure a page. These boxes can be broken up into 3 main boxes: containers, rows and columns.
+  <p>To simplify things, the Bootstrap framework uses a series of boxes using div tags to structure a page. These boxes can be broken up into 3 main boxes: containers, rows and columns.
   </p>
   <dl>
     <dt>Containers</dt>
@@ -106,7 +106,6 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
       The two column sections are defined by putting col-(number of columns). Tn this case, each column class allocates 6 columns in our row, adding up to 12 columns.
     </dd>
   </dl>
-  </p>
   
   
    <h1>Attributes and Features</h1>  
@@ -134,7 +133,7 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
    </h2>
  <embed type="text/html" src="https://david-resume.glitch.me/" width="500" height="200">   
 </center>
-  <p><a href="https://david-resume.glitch.me/">Open this link across multiple devices to see how it distorts</a></p>
+  <p><a style="text-decoration: underline;" href="https://david-resume.glitch.me/">Open this link across multiple devices to see how it distorts</a></p>
 </p>
 
 <p>
@@ -145,7 +144,7 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
    </h2>
  <embed type="text/html" src="https://david-website-3.glitch.me/" width="500" height="200">
 </center>
-  <p><a href="https://david-website-3.glitch.me/">Open this link across multiple devices to see how it adjusts to each device.</a></p>
+  <p><a style="text-decoration: underline;" href="https://david-website-3.glitch.me/">Open this link across multiple devices to see how it adjusts to each device.</a></p>
 </p>
 
    
