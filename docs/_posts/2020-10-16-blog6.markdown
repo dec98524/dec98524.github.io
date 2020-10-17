@@ -1,0 +1,160 @@
+---
+layout: post
+title:  "Blog 6"
+date:   2020-10-16 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+
+<style>
+{% include custom.css %}
+</style>
+
+  <title>Blog 6</title>
+<body>
+<ul class="navbar">
+ 
+  <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+  <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+  <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+  <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+</ul>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">All Blog Posts</button>
+  <div class="dropdown-content">
+    <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+    <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+    <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+
+
+
+  </div>
+</div><br>
+<br>
+<marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i></marquee>
+
+    <center>
+<img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+</center>
+
+<h2>Introduction - Assignments Worked On</h2>
+
+<p>For Blog #5, I will be discussing my first time using Bootstrap to style a webpage. I will go over the various ways Bootstrap allows a web designer to style a website, and all the tools that are at a developer's disposal. This was my first time using Bootstrap and I feel like I got a pretty decent understanding of the basics. As for what led to me learning Bootstrap, I was assigned a Final Project rubric for my COMP 484 class. In this final project, we are all forced to select a unique framework and my group chose Bootstrap. 
+
+
+      
+
+</p>
+
+
+ <h1>What Is Bootstrap?</h1>  
+  <center>
+  <img src="https://sdtimes.com/wp-content/uploads/2020/06/v5-new-logo.png">
+    </center>
+<p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites and Bootstrap 4 is the newest version of Bootstrap. It allows you to quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+  
+  
+  <h1>How It Works - The Grid System </h1>  
+  <center>
+  <img src="https://www.c-sharpcorner.com/article/bootstrap-grid-system/Images/1.png">
+    </center>
+<p>From Bootstrap:
+
+<blockquote cite="https://getbootstrap.com/docs/4.0/layout/grid/">
+Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.
+</blockquote>
+  
+  To simplify things, the Bootstrap framework uses a series of boxes using div tags to structure a page. These boxes can be broken up into 3 main boxes: containers, rows and columns.
+  
+  <dl>
+    <dt>Containers</dt>
+    <dd>Containers are sections of content in a webpage. In Bootstrap, containers will contain both rows and columns that essentially build the section of content. You can have multiple containers, and even containers in containers. Here is an example of how the HTML syntax of a container should look:<br>
+    <code> &lt;div class="container"&gt;<br>&lt;/div&gt; </code><br>
+      Inside the div tags should go your content.
+    </dd>
+    <dt>Rows</dt>
+     <dd>Rows in Bootstrap are classes that are used to section of a page vertically. In the picture above you can see seven rows. In each row, you can choose how many columns you would like to include in your row. Standard practice is to have 1-12 columns per row. You can have as many rows as you'd like to your page. Here is the syntax for a row in a container:<br>
+    <code> &lt;div class="container"&gt;<br>
+      &lt;div class="row"&gt;<br> 
+      &lt;/div&gt;<br>
+      &lt;/div&gt; </code><br>
+      You are now free to add rows in the container to seperate content within the container vertically
+    </dd>
+    
+     <dt>Coulumns</dt>
+     <dd>Columns in Bootstrap are classes that are used to section of a page horizontally. In the picture above you can see a different number of columns for each row. This works in a hierarchy: make a container, and in the container, insert rows, and in the rows, insert columns. Below is the syntax for a container, containing a row containing sections for up to 12 columns:<br>
+    <code> &lt;div class="container"&gt;<br>
+      &lt;div class="row"&gt;<br> 
+      &lt;div class="col-6"&gt;<br> 
+      
+      &lt;/div&gt;<br>
+      &lt;div class="col-6"&gt;<br> 
+      
+      &lt;/div&gt;<br>
+      
+      &lt;/div&gt;<br>
+      &lt;/div&gt; </code><br>
+      The two column sections are defined by putting col-(number of columns). Tn this case, each column class allocates 6 columns in our row, adding up to 12 columns.
+    </dd>
+  </dl>
+  </p>
+  
+  
+   <h1>Attributes and Features</h1>  
+<p> Now that we have a decent understanding of how Bootstrap works, here are some tools that you may find usefull when designing your webpage:
+ 
+  <dl>
+    <dt>.container and .container-fluid</dt>
+    <dd>This feature applies to the container class we discussed above. You have two options when chosing a container: you can either pick "container" which keeps all of your content in a wrapped section in the center of the page, or "container-fluid" which gives you a full width container, spanning the entire width of the viewport. If you chose "container-fluid" simply use that as the class name instead of "container".
+    </dd>
+     <dt>justify-content and align-items</dt>
+    <dd>These two features apply to rows and are used to specify how you would like your content to be positioned. For example, you can use "align-items-center" and it will align everything in the row to the center vertically. You can also use justify-content-end which will justify the content within the row to the right horizontally.</dd>
+    
+    <dt>img-fluid</dt>
+    <dd>This feature allows tou to add a class to any image tag and make the image itself responsive. This means that the position of the image will shift depending on the size of the screen, making it look good across all platforms. This can be helpful when considering the ways people will access your site.</dd>
+  </dl>
+  </p>
+  
+   <h1>Updating My Resume Site (Blog 5)</h1>  
+
+<p>
+  Last week I discussed how I made my own personal resume site in Blog 5. For this website, I used only my basic knowledge of HTML CSS and no other outside framework. It looks good on a normal desktop, butthe contents get distorted when shown on a smaller screen. This means the site is NOT a resposive website. Take a look:
+ <center>
+   <h2>
+     Unresponsive Website
+   </h2>
+ <embed type="text/html" src="https://david-resume.glitch.me/" width="500" height="200">   
+</center>
+  <a href="https://david-resume.glitch.me/">Open this link across multiple devices to see how it distorts</a>
+</p>
+
+<p>
+ After applying my knowledge of Bootstrap, I was able to use the framework to transform my site to aa responsive website. What this means is that the look and style of the site will remain consistent and adjust based on screen size, getting rid of distortion when viewing on, for example, mobile. See the updated site below: 
+ <center>
+   <h2>
+     Responsive Website
+   </h2>
+ <embed type="text/html" src="https://david-website-3.glitch.me/" width="500" height="200">
+</center>
+  <a href="https://david-website-3.glitch.me/">Open this link across multiple devices to see how it adjusts to each device.</a>
+</p>
+
+   
+<h2>Final Thoughts</h2>
+<p>This was one of my more prodictive weeks in learning web design. The previous weeks I was able to use as a way to get familiar with the core concepts of CSS and HTML. Knowing how things operate in HTML and CSS, I was able to hop into frameworks to make certain things when coding the site a lot easier. I am glad I was able to get used to the basics first. Had I gone straight to Bootstrap, I would have been lost. It is important to build up confidence and taking the next step when you feel you're ready and this week I was able to take the next step. I hope to keep on taking the next step in the weeks to come!</p>
+ 
+ 
+     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next week!</marquee>
+</body>
+</html>
+
+
