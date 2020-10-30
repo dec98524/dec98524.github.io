@@ -1,0 +1,164 @@
+---
+layout: post
+title: "Blog 8"
+date: 2020-10-30 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+
+<style>
+     {% include custom.css %} 
+</style>
+
+<title>Blog 8</title>
+
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">All Blog Posts</button>
+        <div class="dropdown-content">
+            <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a>
+            
+
+
+
+        </div>
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+    <h2>Introduction - Node Package Manager (NPM)</h2>
+
+    <p>Last week, my blog consisted of a brief introduction to the backend, JavaScript framework known as Node.js. If you have 
+    not yet read Blog 7, or are not familiar with Node.js, <a style="text-decoration: underline;" href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">here is a link
+    </a>to the previous blog. What we will be covering in this blog is a tool that will make using Node.js much less of a headache. 
+    This tool is known as Node Package Manager, or NPM for short. In this blog, we will be covering what NPM is, a few of the tools NPM 
+    provides for us as programmers and how to access those tools.
+
+
+    </p>
+
+
+    <h1>What Is Node Package Manager?</h1>
+    <center>
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--5NzZEMLS--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/7pryn9ls88giuc9m8cau.png">
+    </center>
+    <p>npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. You can think of NPM as a collection of modules in JavaScript code that is used to elevate your Node.js programs. NPM hosts thousands of free packages to download and use. Upon downloading Node.js (covered in Blog 7), NPM is automatically included in your download and ready to use on your computer.  
+    </p>
+
+
+    <h1>Getting Started - Getting Packages</h1>
+    <center>
+        <img src="https://i.imgur.com/pLqMjdo.png">
+    </center>
+    <p>As stated before, you automatically get NPM as part of your initial Node.js download, so after installing nOde.js onto your system, no additional steps are needed to use NPM. Now that we know we have access to NPM, how do we access these packages? Simple, simply navigate over to <a style="text-decoration: underline;" href="https://www.npmjs.com/">www.npmjs.com</a> to start things off. You'll know you're in the right place when you see a page like the one in the image above. This website allows us to easily search for, and install packages that will make coding seem much more simple. </p>
+    
+    <p>From NPM: 
+
+<blockquote cite="www.npmjs.com">
+Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and with more than one million packages, the largest software registry in the world. Our other tools and services take the Registry, and the work you do around it, to the next level.
+</blockquote>
+</p>
+
+<h2>Searching for and Installing Packages</h2>
+      <p>There are hundreds of packages that you as a programmer have at your disposal thanks to NPM. To find one that you would like to use, simply use the search bar and search for something related to your project. For this example, we will be going over the package known as Nodemon. You should see a page with full documentation of the package, instructions on how to install it and what it's all about.
+    
+    <p>From the developers of Nodemon: 
+
+<blockquote cite="https://www.npmjs.com/package/nodemon">
+    nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+</blockquote>
+ <center>
+        <img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png">
+    </center>
+</p>
+When using Node.js for server-side programming, in order to test your program on a live server, you manually have to type in the command:
+ <br>
+        <code>
+            node NAMEOFFILE.js
+        </code><br>
+        Upon doing this, you will be able to run your program and test it. The problem with this comes when you want to make changes to your code; you would have to terminate your process, make changes to your file, save those changes and run the command again to test your new program. As you could Imagine, this could get rather annoying and inconvinent. Nodemon allows a user to run an alternate command to test a server. The command is simply:
+        <br>
+        <code>
+            nodemon NAMEOFFILE.js
+        </code><br>
+       Running this command, as opposed to the original way, automatically restarts the server to take in any new changes you may have made in your file. You do not need to terminate and reinitaite your server, it's automatic. To install Nodemon, type in the following command: 
+         <br>
+        <code>
+            npm install -g nodemon
+        </code><br>
+        This should  install nodemon globally on your device and will make it ready to use across any other project! NOTE: It might be a good idea to run the command:
+         <br>
+        <code>
+            npm init -y
+        </code><br>
+        This will create a JSON file for all your packages and can be quite helpful when installing multiple packages. You now have installed a package using NPM!
+
+</p>
+
+<h1>Other Helpful Packages</h1>
+<p>
+    When working on some stuff for class, I used a wide variety of packages. Here are some helpful packages I used that allowed me to make some simple apps:
+     <dl>
+    <dt>Express</dt>
+    <dd>
+         <center>
+        <img src="https://i.imgur.com/NI9u5FY.png">
+    </center>
+        Express is almost a must when you are developing apps that deal with routing, requests/responses and server-side logic. This is the very first package you should download when making any sort of app. 
+    </dd>
+         
+         <dt>EJS - Embedded JavaScript</dt>
+    <dd>
+         <center>
+        <img src="https://i.imgur.com/epsewSe.png">
+    </center>
+        EJS allows you to implement dynamic code on the front end of your project. This can be helpful when dealing with HTML code that needs to be changed a lot. Using EJS, you wont have to constantly go into your html file and manually change it everytime. 
+    </dd>
+    
+    <dt>Bcrypt</dt>
+    <dd>
+         <center>
+        <img src="https://i.imgur.com/SLwuZvk.png">
+    </center>
+       My project involves a login system and with that comes passwords. Bcrypt is a great encryption oriented package that allows you to obtain user data, such as user ID's and passwords, and easily manage them while keeping them 100% safe and encrypted. This package can be very helpful when dealing with sensitive information. 
+    </dd>
+</dl>
+
+</p>
+
+
+
+    <h2>Final Thoughts</h2>
+    <p>After learning the beauty of Node.js last week, and learning the power of Node Package Manager (NPM) this week, my backend development skills have improved. I now have the ability to create some applications that have both a clean frontend and efficient backend. Having all the tools that NPM provides, developing an app has never been easier. I am eager to see what other packages NPM has to offer and am very glad there is such an active community that provides so many helpful tools to aspiring developers such as myself.  </p>
+
+
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+</body>
+
+</html>
