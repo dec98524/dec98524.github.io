@@ -87,7 +87,7 @@ Relied upon by more than 11 million developers worldwide, npm is committed to ma
 <h2>Searching for and Installing Packages</h2>
       <p>There are hundreds of packages that you as a programmer have at your disposal thanks to NPM. To find one that you would like to use, simply use the search bar and search for something related to your project. For this example, we will be going over the package known as Nodemon. You should see a page with full documentation of the package, instructions on how to install it and what it's all about.
     
-    <p>From the developers of Nodemon: 
+    From the Developers of Nodemon: 
 
 <blockquote cite="https://www.npmjs.com/package/nodemon">
     nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
