@@ -96,7 +96,8 @@ Relied upon by more than 11 million developers worldwide, npm is committed to ma
         <img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png">
     </center>
 </p>
-When using Node.js for server-side programming, in order to test your program on a live server, you manually have to type in the command:
+<p>
+When using Node.js for server-side programming, in order to test your program on a live server, you manually have to type in the following command:
  <br>
         <code>
             node NAMEOFFILE.js
