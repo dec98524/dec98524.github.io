@@ -10,12 +10,7 @@ layout: home
 {% include custom.css %}
 
 </style>
-<script>
-alert('hello!')
-</script>
-
 <body>
-    hi
       <ul class="navbar">
  
   <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
