@@ -115,16 +115,21 @@ While a CDN isn’t perfect for every occasion, when it is we’re here for you.
    <center>
         <img src="https://i.imgur.com/2H7uA7X.png">
     </center>
+    </p>
+    <p>
   From here, you will want to copy the links to both the script source and the css source. There are many options to choose from, but the min options typically include everything you need so we will go with those. Below are the two links that should be copied:
   
-   <br>
+
+</p>
+
+<br>
         <code>
           &lt; script src="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js" integrity="sha512-2R8JJ9GapQ1VCvcazWIP4F7rOrMs6mzorqtZlXpvakAU0O/iw4n90CFrmG9+BwI//xxtnHxb5rbpkIF2s6z39w==" crossorigin="anonymous"&gt;&lt;/script&gt;
           <br>
              &lt;link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/&gt;
 
         </code><br>
-  
+<p>  
   Once you have these two lines copied, you must include them in your head tag of your html file. Once pasted in the head section of your html document, you will be able to access Alertify.js!
   
   </p>
