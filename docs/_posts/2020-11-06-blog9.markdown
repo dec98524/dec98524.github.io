@@ -108,6 +108,8 @@ We believe in the open-source mission, and want to support a fast and free web. 
 
 While a CDN isn’t perfect for every occasion, when it is we’re here for you.
 </blockquote>
+</p>
+<p>
   To access Alertify.js, simply vavigate over to <a style="text-decoration: underline;" href="https://cdnjs.com/">https://cdnjs.com/</a> and search for Alertify.js. Click on the first result:
   
    <center>
@@ -151,7 +153,7 @@ In order to add alerts, we will need to code them in via JavaScript, whether in 
           &lt;/script&gt;
           
         </code>
-  This function calls an alertify method that displays a success popup on the right side of your screen. In the parenthesis and quotes, you can edit the string to your liking. Try it below!
+  This function calls an alertify method that displays a success popup on the right side of your screen. In the parenthesis and quotes, you can edit the string to your liking. Try it below!<br>
   
    <button onclick="clickButton()">
             Click Me!
@@ -162,7 +164,7 @@ In order to add alerts, we will need to code them in via JavaScript, whether in 
   alertify.success("This is an Alertify.js alert!");
   }  
   </script>
-  You have now successfully implemented Alertify.js alerts in your project!
+<br>  You have now successfully implemented Alertify.js alerts in your project!
 </p>
 
 
