@@ -1,0 +1,182 @@
+---
+layout: post
+title: "Blog 9"
+date: 2020-11-06 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+  
+  
+<style>
+     {% include custom.css %} 
+</style>
+
+<title>Blog 9</title>
+<link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"
+    />
+
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  </head>
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">All Blog Posts</button>
+        <div class="dropdown-content">
+            <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/6/blog9.html">Blog 9</a>
+            
+
+
+
+        </div>
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+    <h2>Introduction - Alertify</h2>
+
+    <p>Hello! This week in my blog, I will be going over one of the more popular ways to implement styled notifications onto your applilication. As covered in the previous blog, there are many third party packages readily available for developers to use when searching through NPM. If you are not aware of NPM and how it works, please refer to  <a style="text-decoration: underline;" href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a> and <a style="text-decoration: underline;" href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a> where I go over what NPM is, and how packages can be installed and used. This week I will be going over a package known as Alertify.js which can be very helpful when implementing popups, alerts and notifications into your project 
+
+    </p> 
+
+
+    <h1>What Is Alertify.js?</h1>
+    <center>
+        <img src="https://i.imgur.com/1LmBLCf.png">
+    </center>
+    <p>AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications. Alertify.js allows you to extend existing dialogs, or create your own. The alerts are responsive and unobtrusive, making them usable accross various devices, whether it be a tablet, phone or desktop.AlertifyJS not only provides a replacement for default browser dialogs, it makes it super easy to create your own.
+  
+    </p>
+
+
+    <h1>Getting Started - Installing </h1>
+    <center>
+        <img src="https://i.imgur.com/RaESJet.png">
+    </center>
+    <p> Just like any other package, we have to download the whole library of source code for us to be able to use it. To do this, simply navigate over to <a style="text-decoration: underline;" href="https://alertifyjs.com/guide.html">https://alertifyjs.com/guide.html</a> to start things off. From here, you will want to select the "Download Source" option. Once installed on your system, you will have access to the source of the framework, along with the stylesheets. </p>
+    
+   
+
+<h2>Alternative ways to use Alertify.js</h2>
+      <p>If you wish to install Alertify.js another way, you can. You have a few other options including downloading it via NPM. To install Alertify.js via NPM, simply type in the following code in your terminal:
+        <br>
+        <code>
+            npm install alertifyjs --save
+        </code><br>
+  Another way is to access the sources of the Alertify.js framework via CDNJS.
+          <center>
+        <img src="https://cdnjs.com/_/b188faea5df23dbe3d4e08be43ab7df0.svg">
+    </center>
+<dt>CDNJS</dt>
+  <dd>
+  cdnjs is a free and open-source CDN service trusted by over 10% of websites, powered by Cloudflare.
+We make it faster and easier to load library files on your websites.
+  </dd>
+   From the Developers of CDNJS: 
+
+<blockquote cite="https://cdnjs.com/about">
+    We are cdnjs, the #1 free and open source CDN built to make life easier for developers serving over 11% of all websites, powered by Cloudflare.
+
+We believe in the open-source mission, and want to support a fast and free web. To do that, we’ve built our service to be free, public, and developer/web friendly since 2011. We handle over 185 billion requests a month and support HTTP/3, HTTP/2, QUIC, SPDY, HSTS & HTTPS!
+
+While a CDN isn’t perfect for every occasion, when it is we’re here for you.
+</blockquote>
+  To access Alertify.js, simply vavigate over to <a style="text-decoration: underline;" href="https://cdnjs.com/">https://cdnjs.com/</a> and search for Alertify.js. Click on the first result:
+  
+   <center>
+        <img src="https://i.imgur.com/2H7uA7X.png">
+    </center>
+  From here, you will want to copy the links to both the script source and the css source. There are many options to choose from, but the min options typically include everything you need so we will go with those. Below are the two links that should be copied:
+  
+   <br>
+        <code>
+          &lt; script src="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js" integrity="sha512-2R8JJ9GapQ1VCvcazWIP4F7rOrMs6mzorqtZlXpvakAU0O/iw4n90CFrmG9+BwI//xxtnHxb5rbpkIF2s6z39w==" crossorigin="anonymous"&gt;&lt;/script&gt;
+          <br>
+             &lt;link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/&gt;
+
+        </code><br>
+  
+  Once you have these two lines copied, you must include them in your head tag of your html file. Once pasted in the head section of your html document, you will be able to access Alertify.js!
+  
+  </p>
+  
+  
+  <h1>Using Alertify.js</h1>
+<p>
+In order to add alerts, we will need to code them in via JavaScript, whether in a .js file, or in your html file itself using a script tag. Down below I will provide an example. In this example we will add a button via HTML that, when clicked, will trigger an Alrertify.js alert. Type in the following HTML code to make a button:
+  
+  <br>
+        <code>
+         &lt;button onclick=" clickButton()"&gt;<br>
+            Click Me!<br>
+          &lt;/button&gt;
+          
+        </code>
+  
+  This makes a button that, when clicked, triggers a function known as "clickMe()". Next we have to make that function. Right under the button, paste the following code:
+  
+  <br>
+        <code>
+         &lt;script&gt;<br>
+            function clickButton() {<br>
+  alertify.success("This is an Alertify.js alert!");<br>
+  }<br>
+          &lt;/script&gt;
+          
+        </code>
+  This function calls an alertify method that displays a success popup on the right side of your screen. In the parenthesis and quotes, you can edit the string to your liking. Try it below!
+  
+   <button onclick="clickButton()">
+            Click Me!
+          </button>
+  
+  <script>
+ function clickButton()
+  alertify.success("This is an Alertify.js alert!");
+  }  
+  </script>
+  You have now successfully implemented Alertify.js alerts in your project!
+</p>
+
+
+<h1>Personal Project - Pet Game</h1>
+  
+  <p>
+    When working on an assignment, I decided to implement Alertify.js alerts as notifications for my little game! Here is a link if you would like to try it out yourself and see them in action! <a style="text-decoration: underline;" href="https://david-giga-pet.glitch.me/">https://david-giga-pet.glitch.me/</a>
+  </p>
+    <h2>Final Thoughts</h2>
+    <p>I had a lot of fun using Alertify.js. It was nice to have another way to notify users of something important instead of using the obtrusive alert() function which is default in JavaScript. There are a massive number of frameworks available and this one was pretty nice. The fact that it implemented Bootstrap in its design makes it responsive, meaning it is able to be used accross multiple devices. I can definitely see myself using this framework when working on bigger projects in the future, and I am glad I learned it! </p>
+
+
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+</body>
+
+</html> 
