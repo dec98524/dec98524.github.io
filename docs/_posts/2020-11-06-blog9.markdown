@@ -60,7 +60,7 @@ categories: senior design
         <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
     </center>
 
-    <h2>Introduction - Alertify</h2>
+    <h2>Introduction - Alertify.js</h2>
 
     <p>Hello! This week in my blog, I will be going over one of the more popular ways to implement styled notifications onto your applilication. As covered in the previous blog, there are many third party packages readily available for developers to use when searching through NPM. If you are not aware of NPM and how it works, please refer to  <a style="text-decoration: underline;" href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a> and <a style="text-decoration: underline;" href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a> where I go over what NPM is, and how packages can be installed and used. This week I will be going over a package known as Alertify.js which can be very helpful when implementing popups, alerts and notifications into your project 
 
@@ -165,7 +165,7 @@ In order to add alerts, we will need to code them in via JavaScript, whether in 
           </button>
   
   <script>
- function clickButton()
+ function clickButton(){
   alertify.success("This is an Alertify.js alert!");
   }  
   </script>
