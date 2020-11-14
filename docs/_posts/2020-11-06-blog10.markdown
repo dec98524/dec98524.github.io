@@ -217,7 +217,7 @@ In this block of CSS code, we are doing a few things. First of all, in the @keyf
   <br>
     And once this has been applied, everything should work! The pinwheel should now be rotating 360 degrees infinitely! It should look exactly like this:<br>
      <center>
-        <img class="scare" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
+        <img class="spin" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
              </center>
   <p>And like we said before, this applies to any element. I will apply some animations to the concluding paragraph to demonstrate how it works on text based elements!</p>
   </p>
