@@ -48,7 +48,7 @@ categories: senior design
    100% { -webkit-transform: translateX(0%); }
 }
   .slidein {
-   animation: slide-in infinite 2s ;
+   animation: slide-in 2s ;
     
 }
   
@@ -172,8 +172,8 @@ categories: senior design
   <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
     </center>
   
-  Great! We have a static element, in this case an image, on our webpage! Now we want to add some CSS styling to it. We can either do this in the html file itself, or in an external css file (if external, make sure you link it in the head tag!).
-  </p>
+  <p>Great! We have a static element, in this case an image, on our webpage! Now we want to add some CSS styling to it. We can either do this in the html file itself, or in an external css file (if external, make sure you link it in the head tag!).
+  </p></p>
   <h2>
   Building our CSS animation
   </h2>
@@ -219,7 +219,7 @@ In this block of CSS code, we are doing a few things. First of all, in the @keyf
      <center>
         <img class="scare" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
              </center>
-  And like we said before, this applies to any element. I will apply some animations to the concluding paragraph to demonstrate how it works on text based elements!
+  <p>And like we said before, this applies to any element. I will apply some animations to the concluding paragraph to demonstrate how it works on text based elements!</p>
   </p>
   
   <h1 class="slidein">
