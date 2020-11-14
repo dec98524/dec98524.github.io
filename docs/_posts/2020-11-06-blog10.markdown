@@ -117,7 +117,7 @@ categories: senior design
      Introduction - CSS Animations 
   </h1>
    <center>
-       <img class="scare" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fhtmlcss.png?v=1605325683373" alt="CSUN CIT"> 
+       <img class="slidein" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fhtmlcss.png?v=1605325683373" alt="CSUN CIT"> 
     </center>
   <p>
     For this blog, I will be going over how to create simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
@@ -159,7 +159,7 @@ categories: senior design
   <h2>
     Getting Started
   </h2>
-  
+  <p>
   Lets start off by writing some simple HTML code. In the following block of code, we will write an HTML tag for an image of a pinwheel. Copy and paste the HTML code below to an html file:
   
   <br>
@@ -173,7 +173,7 @@ categories: senior design
     </center>
   
   Great! We have a static element, in this case an image, on our webpage! Now we want to add some CSS styling to it. We can either do this in the html file itself, or in an external css file (if external, make sure you link it in the head tag!).
-  
+  </p>
   <h2>
   Building our CSS animation
   </h2>
@@ -217,7 +217,7 @@ In this block of CSS code, we are doing a few things. First of all, in the @keyf
   <br>
     And once this has been applied, everything should work! The pinwheel should now be rotating 360 degrees infinitely! It should look exactly like this:<br>
      <center>
-        <img class="spin" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
+        <img class="scare" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
              </center>
   And like we said before, this applies to any element. I will apply some animations to the concluding paragraph to demonstrate how it works on text based elements!
   </p>
