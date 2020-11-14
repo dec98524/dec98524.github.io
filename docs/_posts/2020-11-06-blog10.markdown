@@ -14,6 +14,23 @@ categories: senior design
 <style>
      {% include custom.css %} 
   
+  
+  @keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.scare{
+      animation: zoominoutsinglefeatured 1s infinite ;
+}
+
    .spin{
     animation: rotation 10s  infinite linear;
 }
@@ -100,10 +117,10 @@ categories: senior design
      Introduction - CSS Animations 
   </h1>
    <center>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="CSUN CIT" align="middle">
+       <img class="scare" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fhtmlcss.png?v=1605325683373" alt="CSUN CIT"> 
     </center>
   <p>
-    For this blog I will be going over how to create simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
+    For this blog, I will be going over how to create simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
   </p>
   
 <h1>
