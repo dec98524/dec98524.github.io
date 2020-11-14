@@ -120,7 +120,7 @@ categories: senior design
        <img class="slidein" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fhtmlcss.png?v=1605325683373" alt="CSUN CIT"> 
     </center>
   <p>
-    For this blog, I will be going over how to create simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
+    For this blog, I will be going over how to create some simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
   </p>
   
 <h1>
