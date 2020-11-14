@@ -1,0 +1,219 @@
+---
+layout: post
+title: "Blog 10"
+date: 2020-11-13 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+  
+  
+<style>
+     {% include custom.css %} 
+  
+   .spin{
+    animation: rotation 10s  infinite linear;
+}
+
+  @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  @keyframes slide-in {
+   0% { -webkit-transform: translateX(-100%); }
+   100% { -webkit-transform: translateX(0%); }
+}
+  .slidein {
+   animation: slide-in infinite 2s ;
+    
+}
+  
+  .bounce{
+
+    animation: updown 2s ease infinite;
+}
+  
+  @keyframes updown {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
+</style>
+
+<title>Blog 10</title>
+
+  </head>
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">All Blog Posts</button>
+        <div class="dropdown-content">
+            <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/6/blog9.html">Blog 9</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/13/blog10.html">Blog 10</a>
+            
+
+
+
+        </div>
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+  <h1>
+     Introduction - CSS Animations 
+  </h1>
+   <center>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="CSUN CIT" align="middle">
+    </center>
+  <p>
+    For this blog I will be going over how to create simple animations using purely CSS. As demonstrated in the example above, you as a web developer are able to animate any element using purely CSS. This applies to ALL elements, and is not limited to just images. There are a few key terms you will need to know in order to understand how to do this. Some terms that we will go over include keyframes, transition and transform. Once you have an understanding of these terms, animating using CSS should be very simple! Below we will introduce the terms, go over syntax, as well as implementaion, and show some live demos and examples.  
+  </p>
+  
+<h1>
+  How it works
+  </h1>
+  
+  <p>
+    Typically, when you visit any website, there is a strong chance you will find some sort of dynamic elements. This can be a photo moving a certain way when clicked, or a body of text sliding in to the center of the screen when you approach a certain part of the page. Animations make a webpage appealing and make the user feel more involved when traversing the site. But how do they do it? Well it's simple. At the core of it all, it is just HTML elements being styled with CSS. Here are some CSS properties that correspond to animation:
+    
+    <dl>
+      <dt>@keyframes</dt>
+      <dd>
+        From w3schools:
+        <blockquote>
+         When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times. To get an animation to work, you must bind the animation to an element.The following example binds the "example" animation to the div element. The animation will last for 4 seconds, and it will gradually change the background-color of the div element from "red" to "yellow":
+        </blockquote>
+      Essentially, keyframes hold what styles the element will have at certain times.
+      </dd>
+      
+      <dt>transform Property</dt>
+      <dd>
+      From w3schools:
+        <blockquote>
+          The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+        </blockquote>
+        This property is crucial when it comes to CSS animation. What this does is alter the position of an element. You have a wide variety of options on what you can change.
+      </dd>
+      
+      <dt>animation Property</dt>
+      <dd>
+     The animation property is what gets the elements to finally start being dynamic. Applying this property to an element makes it so that whichever element you are altering starts to move based on what you set it to. There are many components to the animation property including animation-duration, animation-delay and animation-timing-function. Using just "animation" is shorthand notation, similar to how margin can be written as margin: 10px; and also margin: 10px 10px 10px 10px; 
+      </dd>
+  </dl>
+  </p>
+  
+  <h2>
+    Getting Started
+  </h2>
+  
+  Lets start off by writing some simple HTML code. In the following block of code, we will write an HTML tag for an image of a pinwheel. Copy and paste the HTML code below to an html file:
+  
+  <br>
+  <code>
+  &lt;img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523"&gt;
+  </code>
+  <br>
+  It should look something like this:
+  <center>
+  <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
+    </center>
+  
+  Great! We have a static element, in this case an image, on our webpage! Now we want to add some CSS styling to it. We can either do this in the html file itself, or in an external css file (if external, make sure you link it in the head tag!).
+  
+  <h2>
+  Building our CSS animation
+  </h2>
+  <p>
+    Let's say for this situation, we want to make our pinwheen spin contiuously. To do this we will have to define a 360 degree transformation in our CSS code. Insert the following into your stylesheet:
+
+      <br>
+  <code>
+  @keyframes rotation {<br>
+  from {<br>
+    transform: rotate(0deg);<br>
+  }<br>
+  to {<br>
+    transform: rotate(360deg);<br>
+  }<br>
+}
+    
+  </code>
+  <br>
+In this block of CSS code, we are doing a few things. First of all, in the @keyframes block, we are defining a sequence for which the animation will follow. We are making it so that it will start from 0 degrees, and, using the attribute rotate, we are making it spin all the way around. We are naming this sequence "rotation". This is step one to making your image rotate. The next step is to code a way to call this sequence. To do this, insert the following into your stylesheet:
+    <br>
+    <code>
+     .spin{<br>
+    animation: rotation 10s  infinite linear;<br>
+}
+    </code>
+    <br>
+    In this CSS selector, we are making a class called "spin". By styling a class, we will be able to reference it in our HTML code. In the block, we are using the property of animation in shorthand notation. We are calling our @keyframes by calling "rotation" so that everything we wrote in that block will be applied here. We are then setting the duration of our animation; our pinwheel will spin for 10 seconds. Next we are making this animation infinite, meaning it will loop continuously. Finally, we set the animation to linear, meaning  it will animate at an even speed. Once you have all of this in your stylesheet, we can apply it to our htmil file. 
+  </p>
+  
+  <h2>
+    Connecting the CSS to the HTML
+  </h2>
+  
+  <p>
+    All we have left to do is to apply all the animation CSS code we just made to our pinwheel image. We can do this by calling the "spin" class, which contains our animation, and applying it to our image element. Add the class of "spin" to the image. Your img tag should now look like this:
+    <br>
+  <code>
+  &lt;img class="spin" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523"&gt;
+  </code>
+  <br>
+    And once this has been applied, everything should work! The pinwheel should now be rotating 360 degrees infinitely! It should look exactly like this:<br>
+     <center>
+        <img class="spin" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fpinwheel.png?v=1605322471523">
+             </center>
+  And like we said before, this applies to any element. I will apply some animations to the concluding paragraph to demonstrate how it works on text based elements!
+  </p>
+  
+  <h1 class="slidein">
+     Final Thoughts
+  </h1>
+  <p class="bounce">
+    Animations are a great way to make your website feel more interactive and dynamic. They add life to a page that would otherwise be boring and static. It is of course important not to overdo it. For the sake of example, these last few lines of text are animated, but it would be best to keep animations away from large bodies of text as it could be distracting. It is important to know how CSS is used to make animations before taking the next step. Knowing this, you can now branch out and explore a wide variety of frameworks that are designed to make animating seamless! I look forward to seeing what animation frameworks are out there for me to use.   
+    
+  </p>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+</body>
+
+</html> 
