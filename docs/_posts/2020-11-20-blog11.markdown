@@ -19,8 +19,8 @@ categories: senior design
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
-<script src="script.js" defer></script>
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
   
   
 <title>Blog 11</title>
@@ -75,7 +75,7 @@ categories: senior design
         <img class="" src="https://miro.medium.com/max/400/1*aKWn6xdhyX7V1IupgXah4Q.png" alt="CSUN CIT" align="middle">
     </center>
   <p>
-    For this blog, I will be going over another JavaScript framework that can be helpful when designing, customizing and personalizing your website. In the past, we have gone over both CSS and JavaScript frameworks such as Bootstrap and Alertify.js. Today, I will be introducing you all to the framework known as Slick Carousel. Slick Carousel can come in handy when wanting to ad dynamic elements to photos on your site. Below, we will go over what Slick Carousel is, how to obtain it, how to implement it onto your site and a demo of it in action, showing off how it would look.
+    For Blog, #11 I will be going over another JavaScript framework that can be helpful when designing, customizing and personalizing your website. In the past, we have gone over both CSS and JavaScript frameworks such as Bootstrap and Alertify.js. Today, I will be introducing you all to the framework known as Slick Carousel. Slick Carousel can come in handy when wanting to ad dynamic elements to photos on your site. Below, we will go over what Slick Carousel is, how to obtain it, how to implement it onto your site and a demo of it in action, showing off how it would look.
   </p>
   
 <h1>
@@ -240,8 +240,7 @@ categories: senior design
     <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
         week!</marquee>
   
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+  
 </body>
 
 </html> 
