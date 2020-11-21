@@ -1,0 +1,249 @@
+---
+layout: post
+title: "Blog 11"
+date: 2020-11-20 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+  
+  
+<style>
+     {% include custom.css %} 
+
+</style>
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+<script src="script.js" defer></script>
+
+  
+  
+<title>Blog 11</title>
+
+  
+  
+  
+  </head>
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">All Blog Posts</button>
+        <div class="dropdown-content">
+            <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/6/blog9.html">Blog 9</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/13/blog10.html">Blog 10</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/20/blog11.html">Blog 11</a>
+            
+
+
+
+        </div>
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+  <h1>
+     Introduction - Slick Carousel 
+  </h1>
+   <center>
+        <img class="" src="https://miro.medium.com/max/400/1*aKWn6xdhyX7V1IupgXah4Q.png" alt="CSUN CIT" align="middle">
+    </center>
+  <p>
+    For this blog, I will be going over another JavaScript framework that can be helpful when designing, customizing and personalizing your website. In the past, we have gone over both CSS and JavaScript frameworks such as Bootstrap and Alertify.js. Today, I will be introducing you all to the framework known as Slick Carousel. Slick Carousel can come in handy when wanting to ad dynamic elements to photos on your site. Below, we will go over what Slick Carousel is, how to obtain it, how to implement it onto your site and a demo of it in action, showing off how it would look.
+  </p>
+  
+<h1>
+  What is it?
+  </h1>
+  
+  <p>
+    Slick Carousel is a collection of JavaScript/jQuery code that allows you to easily implement image carousels or slideshows to your project. It is responsive and has a great amount of customization when it comes to designing the carousel. Here are some features included in the framework: </p> 
+  <ul>
+    <li>Features of Slick Carousel:</li>
+       <li>Fully responsive. Scales with its container.</li>
+<li>Separate settings per breakpoint</li>
+<li>Uses CSS3 when available. Fully functional when not.</li>
+<li>Swipe enabled. Or disabled, if you prefer.</li>
+<li>Desktop mouse dragging</li>
+<li>Infinite looping.</li>
+<li>Fully accessible with arrow key navigation</li>
+<li>Add, remove, filter & unfilter slides</li>
+<li>Autoplay, dots, arrows, callbacks, etc...</li>
+        
+    </ul>
+
+   
+  
+  <h2>
+    Accessing the source code
+  </h2>
+  
+<p>  Like any freamework, the source code is required to access and utilize the framework in your project. As we have covered before in previous blogs, There are multiple ways to go about obtaining the source code. </p>
+  
+ <h2>
+   Downloading Entire Source
+  </h2>
+  <p>
+    Luckily, the creator of Slick Carousel, Ken Wheeler, is very open with his work. He has a public GitHub repository which you can download as a zip file to gain access to Slick Carousel. To access Slick Carousel this way, simply traverse over to <a href="http://kenwheeler.github.io/slick/">http://kenwheeler.github.io/slick/</a> and click on "get it now" at the top of the page.
+  </p>
+  <center>
+  <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F23a6fbc1-c13e-4fc9-a3ed-3250bca3894b.image.png?v=1605926737980">
+    </center>
+  
+  <p>
+    This will tak you to the bottom of the page where you can click a button to begin downloading a zip file with all of the source code. Once downloaded, you can simply refer to these files locally and implement them into your project!
+  </p>
+  
+  <h2>
+  Using a CDN
+  </h2>
+  <p>
+    The easier eay, and the way we will be doing it in this blog, is using <a href="https://cdnjs.com/">https://cdnjs.com/</a> to get all the necessary tags to implement into our HTML file. </p>
+    
+      <center>
+  <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F7af178f8-6de5-4e84-af64-3f0df85f1811.image.png?v=1605927078009">
+    </center>
+    
+    
+    <p>
+      We are going to paste the script and sylesheet links in the head tag of our HTML file. And since Slick Carousel is dependent on jQuery, we will have to implement that too. Insert the following into your HTML file:
+  </p>
+    
+    <code>
+          &lt;src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;/script&gt;
+      <br>
+      &lt;src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"&gt;&lt;/script&gt;
+          <br>
+             &lt;rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous"/&gt;
+      <br>
+       &lt; rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous"/&gt;
+
+        </code>
+      <br>
+  <p>
+  Once all of these are in our file, we should be able to access and use Slick Carousel
+  </p>
+  
+  
+  
+  
+  <h2>
+    Using Slick 
+  </h2>
+  
+  <p>
+    Now it's time to start coding. In order to implement features of Slick Carousel, we have to write our JavaScript code either in an external file, or in a script tag in the HTML file. We also need to set up our HTML file. To start things off, lets add this to our HTML file:
+  </p>
+    <br>
+  <code>
+ &lt;section class="slideshow"&gt;
+      
+  &lt;div&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Avatar_cat.png"&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img src="https://i.pinimg.com/originals/ed/6f/c2/ed6fc28d25da28c73e45ed762a26bbd3.jpg"&gt;&lt;/div&gt;
+   &lt;div&gt;&lt;img src="https://cm1.narvii.com/6448/bce9299f13f0f51e1f10a60ab8aeaf10f5f6d356_00.jpg"&gt;&lt;/div&gt;
+   &lt;div&gt;&lt;img src="https://www.pixword.net/image-LOP-EARED_1856.jpg"&gt;&lt;/div&gt;
+      
+&lt;/section&gt;
+  </code>
+  <br>
+    <p>
+      Here we are making a section fore our carousel with the class of "slideshow". Inside the section, we will place the images that will be displayed on our carousel. In this example, we will have a slideshow of some cute animals. The next step will be to add our script to operate the carousel. Right under the code we just wrote, type the following:
+  </p>
+  <br>
+  <code>
+   $('.slideshow').slick({<br>
+ });
+  </code>
+<br>
+  <p>
+    This is a simple line of jQuery code that is used to call the section (via it's class name) and turn it into an image carousel. Typing in this line will output the following carousel which you need to manually control:
+  </p>
+  
+  <section class="slideshow">
+      
+  <div><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Avatar_cat.png"></div>
+  <div><img src="https://i.pinimg.com/originals/ed/6f/c2/ed6fc28d25da28c73e45ed762a26bbd3.jpg"></div>
+  <div><img src="https://cm1.narvii.com/6448/bce9299f13f0f51e1f10a60ab8aeaf10f5f6d356_00.jpg"></div>
+      <div><img src="https://www.pixword.net/image-LOP-EARED_1856.jpg"></div>
+    <script>
+     $('.slideshow').slick({
+ });
+    </script>
+      
+</section>
+  <p>
+    With this, you have a simple Slick Carousel. Let's take it to the next level. There are many options we have regarding customization. Let's say we want to make a carousel that shows three of the photos at once and scrolls one photo every 3000 milliseconds automatically. Insert the following 
+  </p>
+  
+  <br><code>
+  $('.slideshowTwo').slick({<br>
+  slidesToShow: 3,<br>
+  slidesToScroll: 1,<br>
+  autoplay: true,<br>
+  autoplaySpeed: 3000,<br>
+});
+  </code>
+  <br>
+  <p>
+    Here we are introduced to just some of the properties we can customize using Slick. Taking advantage of all the customizable options (documentation on Slick website previously linked) can result in a very dynamic and interactive slideshow. With this script, the carousel should now look like this:
+  </p>
+   <section class="slideshowTwo">
+      
+  <div><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Avatar_cat.png"></div>
+  <div><img src="https://i.pinimg.com/originals/ed/6f/c2/ed6fc28d25da28c73e45ed762a26bbd3.jpg"></div>
+  <div><img src="https://cm1.narvii.com/6448/bce9299f13f0f51e1f10a60ab8aeaf10f5f6d356_00.jpg"></div>
+      <div><img src="https://www.pixword.net/image-LOP-EARED_1856.jpg"></div>
+      
+</section>
+  <script>
+    $('.slideshowTwo').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
+  </script>
+  
+  <h1 class="slidein">
+     Final Thoughts
+  </h1>
+  <p class="bounce">
+    Slick Carousel is very fun and easy to use. It allows you to plug in various photos to a preset structure and transform them into a slideshow without having to worry about any CSS styling. I am very thankful for developers, such as Ken Wheeler who created Slick Carousel, all around the world who work hard to create fantastic frameworks like this for the public to use. It is truly remarkable what people are able to make using JavaScript and it is inspiring as a amateur ans aspiring web developer.      
+    
+  </p>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+</body>
+
+</html> 
+
+
