@@ -75,7 +75,7 @@ categories: senior design
         <img class="" src="https://miro.medium.com/max/400/1*aKWn6xdhyX7V1IupgXah4Q.png" alt="CSUN CIT" align="middle">
     </center>
   <p>
-    For Blog, #11 I will be going over another JavaScript framework that can be helpful when designing, customizing and personalizing your website. In the past, we have gone over both CSS and JavaScript frameworks such as Bootstrap and Alertify.js. Today, I will be introducing you all to the framework known as Slick Carousel. Slick Carousel can come in handy when wanting to ad dynamic elements to photos on your site. Below, we will go over what Slick Carousel is, how to obtain it, how to implement it onto your site and a demo of it in action, showing off how it would look.
+    For Blog #11, I will be going over another JavaScript framework that can be helpful when designing, customizing and personalizing your website. In the past, we have gone over both CSS and JavaScript frameworks such as Bootstrap and Alertify.js. Today, I will be introducing you all to the framework known as Slick Carousel. Slick Carousel can come in handy when wanting to ad dynamic elements to photos on your site. Below, we will go over what Slick Carousel is, how to obtain it, how to implement it onto your site and a demo of it in action, showing off how it would look.
   </p>
   
 <h1>
@@ -182,7 +182,7 @@ categories: senior design
   </code>
 <br>
   <p>
-    This is a simple line of jQuery code that is used to call the section (via it's class name) and turn it into an image carousel. Typing in this line will output the following carousel which you need to manually control:
+    This is a simple line of jQuery code that is used to call the section (via it's class name) and turn it into an image carousel. Typing in this line will output the following carousel which you need to manually control with the arrows:
   </p>
   
   <section class="slideshow">
