@@ -24,7 +24,7 @@ categories: senior design
       defer
     ></script>
     <!--GOOGLE MAPS API-->
-<script src="maps.js"></script>
+<script defer>{% include alert.js %}</script>
 <title>Blog 12</title>
 
   
@@ -78,7 +78,7 @@ categories: senior design
         <img class="" src="https://sspectra.net/wp-content/uploads/2018/05/google-maps-api.jpg" alt="CSUN CIT" align="middle">
     </center>
   <p>
-   For this blog, I will be talking about the Google Maps API. For various reasons, whether it be to inform users on how to get to your business or to figure out the fastest way to get from point A to point B, most modern websites include some sort of map. Implementing a map from scratch manually can be quite a headache and in many cases inaccurate and unreliable . Luckily, The Google Maps API is aeasy, fast and great way to include interactive and responsive maps to your website or application. There are pre-built many tools to that will assist you when designing your map. In this blog, I will cover what the Google Maps API is, some cool things you can do with it, and how to implement it into your project. Finally, at the end of the blog, I will include a live demo of the Google Maps Api in action. 
+   For this blog, I will be writing about the Google Maps API. For various reasons, whether it be to inform users on how to get to your business or to figure out the fastest way to get from point A to point B, most modern websites include some sort of map. Implementing a map from scratch manually can be quite a headache and in many cases inaccurate and unreliable . Luckily, The Google Maps API is aeasy, fast and great way to include interactive and responsive maps to your website or application. There are pre-built many tools to that will assist you when designing your map. In this blog, I will cover what the Google Maps API is, some cool things you can do with it, and how to implement it into your project. Finally, at the end of the blog, I will include a live demo of the Google Maps Api in action. 
   </p>
   
 <h1>
