@@ -1,0 +1,255 @@
+---
+layout: post
+title: "Blog 12"
+date: 2020-12-04 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+  
+  
+<style>
+     {% include custom.css %} 
+  
+   #map {
+        height: 50%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+</style>
+
+  
+  
+   <!--GOOGLE MAPS API (WITH MY API KEY)-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbxzXQvd92bq8d5I_y3UIyNsrVMvddFy8&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <!--GOOGLE MAPS API-->
+ <script src="script.js" defer></script>
+<script>
+      let map;
+
+ map = new google.maps.Map(document.getElementById("map"), {
+    //I Place it in an ID with the ID of div
+    center: { lat: 34.2389, lng: -118.528 }, // Coordinates of where the map will be centered
+    zoom: 16.8, //zoom level
+    draggableCursor: "crosshair" // Make the cursor a crosshair
+  });
+    </script>
+<title>Blog 12</title>
+
+  
+  
+  
+  </head>
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn">All Blog Posts</button>
+        <div class="dropdown-content">
+            <a href="https://dec98524.github.io/senior/design/2020/08/27/blog-0.html">Blog 0</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/08/blog1.html">Blog 1</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/18/blog2.html">Blog 2</a>
+            <a href="https://dec98524.github.io/senior/design/2020/09/25/blog3.html">Blog 3</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/02/blog4.html">Blog 4</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/09/blog5.html">Blog 5</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">Blog 6</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/23/blog7.html">Blog 7</a>
+            <a href="https://dec98524.github.io/senior/design/2020/10/30/blog8.html">Blog 8</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/6/blog9.html">Blog 9</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/13/blog10.html">Blog 10</a>
+            <a href="https://dec98524.github.io/senior/design/2020/11/20/blog11.html">Blog 11</a>
+            <a href="https://dec98524.github.io/senior/design/2020/12/04/blog12.html">Blog 12</a>
+            
+
+
+
+        </div>
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+  <h1>
+     Introduction - Google Maps API 
+  </h1>
+   <center>
+        <img class="" src="https://sspectra.net/wp-content/uploads/2018/05/google-maps-api.jpg" alt="CSUN CIT" align="middle">
+    </center>
+  <p>
+   For this blog, I will be writing about the Google Maps API. For various reasons, whether it be to inform users on how to get to your business or to figure out the fastest way to get from point A to point B, most modern websites include some sort of map. Implementing a map from scratch manually can be quite a headache and in many cases inaccurate and unreliable . Luckily, The Google Maps API is aeasy, fast and great way to include interactive and responsive maps to your website or application. There are pre-built many tools to that will assist you when designing your map. In this blog, I will cover what the Google Maps API is, some cool things you can do with it, and how to implement it into your project. Finally, at the end of the blog, I will include a live demo of the Google Maps Api in action. 
+  </p>
+  
+<h1>
+  What is the Google Maps API?
+  </h1>
+  
+  <p>
+    If you have ever ventured over to a website and seen an integrated map widget, you probably have wondered just how the web developer was able to implement it. I mean, it's not like there is a simple HTML element that allows us to just spawn a map. Well, odds are that they used the Google Maps API. Luckily for us as programmers, using the Google Maps API is not as hard as it may seem.</p> 
+ <h2>
+   From Google: 
+  </h2>
+  <blockquote>
+   The Maps JavaScript API lets you customize maps with your own content and imagery for display on web pages and mobile devices. The Maps JavaScript API features four basic map types (roadmap, satellite, hybrid, and terrain) which you can modify using layers and styles, controls and events, and various services and libraries.
+  </blockquote>
+<p>
+  There are many ways we as developers can go about using the Google Maps API. There are different collections for different softwares. For example, there is the Maps SDK for Android which allows you to add a map to your Android app, the Maps SDK for IOS which allows you to add a map to your IOS app and the Maps JavaScript API, (the one we will be using for  this blog)which allows you to add an interactive map to your website. Customize it with your own content and imagery
+
+  </p>
+  
+  <h2>
+Accessing the Google Maps JavaScript API   </h2>
+  <p>
+    There are a few steps that need to be taken in order to access the Google Maps JavaScript API. For starters, we will have to register for Google Cloud Platform and set up an acocunt. To do this, head over to <a href ="https://cloud.google.com/maps-platform/#get-started">https://cloud.google.com/maps-platform/#get-started</a> using your Google Account    </p>
+      <center>
+  <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fa3f4bfe1-13f8-4269-8c36-00b3ae3ff675.image.png?v=1607109146972">
+    </center>
+    
+    
+    <p>
+     Once you have an account, the next step will be to create a billing account. Unfortunately, this is mandatory. Google is adamant that they will not charge your card unless you manually change it to do just that, so let's hope they are telling the truth. Once you have set up your billing information, the next step is to create a project within Google Cloud Platform. To do this, simply navigate over to the top of the page on the blue navigation bar. You will see a option to create a new project. Click this and follow the steps. Once you have set up your new project, hit the sidebar on the left and go to APIs & Services &gt; Dashboard &gt; Enable APIs and services. Select and enable the JavaScript API.
+  </p>
+     <center>
+  <img src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F768d995a-0ce5-4148-997e-7f82ed6ee740.image.png?v=1607109794697">
+    </center>
+  <p>
+Once you have done that,  the last step is to head over to APIs & Services &gt; Credentials &gt; Create Credentials &gt; API Key. Once comppleted, you should have a generated API Key that will give you access to the Google Maps API.
+  </p>
+  
+  
+  
+  
+  <h2>
+Including a Simple Map In Your Project
+  </h2>
+  
+  <p>
+ The next thing we will do is include this in a webb app. To start we will write a very basic HTML document. In this document, we will include the necessary tags that will unlock our dependencies. Implement the following into your document:
+  </p>
+    <br>
+  <code>
+    <xmp>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
+    </xmp>
+  </code>
+<br>
+  <p>
+    This is the very minimum we need, regarding HTML code, in order to include a Google Map into our project. <br>
+    <b>NOTE:</b> You need to change the script tag to include YOUR API KEY from the previous step. Otherwise, your map will not load!<br>
+    Next is the CSS file, implement the following:
+  </p>
+  <code>
+  <xmp>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+    </xmp>
+  </code>
+ <p>
+   The #map selector is used to alter the map widget in our HTML file. We must inclde the height and set it to a value in order to make the map appear.<br>
+   Next is the JavaScript file, include the following: 
+  </p>
+  
+  <code>
+  <xmp>
+    let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+    </xmp>
+  </code>
+  <p>
+    This is the actual code that reaches into the Google Maps API and initializes our map. The function initMap() is pre-built along with all of it's properties. With all of this we now have included a Google Map in our site!! Below is an exampl of what it should look like:
+  </p>
+  
+        <div id="map"></div>
+  
+  <h2>
+  Included Tools  
+  </h2>
+  <p>
+    There are a ton of customization options available for you as a developer within the Maps API. Here are some examples:
+  </p>
+  <ul>
+      <li>Custom Markers and Pins</li>
+      <li>Custom Map Themes</li>
+      <li>Shape Tools</li>
+      <li>Disable/Enable UI</li>
+      <li>Tooltips</li>
+      <li>Heat Maps</li>
+  </ul>
+  <p>
+    * Full dcoumentation at <a href="https://developers.google.com/maps/documentation">https://developers.google.com/maps/documentation</a>
+  </p>
+  
+  
+  
+  <h1>
+     Final Thoughts
+  </h1>
+  <p>
+  Being able to include a fully functioning map into a website can be very helpful. I am happy to have learned how to use the Google Maps API because Google Maps is arguably the best map service in the world. The possibilites of what can be devloped are endless. For my starter project, I used the Google Maps API to make a game where the user guesses where certain buildings are at the CSUN Campus. <a href="https://david-maps-project.glitch.me/">Here is a link</a> to the project. I was able to create many different features with all the pre built tools such as drawing rectangles via coordinates, adding event listeners, etc. I am eager to learn more APIs in the future!
+  </p>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+</body>
+
+</html> 
+
+
