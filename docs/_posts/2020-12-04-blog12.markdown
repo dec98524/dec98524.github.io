@@ -129,7 +129,6 @@ Including a Simple Map In Your Project
     <br>
   <code>
     <xmp>
-    <!DOCTYPE html>
 <html>
   <head>
     <title>Simple Map</title>
