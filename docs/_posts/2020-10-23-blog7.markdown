@@ -40,6 +40,8 @@ categories: senior design
             <a href="https://dec98524.github.io/senior/design/2020/11/6/blog9.html">Blog 9</a>
             <a href="https://dec98524.github.io/senior/design/2020/11/13/blog10.html">Blog 10</a>
             <a href="https://dec98524.github.io/senior/design/2020/11/20/blog11.html">Blog 11</a>
+                        <a href="https://dec98524.github.io/senior/design/2020/12/04/blog12.html">Blog 12</a>
+
 
 
 
