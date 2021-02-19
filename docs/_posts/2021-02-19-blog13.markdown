@@ -1,0 +1,157 @@
+---
+layout: post
+title: "Blog 7"
+date: 2020-10-23 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 7</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+    
+     <h1>
+            Introduction - Git Commands and GitHub 
+         </h1>
+       <img class="img-fluid" src="https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg" alt="GitHub">
+<br>
+    <div class="row">
+
+        <p>
+            Welcome back to another semester. I am glad to be in my final semester of college and am very motivated to finish strong! For this blog, I will be going over something that I know I will be using a lot this semester for this class: Git commands. This is something that I am familiar with, asa I used it a bit last semester, but am not a master in. In this blog, I will be oing over what Git commands are, how to install them onto your command line and how to use them when collaborating on projects with your team members in GitHub. GitHub is quite possibly the number one way developers collaborate on coding projects since it is a quick and easy way to store large amounts of code and update that code. Git commands allow you to do all of this from the comfort of your good ol' command line.  
+           </p>
+           
+         <h1>
+           What is the Git and GitHub?
+           </h1>
+           
+           <p>
+             So about now, if you have never heard of Git or GitHub before, you are probably wondering what the heck these things even are. So, let's get some things straight: </p>
+           <dt>Git</dt>
+           <dd>Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.</dd>
+           
+           <dt>GitHub</dt>
+           <dd>GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.</dd>
+          <h2>
+            From GitHub: 
+           </h2>
+           <blockquote>
+           GitHub GitHubis how people build software
+         We’re supporting a community where more than 56 million* people learn, share, and work together to build software. We’re working hard to build a supportive, welcoming place for users and GitHubbers alike.
+         
+           </blockquote>
+         <p>
+           Simply put, Git is a system used to stay up to date, manage and track versions of any project or source code. Any changes made with git commands often lead to version changes and Git is a great way to not get lost in many updates to your project. GitHub, on the other hand, is a service that allows developers to host Git repositories over the cloud.
+           <dt>Git Repositories</dt>
+           <dd>Repositories in GIT contain a collection of files of various different versions of a Project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file.(Geeks for Geeks)</dd>
+         
+           </p>
+           
+           <h2>
+         Installing Git onto your Command Line   </h2>
+           <p>
+          Now that we have a decent understanding of Git, let's figure out how to install it on our system's commandline. Fortunately, Git is supported on all of Windows, MacOS and Linux/Unix You have some options here. For this example, I will be downloading Git on my Windows PC via the Ubuntu terminal. You can either go onto Git's site and download it straight from there, or simply download it from the command line; I will be doing the latter. For this method, simply type out the following command onto the command line: </p>
+         
+           <code>
+           sudo apt innstall git
+           </code>
+           <p>
+             This command will trigger a download and once it is completed, you will have git installed on your system. We can then type 'git' to get an overview of everything git has to offer. Refer to the picture below to get a brief understanding of all the git commands.
+           </p>
+           <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fca7f5ca0-5996-4a7f-a06c-987891c528a4.image.png?v=1611774104425">
+        </div>
+
+        <div class="row">
+            <h1>
+                Interacting with a GitHub Repositiry from the CLI
+                </h1>
+                
+                <p>
+                  Ok so we now know what Git is, what GitHub is and how to install Git on our system, now let's see how we can interact with a GitHub repository from our command line interface using git commands. There are two main ways of interacting with a GitHub repository: pulling data from the repository to your device and pushing data from your device to the GitHub repository. Luckily, git commands make these tasks super easy.  </p>
+                
+                <h2>
+                  Pulling information from a repository 
+                </h2>
+                
+                <p>
+                  Let's say we want to copy a GitHub repository from being hosted on the cloud onto our device. This process is known as cloning a repository. To start things off, make sure you are in the correct place where you want the repository to be cloned. I will save it on my D: drive. All we have to do is type in the following command:
+                </p>
+                <pre>
+                git clone (LINK TO THE REPOSITORY)
+                </pre>
+                
+                <p>
+                  Simply paste the link of the repository you want to clone, I will use this basic Node app repositiry I have on my GitHub account:
+                </p>
+                <pre>
+                git clone https://github.com/dec98524/myNode
+                </pre>
+                  <p>
+                     ...and just like that, you have copied an entire GitHub repo onto your local device! But lets say someone updates the code and you want the newest version on your device, well, simply use the pull command. Type the following into your command line: 
+                </p>
+                
+                <code>
+                git pull https://github.com/dec98524/myNode
+                </code>
+                <p>
+                  This will update your current files to match whatever is on the repository on GitHub. Note: if the repositoiry is private, you will need to confirm that you are the owner by logging into GitHub from your command line.
+                </p>
+                
+                
+                <h2>
+                  Pushing information to a repository 
+                </h2>
+                <p>
+                  Ok, so now we know how to grab information from a GitHub repository and put it on your local device. But what if we want to take the information from our local device and update the repository on GitHub? Well, it's a very similar process to pulling. For this example, we are initializing a brand new repo. First we have to initialize our repository (assure you initialize from the root folder). Next we want to link our code with the repo on GitHub using the URL. Next, we will add any changes we have made.</p> 
+                   
+                  <code>
+                 git init<br>
+                 git remote add origin https://github.com/dec98524/myNode.git   
+                 </code>
+                 
+                   <p>
+                   Whenever we make any changes to any files and we want to push them, we have to do a few things. First we will use a command to add all the changes. Next we will commit those changes, along with a comment. While a blank comment will result in a default update message, it is always good practice to comment what you are doing when you commit. After committing, we will specify which branch we want to apply those changes to and push them. To do all this, enter the following commands:     
+                 </p>
+                 <code>
+               git commit -m "first commit"<br> 
+               git branch -M main<br>
+               git push -u origin main
+               
+                 </code>
+                   <p>
+                    Once all of these commands are entered, you have successfully pushed code from your local device to GitHub! 
+                 </p>
+                   <div class="row justify-content-center">
+                           <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F2b2d0e86-551f-4b52-b895-d74eeb9b4694.image.png?v=1613576963889">
+                       </div>
+                 <div class="row justify-content-center">
+                           <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F89eea97b-53af-4ee6-924a-922e4fd84db0.image.png?v=1613501345324">
+                       </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
