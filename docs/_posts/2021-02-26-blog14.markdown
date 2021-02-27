@@ -1,0 +1,207 @@
+---
+layout: post
+title: "Blog 14"
+date: 2020-10-23 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 14</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+    
+      <div class="row justify-content-center">
+            <h1>
+                Introduction - Amazon Web Services - Elastic Cloud Compute (EC2)
+            </h1>
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fawsec2.png?v=1613696809333" alt="ec2">
+        </div>
+        <br>
+
+        <p>
+            Now that cloud computing has grown so much in popularity, learning Amazon Web Services is a great skill to have. The flexability Amazon Web Services offers when it comes to cloud architecture, deployment and development is top tier and almost unmatched. Probably the most important feature of Amazon Web Services is the Elastic Cloud Compute service, also known as EC2. With EC2 instances, users are able to accomplish so much, without the headaches of on premise hassels such as server and racking costs. EC2 is capable of so much and gives you an incredible amount of configuration options at an amazing and affordable price. For this blog, I will walk you through what exactly AWS EC2 is, how to conigure one and ultimately how to launch an EC2 instance.
+        </p>
+
+        <h1>
+            What is Elastic Cloud Compuute?
+        </h1>
+
+        <p>
+            Before we actually get to using Elastic Cloud Compute, it is important to understand what exactly it is, how it works and the pricing behind this service. </p>
+        <dt>What is Amazon EC2?</dt>
+        <dd>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.</dd>
+
+        <h2>
+            From Amazon:
+        </h2>
+        <blockquote>
+          &#8226; Nearly 400 instances for virtually every business need<br>
+          &#8226; Only cloud provider that supports macOS<br>
+          &#8226; 24 regions and 77 availability zones globally<br>
+          &#8226; Choice of Intel, AMD, and Arm-based processors
+
+        </blockquote>
+        <p>
+            Simply put, AWS EC2 provides resizable compute capacity as virtual machines in the cloud. It can be useful when it comes to hosting projects on the cloud. You have the ability to configure various options from instance types to security groups. While EC2 is not a free service (can be free with free tier eligible configurations), you only pay for what you use. Along with EC2, comes a number of pricing options that can be used based on your project specs to save money.
+        <h2>Pricing options for your instance (from AWS)</h2>
+
+        <dt>On-Demand</dt>
+        <dd>With On-Demand instances, you pay for compute capacity by the hour or the second depending on which instances you run. No longer-term commitments or upfront payments are needed. You can increase or decrease your compute capacity depending on the demands of your application and only pay the specified per hourly rates for the instance you use.</dd>
+
+        <dt>Reserved</dt>
+        <dd>Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. In addition, when Reserved Instances are assigned to a specific Availability Zone, they provide a capacity reservation, giving you additional confidence in your ability to launch instances when you need them.</dd>
+
+        <dt>Spot</dt>
+        <dd>Amazon EC2 Spot instances allow you to request spare Amazon EC2 computing capacity for up to 90% off the On-Demand price. NOTE: Spot instances are risky as they can be terminated at anytime.</dd>
+
+        <dt>Dedicated</dt>
+        <dd>A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Hosts can help you reduce costs by allowing you to use your existing server-bound software licenses, including Windows Server, SQL Server, and SUSE Linux Enterprise Server (subject to your license terms), and can also help you meet compliance requirements.</dd>
+
+        </p>
+
+        <h2>
+            Getting Started - Configuring an EC2 Instance </h2>
+        <p>
+            Now that we have a decent understanding of EC2, we can begin the process of launching an EC2 instance. It is good to know that you are able to do this from the AWS Management Console, or from your Command Line Interface. For this blog, I will use the AWS Management Console. To start, make sure you are logged in to an AWS account with access to EC2. Once in the Management Console, navigate over to the 'Services' tab and find 'EC2' in the 'Compute' section</p>
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Ff196c20d-44f2-479e-899a-7f4945c8652e.image.png?v=1613580995453">
+        </div>
+
+
+        <p>
+            From the dashboard, we will start the process of launching an incstance. In the EC2 Dashboard, click on the 'Launch Instance' button. From here, you will be able to configure 6 different layers of the EC2 virtual machine. The different layers you have the option to configure are:
+
+        <ul>
+            <li>Amazon Machine Image (AMI)</li>
+            <li>Instance Type</li>
+            <li>Instance Details</li>
+            <li>Storage</li>
+            <li>Tags</li>
+            <li>Security Groups</li>
+        </ul>
+        For this EC2 instance, the AMI we will use is Amazon Linux 2. This AMI, along with various others, is free-tier eligible and is a great way to save money. For the sake of this tutorial, we will use the t2.micro instance type since it is free-tier eligible and since our project is not that heavy of a workload. For the instance details, as well as the storage configurations, keep them default. Tags are a good way to keep track of things, so add an appropriate tag for your instance. Finally, keep the security group configurations as default and hit 'Review and Launch'. Before launching, you will be asked to select a key pair. This can be used for tasks such as SSH'ing into your instance. It is important to keep this safe, as you will not be able to download it again once downloaded. It will take a few seconds, but after launching, you should see a page like this:
+        </p>
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2FScreen%20Shot%202021-02-18%20at%204.17.35%20PM.png?v=1613693864049">
+        </div>
+
+        <h2>
+            SSH Into Your EC2
+        </h2>
+
+        <p>
+            If you want to be able to interact with this instance from your own device, you can do that. I will now use the key pair that I downloaded and use that to connect to my EC2 via SSH. First you want to click on the 'Connect' button inside the Instance page. From there you will be given instructions on how to do this. Since I am on mac, I will show you how to do this on mac. First, navigate over to whereever you saved your key pair (.pem) file. The first thing you want to do is change the permissions on it
+        </p>
+        <pre>
+                chmod 400 YOURKEYPAIR.pem
+                </pre>
+
+        <p>
+            next, you want to use the command given to you on the connect page to SSH into your instance, it should look something like this:
+        </p>
+        <pre>
+      ssh -i "testec2.pem" ec2-user@ec2-18-224-68-26.us-east-2.compute.amazonaws.com
+                </pre>
+        <p>
+            Type yes, and you are successfully connected to your instance via SSH.
+        </p>
+
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2FScreen%20Shot%202021-02-18%20at%204.18.28%20PM.png?v=1613693916885">
+        </div>
+
+
+        <p>
+            Let's take this a step further and host basic node app we are storing in GitHub from Blog 13.
+            Here are the steps we need to do:
+        </p>
+        <ul>
+            <li>Install git</li>
+            <li>Clone the repository</li>
+            <li>Install node</li>
+            <li>Initialize NPM packages</li>
+            <li>Run the application</li>
+        </ul>
+        <p>Here are the following commands neccessary to accomplish these tasks</p>
+
+
+        <dt>Install git</dt>
+        <dd>
+            <code>
+                sudo yum install git -y<br>
+                git -v
+            </code>
+        </dd>
+
+        <dt>Clone the Repository</dt>
+        <dd>
+            <code>
+                git clone https://github.com/dec98524/myNode<br>
+
+                // Move into the app's root directory<br>
+
+                cd myNode
+
+            </code>
+        </dd>
+
+        <dt>Install Node</dt>
+        <dd>
+            <code>
+                curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash<br>
+                . ~/.nvm/nvm.sh<br>
+                nvm install node
+            </code>
+        </dd>
+
+        <dt>Initialize NPM packages</dt>
+        <dd>
+            <code>
+                npm install
+            </code>
+        </dd>
+
+        <dt>Run the application</dt>
+        <dd>
+            <code>
+                node app.js
+            </code>
+        </dd>
+
+
+
+
+        <p>
+            Ok, everything has been set up for our app to be running on our EC2 instance, let's see if it works. On the main Instance page, you should see a public IP address. Click on it and it will redirect you to your running web app!
+        </p>
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2FScreen%20Shot%202021-02-18%20at%204.29.42%20PM.png?v=1613694589984">
+        </div>
+
+        <h1>
+            WARNING: AN EC2 INSTANCE IS NOT FREE! MAKE SURE TO TERMINATE EVERY ENVIRONMENT AND RESOURCE YOU ARE NOT USING IN ORDER TO AVOID UNWANTED AND UNEXPECTED CHARGES!
+        </h1>
+        
+    </body>
+</html>
