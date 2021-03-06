@@ -1,0 +1,249 @@
+---
+layout: post
+title: "Blog 15"
+date: 2021-03-05 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 15</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+    
+      <div class="row justify-content-center">
+        <div class="row justify-content-center">
+            <h1>
+                Introduction - HTTP Methods and Postman
+            </h1>
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fc6544454-4275-4ab3-a7ef-3643542b788d.image.png?v=1614709499256" alt="requests">
+        </div>
+        <br>
+
+        <p>
+           When it comes down to it, the very basics of communication between us and another server really boils down to what we are requesting from them. These requests are known as HTTP Methods. HTTP Methods allow us to clearly convey to the server what we want to do. There are several different types of requests we can send and each one does a different and completely unique task. Given that a lot of this happens behiond the curtain in the back-end, it may be difficult to truly undersrand what is happening and how it works. Despite this, it is still crucial to understand how HTTP Methods work as a web developer. In this blog, we will go over some of the various types of HTTP methods, what they do and how to work with them in your program.  
+        </p>
+
+        <h1>
+            What are HTTP Methods?
+        </h1>
+
+        <p>
+            Like all new topics, it is important to get to understand exactly what it is before we start to work with it and get to implementing it in our projects. Down below,  is a brief synopsis of HTTP Methods: </p>
+        
+  <h2>
+    From MDN
+  </h2>
+  <blockquote>
+    HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
+  </blockquote>
+  <p>
+    To put things in simple terms, when we use something like the internet, at the end of the day it is our computer talking to another computer somewhere else in the world. When communicating with that computer, we need to be specific in what information we want to relay to it. The way we specify what information we want to relay is via HTTP request methods. Without these present, our computers are essentially just looking at eachother. Inversely, with these present, our computers are fully communicating with one another.
+  </p>
+  
+  
+  <h2>
+    Types of requests
+  </h2>
+  
+  <p>
+    There are a quite a few HTTP request methods that we should know about, down below are some of the more important and common ones: 
+  </p>
+  
+  
+        <dt>GET</dt>
+        <dd>The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.</dd>
+  
+        <dt>HEAD</dt>
+        <dd>The HEAD method asks for a response identical to that of a GET request, but without the response body.</dd>
+
+        <dt>POST</dt>
+        <dd>The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects         on the server.</dd>
+
+        <dt>PUT</dt>
+        <dd>The PUT method replaces all current representations of the target resource with the request payload.</dd>
+
+        <dt>DELETE</dt>
+        <dd>The DELETE method deletes the specified resource.</dd>
+  
+          <dt>CONNECT</dt>
+        <dd>The CONNECT method establishes a tunnel to the server identified by the target resource.</dd>
+
+          <dt>OPTIONS</dt>
+        <dd>The OPTIONS method is used to describe the communication options for the target resource.</dd>
+
+
+          <dt>TRACE</dt>
+        <dd>The TRACE method performs a message loop-back test along the path to the target resource.</dd>
+
+          <dt>PATCH</dt>
+        <dd>The PATCH method is used to apply partial modifications to a resource.</dd>
+
+  <p>
+  These are 9 of the most common and important HTTP request methods that you may stumble upon in your web development career. In this blog, we will go over the three most common requests and how they work: GET, POST, and DELETE.      
+  </p>
+        
+
+        <h2>
+            Sending Requests </h2>
+        <p>
+            Everytime you are communicating with another server, you are sending an HTTP request. This can be a bit confusing, because most applications, such as browsers like Chrome, handle all of this under the covers. While most users will never worry about these things, it is important for us as developers to understand how they work to elevate our projects. Having an understanding of these things can lead to better maintenance of a project and can set you up to be prepared for any issues that may occur. So...how do we exactly do this? Well, there are many ways. The most basic way is probably opening up your command line and sending a request from there, so let's start with that. Let's send a request to the main google page, for this example we will do a GET request. Type and execute the following command:  </p>
+  
+  <pre>
+  curl https://www.google.com/
+  </pre>
+  <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fbca2440f-c5b9-4b07-9132-bb8dacf6c740.image.png?v=1614619772023">
+            </div>
+  <p>
+    You just sent a request that directed your computer to 'get' the information from Google and display it on your end. Once executed, the terminal will return a raw version of the website's code. This essentially means you have are successfully communicating with Google's servers. This is how it works in a browser, except it does not return a raw version of the site, it returns as an HTML file. You are also able to implement these requests in whichever programming languare you prefer, Whether it be Python, Ruby, C etc. For this blog, I will demonstrate using JavaScript.  
+  </p>
+   
+<h2>HTTP Methods using JavaScript</h2>
+  <p>
+Let's say you want to write a program to connect to and interact with a backend REST API. A REST API stands for a representational state transfer application programming interface that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. This can be used for various tasks and apps such as an app for creating, storing and deleting notes or a login system. In JavaScript, you can approach this from a number of ways. Some examples include using the fetch command, or using jQuery to call an AJAX function.
+    
+    </p>
+    
+    <h2>
+      Example REST API Requests
+    </h2>
+    
+  <p>
+    As mentioned before, one time you may need to use these requests is when you are attempting to connect to some back-end API. Let's say we have an API that allows users to login and view, create, update and delete notes. All these tasks are performed via these HTTP methods. For example, viewing your notes would be a GET request, loging in and cereating new notes would be a POST request and deleting notes would be, you guessed it, a DELETE request. Most of the times you are doing these tasks on a GUI, but what is actually going on? At the core of it, a script is being exectuted that makes it so your computer either sends or recieves data to or from another computer. Let's see how a script like this would look in JavaScript. Down below is a script that allows users to login to a REST API: 
+  <pre>
+var settings = {
+    "url": "RESTAPILINK",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({"username":"david","password":"PASSWORDSTRING"}),
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });  </pre>
+  There are a few things to look at here. In the variable 'settings', we are establishing all of the data necessary to distinguish what we want to send. This includes the URL to the REST API and the HTTP request method. In assition, we are sending the data neccessary to login. It is also important to note that this is all written in JSON format. Finally, we are using an AJAX function to take in all that data and to execute the request. If everything is written correctly, you will now be logged in.
+  </p>
+  
+  <p>
+    Now let's write a script to create a new note. Below is the script to create a brand new note:
+  </p>
+  
+  <pre>
+   var settings = {
+    "url": "URL/note",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Authorization": "Bearer eyJ0eXAi2TH9lKxSSgil7HlZ1w",
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({"title":"Hello!","body":"World!"}),
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+  </pre>
+  
+  <p>
+    It is a very similar program, but there are a few more things we need to understand here. Like the login request, this is also a POST request since we are sending data their way. Since we are posting a note from a specific account, we are including an Authorization Header, which is needed to let them now who we are and that we are actually who we claim to be. This header allows us to access our account. And finally, our JSON data has different parameters. Since it is a new note, we will send over a title for the note as well as a body for the note. 
+  </p>
+
+  <p>
+    Ok, so now we are in our account and have just made a new note, but how do we see all of our notes? Below is a script to do just that:
+  </p>
+  
+  <pre>
+  var settings = {
+    "url": "URL/note",
+    "method": "GET",
+    "timeout": 0,
+    "headers": {
+      "Authorization": "Bearer eyJ0eXAi2TH9lKxSSgil7HlZ1w"
+    },
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+  </pre>
+  <p>
+    A few things here, notice how we used the same url as the create a note script. Since we are recieving data from them, this is a GET request, making the two tasks different despite the same URL. Once executed, we will see a complete list of all our notes including the unique ID associated with the note. This ID is needed for other tasks that involve a specific note 
+  </p>
+  
+  <p>
+   The only thing left to do now is get rid of a note we don't want anymore. Type in the following script:
+  </p>
+  <pre>
+var settings = {
+    "url": "URL/note/6cfb2dfa-bb5e-4af4-984d-d3a94fecb57b",
+    "method": "DELETE",
+    "timeout": 0,
+    "headers": {
+      "Authorization": "Bearer eyJ0eXAi2TH9lKxSSgil7HlZ1w"
+    },
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });  </pre>
+  
+  <p>
+   As you can see, this URL is a bit different. The difference is that it contains the Note ID we mentioned before. This allows us to target a specific note. Since we want to delete it, we will use a DELETE request. Once executed, you will no longer have that note in your list of notes
+  </p>
+  
+
+<h2>
+  Helpful Resource - Postman
+  </h2>  
+  
+  <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fc47e36bb-1fbc-4de0-a008-0260dc0099b3.image.png?v=1614615788527">
+        </div>
+  
+<p>
+  Given that a lot of this stuff happens on the backend, it can get a bit confusing of you are not too familiar or proficient with something like a command line. For this reason, it is very helpful to have tools and apps that can help aid tasks like these. If you still need some help getting the hang of all this, there is an application named Postman that specializes in tasks such as these. It provides a user interface and is a very helpful tool when it comes to testing, debugging and just overall getting the feel for HTTP requests. 
+  </p>
+  
+  <p>
+    <b>From the developers of Postman</b>
+  </p>
+<blockquote>
+  Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. Simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+  </blockquote>
+  
+  
+         <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F29707cba-2a2c-42eb-ba81-d2fa59e6368a.image.png?v=1614709957327">
+        </div>
+        <p>
+ As shown in the picture above, Postman gives you the flexability to test various requests with the reassurance of a GUI. In addition, there are tons of tools, such as the Beautify tool, that can make these tasks much less of a headache! It is free, easy to use and a must for developers wroking with HTTP methods. To get strated with Postman, head over to <a href="https://www.postman.com/downloads/">https://www.postman.com/downloads/</a> 
+        </p>
+        
+    </body>
+</html>
+
