@@ -77,7 +77,7 @@ categories: senior design
         <dd>The HEAD method asks for a response identical to that of a GET request, but without the response body.</dd>
 
         <dt>POST</dt>
-        <dd>The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects         on the server.</dd>
+        <dd>The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.</dd>
 
         <dt>PUT</dt>
         <dd>The PUT method replaces all current representations of the target resource with the request payload.</dd>
