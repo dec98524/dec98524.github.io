@@ -41,7 +41,7 @@ categories: senior design
         <br>
 
         <p>
-           When it comes down to it, the very basics of communication between us and another server really boils down to what we are requesting from them. These requests are known as HTTP Request Methods. HTTP Request Methods allow us to clearly convey to the server what we want to do. There are several different types of requests we can send and each one does a different and completely unique task. Given that a lot of this happens behiond the curtain in the back-end, it may be difficult to truly undersrand what is happening and how it works. Despite this, it is still crucial to understand how HTTP Methods work as a web developer. In this blog, we will go over some of the various types of HTTP methods, what they do and how to work with them in your program.  
+           When it comes down to it, the very basics of communication between us and another server really boils down to what we are requesting from them. These requests are known as HTTP Methods. HTTP Methods allow us to clearly convey to the server what we want to do. There are several different types of requests we can send and each one does a different and completely unique task. Given that a lot of this happens behiond the curtain in the back-end, it may be difficult to truly undersrand what is happening and how it works. Despite this, it is still crucial to understand how HTTP Methods work as a web developer. In this blog, we will go over some of the various types of HTTP methods, what they do and how to work with them in your program.  
         </p>
 
         <h1>
@@ -244,7 +244,6 @@ var settings = {
  As shown in the picture above, Postman gives you the flexability to test various requests with the reassurance of a GUI. In addition, there are tons of tools, such as the Beautify tool, that can make these tasks much less of a headache! It is free, easy to use and a must for developers wroking with HTTP methods. To get strated with Postman, head over to <a href="https://www.postman.com/downloads/">https://www.postman.com/downloads/</a> 
         </p>
         
-</div>
 </div>    
     </body>
 </html>
