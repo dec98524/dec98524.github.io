@@ -41,7 +41,7 @@ categories: senior design
         <br>
 
         <p>
-           When it comes down to it, the very basics of communication between us and another server really boils down to what we are requesting from them. These requests are known as HTTP Methods. HTTP Methods allow us to clearly convey to the server what we want to do. There are several different types of requests we can send and each one does a different and completely unique task. Given that a lot of this happens behiond the curtain in the back-end, it may be difficult to truly undersrand what is happening and how it works. Despite this, it is still crucial to understand how HTTP Methods work as a web developer. In this blog, we will go over some of the various types of HTTP methods, what they do and how to work with them in your program.  
+           When it comes down to it, the very basics of communication between us and another server really boils down to what we are requesting from them. These requests are known as HTTP Request Methods. HTTP Methods allow us to clearly convey to the server what we want to do. There are several different types of requests we can send and each one does a different and completely unique task. Given that a lot of this happens behiond the curtain in the back-end, it may be difficult to truly undersrand what is happening and how it works. Despite this, it is still crucial to understand how HTTP Methods work as a web developer. In this blog, we will go over some of the various types of HTTP methods, what they do and how to work with them in your program.  
         </p>
 
         <h1>
