@@ -43,7 +43,7 @@ categories: senior design
         <br>
 
         <p>
-           As a web developer, there are many tools I like to use that can make building a website as seamless as possible. One of the most popular and growing ways of building a website is through the front-end JavaScript framework known as React. If you are in some way interested in web development, ods are that you have most likely heard of React. For example, I had heard of React, but never fully understood what it was, how it worked and what it was used for. After looking into React a bit, I grew a better understanding of how helpful a tool like this can be when it comes to web development. In this blog, we will go over what exactly React is, how we can install React locally and the initial steps it takes to get a simple React application up and running.
+           As a web developer, there are many tools I like to use that can make building a website as seamless as possible. One of the most popular and growing ways of building a website is through the front-end Java Script framework known as React. If you are in some way interested in web development, ods are that you have most likely heard of React. For example, I had heard of React, but never fully understood what it was, how it worked and what it was used for. After looking into React a bit, I grew a better understanding of how helpful a tool like this can be when it comes to web development. In this blog, we will go over what exactly React is, how we can install React locally and the initial steps it takes to get a simple React application up and running.
         </p>
 
         <h1>
@@ -75,22 +75,23 @@ categories: senior design
             Getting Started - How can we use React? </h2>
         <p>
             Now that we have a decent understanding of React, the next step in our process is gaining access to the React framework. Similar to many other frameworks around the world, there are a few ways you can gho about tackling this. You have the option to either download the framework locally, or access it over the web via a Content Delivery Network (CDN). Both have varrying pros and cons, and for the sake of this tutorial, we will continue by installing React locally. In order to do this, you will need some prerequisites:</p>
-   
+   <ul>
   <li>An understanding of basic HTML and JavaScript</li>       
   <li>Access to a text editor and a terminal </li>
   <li>A fairly recent version of Node.js installed</li>
-
+</ul>
 <h2>Setting up our workspace</h2>
   <p>
     Like any project, we will need an environment to handle all of our tasks. This includes a text editor where we can write all of our code and a terminal to execute commands. A very popular text editor, and one that has plugins and extensions available for projects written in React, is Visual Studio Code, available on both Mac and Windows. It is what I will be using and I highly reccomend it. Let's start off by creating a new folder for our project, you can name it whatever you'd like, I will name it 'reactblog'  
   </p>
   <p>
-    As mentioned above we will need a recent version of Node.js installed to continue. If you do not have Node.js installed, do so before you continue. In order to confirm Node.js is installed on your device, run the following command:
+    As mentioned above we will need a recent version of Node.js installed to continue. If you do not have Node.js installed, do so before you continue. In order to confirm Node.js is installed on your device, run the following command:</p>
   <pre>
   node -v
   </pre>
-  This will return the current version of Node.js you are running if it is installed. If you see an output you are good to go. If you see an error, you do not have Node.js installed.
-  </p>
+  
+  <p>This will return the current version of Node.js you are running if it is installed. If you see an output you are good to go. If you see an error, you do not have Node.js installed.</p>
+  
   <div class="row justify-content-center">
             <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fa6f7e393-3796-448b-9afc-f2ccd3b21d12.image.png?v=1614539393907">
         </div>
