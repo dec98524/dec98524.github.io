@@ -1,0 +1,157 @@
+---
+layout: post
+title: "Blog 16"
+date: 2021-03-12 12:40:45 -0700
+categories: senior design
+---
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 16</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+
+        <div class="row justify-content-center">
+            <h1>
+                Introduction - React
+            </h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F517c88af-f7dc-43f7-8cc5-4b38e167d7ee.image.png?v=1614536252828" alt="react">
+        </div>
+        <br>
+
+        <p>
+           As a web developer, there are many tools I like to use that can make building a website as seamless as possible. One of the most popular and growing ways of building a website is through the front-end JavaScript framework known as React. If you are in some way interested in web development, ods are that you have most likely heard of React. For example, I had heard of React, but never fully understood what it was, how it worked and what it was used for. After looking into React a bit, I grew a better understanding of how helpful a tool like this can be when it comes to web development. In this blog, we will go over what exactly React is, how we can install React locally and the initial steps it takes to get a simple React application up and running.
+        </p>
+
+        <h1>
+            What is React?
+        </h1>
+
+        <p>
+            Before we actually get to using React, it is important to understand what exactly it is and how we can use it on our local device. </p>
+        <dt>About React</dt>
+        <dd>React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.</dd>
+
+              <h2>Features of React - From Developers</h2>
+
+        <dt>Declarative</dt>
+        <dd>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.</dd>
+
+        <dt>Component-Based</dt>
+        <dd>Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</dd>
+
+        <dt>Learn Once, Write Anywhere</dt>
+        <dd>We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using React Native.</dd>
+  
+  <p>
+    To put things in simple terms, React is a <b>JavaScript Framework</b> that is used in web development on the <b>front-end</b> which has various features that can assist you in building your web application. These tools are designed to make your page as fast, dynamic and responsive as possible while allowing you to wite code seamlessly. As React continues to grow in usage and popularity, React documentation continues to improve making it very easy to pick up as a beginner, research the framework and get a solid understanding of how to operate it    
+  </p>
+        
+
+        <h2>
+            Getting Started - How can we use React? </h2>
+        <p>
+            Now that we have a decent understanding of React, the next step in our process is gaining access to the React framework. Similar to many other frameworks around the world, there are a few ways you can gho about tackling this. You have the option to either download the framework locally, or access it over the web via a Content Delivery Network (CDN). Both have varrying pros and cons, and for the sake of this tutorial, we will continue by installing React locally. In order to do this, you will need some prerequisites:</p>
+   
+  <li>An understanding of basic HTML and JavaScript</li>       
+  <li>Access to a text editor and a terminal </li>
+  <li>A fairly recent version of Node.js installed</li>
+
+<h2>Setting up our workspace</h2>
+  <p>
+    Like any project, we will need an environment to handle all of our tasks. This includes a text editor where we can write all of our code and a terminal to execute commands. A very popular text editor, and one that has plugins and extensions available for projects written in React, is Visual Studio Code, available on both Mac and Windows. It is what I will be using and I highly reccomend it. Let's start off by creating a new folder for our project, you can name it whatever you'd like, I will name it 'reactblog'  
+  </p>
+  <p>
+    As mentioned above we will need a recent version of Node.js installed to continue. If you do not have Node.js installed, do so before you continue. In order to confirm Node.js is installed on your device, run the following command:
+  <pre>
+  node -v
+  </pre>
+  This will return the current version of Node.js you are running if it is installed. If you see an output you are good to go. If you see an error, you do not have Node.js installed.
+  </p>
+  <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fa6f7e393-3796-448b-9afc-f2ccd3b21d12.image.png?v=1614539393907">
+        </div>
+  <h2>
+    Initializing a React App
+  </h2>
+  
+  <p>
+    Ok, now we are ready to initialize the very begining of our React project. In order initialize your application, you need to be in your terminal. Once in your terminal, navigate over to the folder we made arlier, in my case 'reactblog'. Once in your desired directory, go ahead and type the following command: 
+  </p>
+  <pre>
+  npx create-react-app myreactapp
+  </pre>
+  
+  <p>
+    Once executed, it may take a few minutes to fully initialize so don't stress if it is taking a while! What this command does is create a new directory with all of the required files, packages and dependencies needed to run a basic React app. This will now take over as the 'root' directory of your project. Once fully initialized, go ahead and 'cd' or change into that new root directory. Here are some of the filesand folders you may see:
+  </p>
+  
+  <dt>node_modules folder</dt>
+  <dd>
+    'node_modules' is a folder which is generated whenever you initialize any sort of Node app. It contains the source code to a ton of packages that are a part of NPM, and is needed for the dependencies to run correctly. It is a huge directory and in almost all cases, it is best to avoid messing around with it!
+  </dd>
+
+  <dt>public folder</dt>
+  <dd>The 'public' folder is another folder that will appear after running the command. This folder contains all of our public files that are public to the browser. Included in this folder are various images and assets, as well as the 'index.html' file. While not interacted with much, this file is essentially what displays our React app and is very important! </dd>
+
+  <dt>src folder</dt>
+  <dd>
+    
+The 'src' folder contains the majority of the Ract code you write yourself. All of the React components you write will reside in this folder. In this folder, you will find files, such as the 'index.js' file, that are used to inject the aforementioned 'index.html' file with content. In a nutshell, the 'src' or 'source' folder contains most of your personally written source code.  
+  </dd>
+  
+  <dt>.gitignore</dt>
+  <dd>Common in many programming projects, the '.gitignore' file is utilized to ignore certain files when pushing or pulling from GitHub. In this file you will typically find files that are not you do not want others to see. For example, node_modules is typically included in .gitignore since it is a massive file not unique to the project. Another example is a .env file, which you do not want to be displayed on a GitHub repository.</dd>
+
+  <dt>package.json</dt>
+  <dd>Like every other Node.js app, you will find a file named 'package.json' when you initialize your app. This file contains very important data that is needed to get the application operating as intended. For example, all the node packages and dependencies are established in this file. You will also find various scripts in here that are used to run your application.</dd>
+
+<h2>
+  Previewing your React Application
+  </h2>  
+<p>
+  Ok so we have all these starter files but how do we actually see what they produce? Luckily, the 'package.lock' file that was created when the project was initialized makes this task very easy. If you look in that file, you will see that there is a dedicated 'start' script that is used to launch our project locally. In order to launch your application, make sure you are in the root directory. Once there, from the command line, type in and execute the following command below. Once executed, navigate over to the provided url and you have successfully launched a React application!
+  </p>
+
+  <pre>
+  npm run start
+  </pre>
+  
+         <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Fb28db548-cf32-4a15-bb82-15df24ae21a0.image.png?v=1614557750301">
+        </div>
+
+  
+  <h2>
+    Next Steps
+  </h2>
+        <p>
+        You now should have a very basic understanding of React and how to create a simple React application. There are many more things you can do with React, too many to cover in one blog. The use of JSX can lead to so many creative ideas, leading to cool, dynamic and interactive web apps. If you enjoyed this React tutorial, keep an eye out for a future blog which may cover a more in depth approach to building your own application in React!   
+        </p>
+        
+        
+    </body>
+</html>
