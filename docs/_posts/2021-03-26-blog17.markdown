@@ -1,0 +1,274 @@
+---
+layout: post
+title: "Blog 16"
+date: 2021-03-12 12:40:45 -0700
+categories: senior design
+---
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 16</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <div class="row justify-content-center">
+            <h1>
+               React Components
+            </h1>
+            <img class="img-fluid" src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/React-Components.jpg" alt="react">
+        </div>
+        <br>
+
+        <p>
+           Now that we have a decent understanding of React, we can start getting a bit more advanced with what we do. If you are still having a hard time understanding React and how it works, think about it like this: there is a main HTML file that contains all the header information and one div tag in the body. At the start, the div tag is empty and has no contents. What we do as React developers to populate that div tag with content is load in scripts. These scripts are known as components. In this blog, I will go over what a React component is and how we can get to using these in our applications.
+        </p>
+
+  
+    <p>
+          When you think about it, at the very core of a website is a skeleton. This skeleton can be thought of as a structure, or foundation of a site's overall composition. Many sites have similar structures. For example, almost every website is composed of a header, body and footer. Think of these three sections as individual React components.    
+        </p>
+        <h2>
+            From React: 
+        </h2>
+        <blockquote>
+          Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+  </blockquote>
+      
+  <p>
+    In simple terms every individual section of a page can be a compnent. Whether it be a header, footer, navigation or even a slideshow. With these sections as components, you have the freedom to individually adjust the component based on the needs of your app, independently from your other compnents. In addition, you have the ability to reuse them, if they appear on multiple pages
+  </p>
+  
+  <h1>
+    Getting Started With Components
+  </h1>
+      
+  
+  <p>
+  For this section, we will be continuing on with the React app we constructed previously in the last blog. If you do not have it, simply launch a new React app from scratch if you wish to follow along. You may remember that when laucnhing a brand new app, you are greeted with a bunch of files and directories which are needed to make the app run. To get started, lets make a directory for our components. Inside the 'src' folder, create a new folder named 'Components'. This is where all of our components will be stored.
+  </p>
+  <pre>
+  cd src
+  mkdir Components
+  cd Components
+  </pre>
+       
+  <p>
+    Let's try to add a Header, Profile and Footer section to our web application. We will make these all individual components to add to the default React website.  
+  </p>
+
+        <h2>
+            Header Component</h2>
+        <p>
+            Ok let's start off with a navigation as our header section. For my header I want to make a responsive Navbar, so I will be using the react-bootstrap package. If you are unfamiliar with how to add this package, check out Blog 8 about NPM! Let's walk through what we nned. Let's start off by creating a new folder in the 'Components' folder named 'Header'. In that folder make two files. Name one 'Header.jsx' and 'Header.css'</p>
+  <pre>mkdir Header
+       cd Header
+       touch Header.jsx
+       touch Header.css
+  </pre>
+  <p>
+    Now you can open up your favorite text editor and start to edit these files. So what are these two files? The component is everything that is in the folder. The .jsx file will tell the HTML file what to render, while the .css file will provide any custom styles. Open 'Header.jsx' and add the following code: 
+  </p>
+
+  <pre>
+import './Header.css';
+import * as ReactBootStrap from 'react-bootstrap';
+
+function Header () {
+  return (
+    &lt;div className=&quot;header&quot;&gt;
+          &lt;div className=&quot;wrapper&quot;&gt;
+   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;
+  &lt;ReactBootStrap.Navbar.Brand href=&quot;#home&quot;&gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;
+  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;
+  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;
+    &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;
+     &lt;ReactBootStrap.Nav.Link href=&quot;#home&quot;&gt;Home&lt;/ReactBootStrap.Nav.Link&gt;
+      &lt;ReactBootStrap.Nav.Link href=&quot;#link&quot;&gt;Link&lt;/ReactBootStrap.Nav.Link&gt; 
+      &lt;ReactBootStrap.Nav.Link href=&quot;#home&quot;&gt;Home&lt;/ReactBootStrap.Nav.Link&gt;
+      &lt;ReactBootStrap.Nav.Link href=&quot;#link&quot;&gt;Link&lt;/ReactBootStrap.Nav.Link&gt;
+    &lt;/ReactBootStrap.Nav&gt;
+   
+  &lt;/ReactBootStrap.Navbar.Collapse&gt;
+&lt;/ReactBootStrap.Navbar&gt;
+&lt;div&gt;
+&lt;div&gt;
+  );
+}
+
+export default Header;
+  </pre>
+  
+  <p>
+    Ok so, what exactly did we just add? We started off by importing (including) everything we needed that was located outside of the file. In this case, we needed to include the "Header.css" file (which we will edit later), as well as react-bootstrap for our Navbar. We then created a function named 'Header', which we will send to our empty HTML file. The function will execute and render everything inside of it. Next, we simply wrote the code for a basic Navbar in bootstrap, which can be found on their official documentation! Finally, we close the function and export it so we can use it anywhere in the application. Now let's add a little bit of style, this is what the .css file is for (optional):
+  </p>
+  
+  <pre>
+  .navColor{
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .show&gt;.nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover {
+    color: #b31b1b;
+    text-decoration: underline;
+    /*  opacity: 50%;*/
+    transition: all 0.4s ease;}
+
+  </pre>
+
+<h2>Footer</h2>
+  <p>
+There is some good news! The process of making new components is very similar to what we just did! So let's rinse and somewhat repeat. Inside of 'Components', create a folder named 'Footer' and inside the folder make, you guessed it, a 'Footer.jsx' and a 'Footer.css' file. Next, open the .jsx file and add the following code:  
+  </p>
+  
+  <pre>
+  import '../Main.css';
+import './Footer.css';
+
+
+function Footer () {
+  return (
+&lt;div className=&quot;footer&quot;&gt;
+  &lt;h1&gt;Goodbye!&lt;/h1&gt;
+&lt;/div&gt;
+  );
+}
+
+export default Footer;
+  </pre>
+  <p>
+    We did esentially the same thing, included our necessary files and wrote a function that will be rendered in the HTML file. We also export the function at the end. I will add the following style in my .css file:</p> 
+  <pre>
+  .footer{
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+  </pre>
+  
+  
+  <h2>Profile</h2>
+  <p>
+You should be able to do this by now so try it out! Here is what I will add
+  </p>
+  
+  <pre>
+import '../Main.css';
+import './Profile.css';
+
+
+function Profile () {
+  return (
+&lt;div className=&quot;profile&quot;&gt;
+Hello! My Name is David and I am saluting all of you reading Blog 18! I like tacos, video games and hip hop!
+&lt;/div&gt;
+  );
+}
+
+export default Profile;
+</pre>
+  <p>
+   And the style...</p> 
+  <pre>
+ .profile{
+    background-color: crimson;
+    width: 50%;
+}
+  </pre>
+  
+  <h1>
+    Including Components
+  </h1>
+  
+  <p>
+     In case you did not know, the default React app is actually a component itself! What we are going to do is add the components we just made to the 'App' component itself. In the 'src' folder, you will find a file called 'App.js' and it will look something like this
+  </p>
+  
+  <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F469da92a-cec9-4158-a12a-84049a99c84d.image.png?v=1616803563395">
+        </div>
+  <p>
+    Ok so now we want to include all of our Components that we just made in order to render everything we just cereated. To do this, we import the components at the top, similar to how we imported the .css file. Let's edit our file to look something like this:
+  </p>
+  
+  
+  <pre>
+import logo from './logo.svg';
+import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Profile from './components/Profile/Profile';
+function App() {
+  return (
+    
+    &lt;div className=&quot;App&quot;&gt;
+       &lt;Header/&gt;
+      &lt;header className=&quot;App-header&quot;&gt;
+      &lt;Profile/&gt;
+        &lt;img src={logo} className=&quot;App-logo&quot; alt=&quot;logo&quot; /&gt;
+        &lt;p&gt;
+          Edit &lt;code&gt;src/App.js&lt;/code&gt; and save to reload.
+        &lt;/p&gt;
+        &lt;a
+          className=&quot;App-link&quot;
+          href=&quot;https://reactjs.org&quot;
+          target=&quot;_blank&quot;
+          rel=&quot;noopener noreferrer&quot;
+        &gt;
+          Learn React
+        &lt;/a&gt;
+      &lt;/header&gt;
+      &lt;Footer/&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+  </pre>
+  
+  
+  <p>
+    After importing the component, the way we refer to it in the script is by writing a single, self closing tag of the components name. We have added the &lt;Header/&gt;, &lt;Profile/&gt; and &lt;Footer/&gt; tag to the application ad they should now display on the webpage. To launch our app on a localhost server, type in the following command in your terminal:
+  </p>
+  
+  <pre>
+  npm start
+  </pre>
+  
+  <p>
+    You should now see your new components added onto the React application! Here is what mine looks like with the custom components added to the app.
+  </p>
+  
+  <div class="row justify-content-center">
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2F9813ce65-e6d9-40ab-8b37-1dfab2e0a309.image.png?v=1616804062214">
+        </div>      
+        
+
+ </body>
+</html>
