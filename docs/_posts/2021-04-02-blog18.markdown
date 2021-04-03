@@ -32,7 +32,7 @@ categories: senior design
 
     <div class="row justify-content-center">
             <h1>
-               React Router
+               Introduction - React Router
             </h1>
             <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Freactrouter.png?v=1617410885232" alt="react">
         </div>
@@ -64,7 +64,7 @@ Components are the heart of React's powerful, declarative programming model. Rea
       
   
   <p>
-  For this section, we will be continuing on with the React app we constructed previously in the last blog. If you do not have it, simply launch a new React app from scratch if you wish to follow along. Once we are in our root directory, the very first thing we are going to need to do is install the package itself. We will do this the same way we installed React, by using NPM. In your terminal, type in the following command
+  For this section, we will be continuing on with the React app we constructed previously in the last blog. If you do not have it, simply launch a new React app from scratch if you wish to follow along. Once we are in our root directory, the very first thing we are going to need to do is install the package itself. We will do this the same way we installed React, by using NPM. In your terminal, type in the following command</p>
   <pre>
   npm install react-router
   </pre>
