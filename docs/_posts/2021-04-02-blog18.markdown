@@ -55,7 +55,7 @@ Components are the heart of React's powerful, declarative programming model. Rea
   </blockquote>
       
   <p>
-    In simple terms React Router allows you to connect and link pages and components in a seamless and easy way. Anywhere that you have access to the package in your React project, you will be able to set up a path for users to follow when traversing your web app. It allows us to avoid using anchor tags that link elsewhere. Everytime we click and anchor tag link, we are navigated away from the page and we reload a new one. This can lead to long loading times which can be unappealing and offputting to potential visitors of your site. It also just slows the site down overall. 
+    In simple terms, React Router allows you to connect and link pages and components in a seamless and easy way. Anywhere that you have access to the package in your React project, you will be able to set up a path for users to follow when traversing your web app. It allows us to avoid using anchor tags that link elsewhere. Everytime we click and anchor tag link, we are navigated away from the page and we reload a new one. This can lead to long loading times which can be unappealing and offputting to potential visitors of your site. It also just slows the site down overall. 
   </p>
   
   <h1>
@@ -71,45 +71,36 @@ Components are the heart of React's powerful, declarative programming model. Rea
        
   <p>
 This will install the package and add it to the dependencies section of your package.json file. We now have access and are ready to use what this package has to offer. Let's go about implementing it to our project. Let's say we want to keep all of our routing in the header component of our project. Let's navigate over to the Header.jsx file we made in the last blog. We are going to place oour router tag as a parent tag to our navigation. Type in the following code:</p>
-  <pre>mkdir Header
-       cd Header
-       touch Header.jsx
-       touch Header.css
-  </pre>
-  <p>
-    Now you can open up your favorite text editor and start to edit these files. So what are these two files? The component is everything that is in the folder. The .jsx file will tell the HTML file what to render, while the .css file will provide any custom styles. Open 'Header.jsx' and add the following code: 
-  </p>
-
   <pre>
-import './Header.css';<br></br>
-import * as ReactBootStrap from 'react-bootstrap';<br></br><br></br>
+import './Header.css';
+import * as ReactBootStrap from 'react-bootstrap';
 import {Route, BrowserRouter as Router, Link} from "react-router-dom"; 
 import Home from "../../Pages/Home";
 import Contact from "../../Pages/Contact";
 
 
 
-function Header () &#123;<br></br>
-  return (<br></br>
-<Router><br></br>
-    &lt;div className=&quot;header&quot;&gt;<br></br>
-          &lt;div className=&quot;wrapper&quot;&gt;<br></br>
-   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Brand &gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;<br></br>
+function Header () &#123;
+  return (
+&lt;Router&gt;
+    &lt;div className=&quot;header&quot;&gt;
+          &lt;div className=&quot;wrapper&quot;&gt;
+   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;
+  &lt;ReactBootStrap.Navbar.Brand &gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt; 
+  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt; 
+  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt; 
     &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;<br></br>
-     &lt;ReactBootStrap.Nav.Link &gt;Home&lt;/ReactBootStrap.Nav.Link&gt;<br></br>
-      &lt;ReactBootStrap.Nav.Link&gt;Contact&lt;/ReactBootStrap.Nav.Link&gt; <br></br>
-    &lt;/ReactBootStrap.Nav&gt;<br></br>
-  &lt;/ReactBootStrap.Navbar.Collapse&gt;<br></br>
-&lt;/ReactBootStrap.Navbar&gt;<br></br>
-&lt;div&gt;<br></br>
-&lt;div&gt;<br></br>
-</Router><br></br>
+     &lt;ReactBootStrap.Nav.Link &gt;Home&lt;/ReactBootStrap.Nav.Link&gt; 
+      &lt;ReactBootStrap.Nav.Link&gt;Contact&lt;/ReactBootStrap.Nav.Link&gt;  
+    &lt;/ReactBootStrap.Nav&gt; 
+  &lt;/ReactBootStrap.Navbar.Collapse&gt; 
+&lt;/ReactBootStrap.Navbar&gt; 
+&lt;div&gt; 
+&lt;div&gt; 
+&lt;/Router&gt; 
 
-  );<br></br>
-&#125;<br></br><br></br>
+  ); 
+&#125; 
 
 export default Header;
 export default Header;
@@ -120,71 +111,63 @@ A few things here: first and foremost, the most important thing we need to do is
   </p>
   
   <pre>
-    import About from '../Components/About/About';<br></br>
-import Profile from '../Components/Profile/Profile';<br></br>
-import Header from '../Components/Header/Header';<br></br>
-import Footer from '../Components/Footer/Footer';<br></br><br></br>
+    import About from '../Components/About/About';
+import Profile from '../Components/Profile/Profile';
+import Header from '../Components/Header/Header';
+import Footer from '../Components/Footer/Footer';
 
-export default function Home(){<br></br>
-    return(<br></br>
-        &lt;div&gt;<br></br>
-             &lt;Header/&gt;<br></br>
-             &lt;Profile/&gt;<br></br>
-             &lt;Footer/&gt;<br></br>
-        &lt;/div&gt;<br></br>
-    )<br></br>
+export default function Home()&#123;
+    return(
+        &lt;div&gt;
+             &lt;Header/&gt;
+             &lt;Profile/&gt;
+             &lt;Footer/&gt;
+        &lt;/div&gt;
+    )
 
-}
+&#125;
   </pre>
 <p>
   Use the same code just replace the function variable 'Home' to 'Contact'. These pages are where the Router will redirect the user based on the route. So, now that we have these in place, let's update the 'Header.jsx' component, where our Router is located.
 </p>
 
 <pre>
-  import './Header.css';<br></br>
-import * as ReactBootStrap from 'react-bootstrap';<br></br><br></br>
+  import './Header.css';
+import * as ReactBootStrap from 'react-bootstrap';
 import {Route, BrowserRouter as Router, Link} from "react-router-dom"; 
 import Home from "../../Pages/Home";
 import Contact from "../../Pages/Contact";
 
 
 
-function Header () &#123;<br></br>
-  return (<br></br>
-<Router><br></br>
-    &lt;div className=&quot;header&quot;&gt;<br></br>
-          &lt;div className=&quot;wrapper&quot;&gt;<br></br>
-   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Brand&gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;<br></br>
-  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;<br></br>
-    &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;<br></br>
-     &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/&quot;&gt;Home&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt;<br></br>
-      &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/contact&quot;&gt;Contact&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt; <br></br>
-    &lt;/ReactBootStrap.Nav&gt;<br></br>
-  &lt;/ReactBootStrap.Navbar.Collapse&gt;<br></br>
-&lt;/ReactBootStrap.Navbar&gt;<br></br>
-&lt;div&gt;<br></br>
-&lt;div&gt;<br></br>
+function Header () &#123;
+  return (
+&lt;Router&gt;
+    &lt;div className=&quot;header&quot;&gt;
+          &lt;div className=&quot;wrapper&quot;&gt;
+   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;
+  &lt;ReactBootStrap.Navbar.Brand&gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;
+  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;
+  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;
+    &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;
+     &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/&quot;&gt;Home&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt;
+      &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/contact&quot;&gt;Contact&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt; 
+    &lt;/ReactBootStrap.Nav&gt;
+  &lt;/ReactBootStrap.Navbar.Collapse&gt;
+&lt;/ReactBootStrap.Navbar&gt;
+&lt;div&gt;
+&lt;div&gt;
   &lt;Route path=&quot;/&quot; exact component={Home} /&gt;
   &lt;Route path=&quot;/contact&quot; exact component={Contact} /&gt;
-&lt;/Router&gt;<br></br>
+&lt;/Router&gt;
 
-  );<br></br>
-&#125;<br></br><br></br>
+  );
+&#125;
 
 export default Header;
 export default Header;
   </pre>
   
-
-
-
-
-
-
-
-
 
   <p>
 We have just set up a successful router! We implemented the 'Link' so when a user clicks on it, they will be redirected to the page we set up. We used the 'Route' tag to establish that connection between the page and our Router. Similar to the view engine for express apps, this is how routes are established in React
