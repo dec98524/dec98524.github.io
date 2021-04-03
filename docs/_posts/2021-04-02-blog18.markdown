@@ -1,0 +1,195 @@
+---
+layout: post
+title: "Blog 18"
+date: 2021-04-02 12:40:45 -0700
+categories: senior design
+---
+<html>
+
+
+<head>
+
+    <style>
+     {% include custom.css %} 
+</style>
+ <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP-->
+<title>Blog 18</title>
+
+    
+    </head>
+
+<body>
+  
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <div class="row justify-content-center">
+            <h1>
+               React Router
+            </h1>
+            <img class="img-fluid" src="https://cdn.glitch.com/7ac5fb3c-a292-4382-953b-ef7237693bce%2Freactrouter.png?v=1617410885232" alt="react">
+        </div>
+        <br>
+
+        <p>
+        If you have been keeping up and folllowing along with my React tutorial you now have a decent understanding of what goes into making a react webpage. We have covered the basics of initializing an application, describing what each directory and folder does and setting up React components to use in our web app. So we know how to set up these pages, but how can we go about connecting these pages to one another? Well, a simple way would be using an "a" tag and linking each individual page. While this method works, there are various reasons why we want to avoid this technique. The way we will go about using the package known as React Router.
+  </p>
+
+  
+    <p>
+          While React Router may seem very straight forward let's see just what React Router has to offer:     
+        </p>
+        <h2>
+            From the devs at React Router: 
+        </h2>
+        <blockquote>
+          LEARN ONCE, ROUTE ANYWHERE,
+Components are the heart of React's powerful, declarative programming model. React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering--so take your pick!
+  </blockquote>
+      
+  <p>
+    In simple terms React Router allows you to connect and link pages and components in a seamless and easy way. Anywhere that you have access to the package in your React project, you will be able to set up a path for users to follow when traversing your web app. It allows us to avoid using anchor tags that link elsewhere. Everytime we click and anchor tag link, we are navigated away from the page and we reload a new one. This can lead to long loading times which can be unappealing and offputting to potential visitors of your site. It also just slows the site down overall. 
+  </p>
+  
+  <h1>
+    Getting Started With React Router
+  </h1>
+      
+  
+  <p>
+  For this section, we will be continuing on with the React app we constructed previously in the last blog. If you do not have it, simply launch a new React app from scratch if you wish to follow along. Once we are in our root directory, the very first thing we are going to need to do is install the package itself. We will do this the same way we installed React, by using NPM. In your terminal, type in the following command
+  <pre>
+  npm install react-router
+  </pre>
+       
+  <p>
+This will install the package and add it to the dependencies section of your package.json file. We now have access and are ready to use what this package has to offer. Let's go about implementing it to our project. Let's say we want to keep all of our routing in the header component of our project. Let's navigate over to the Header.jsx file we made in the last blog. We are going to place oour router tag as a parent tag to our navigation. Type in the following code:</p>
+  <pre>mkdir Header
+       cd Header
+       touch Header.jsx
+       touch Header.css
+  </pre>
+  <p>
+    Now you can open up your favorite text editor and start to edit these files. So what are these two files? The component is everything that is in the folder. The .jsx file will tell the HTML file what to render, while the .css file will provide any custom styles. Open 'Header.jsx' and add the following code: 
+  </p>
+
+  <pre>
+import './Header.css';<br></br>
+import * as ReactBootStrap from 'react-bootstrap';<br></br><br></br>
+import {Route, BrowserRouter as Router, Link} from "react-router-dom"; 
+import Home from "../../Pages/Home";
+import Contact from "../../Pages/Contact";
+
+
+
+function Header () &#123;<br></br>
+  return (<br></br>
+<Router><br></br>
+    &lt;div className=&quot;header&quot;&gt;<br></br>
+          &lt;div className=&quot;wrapper&quot;&gt;<br></br>
+   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Brand &gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;<br></br>
+    &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;<br></br>
+     &lt;ReactBootStrap.Nav.Link &gt;Home&lt;/ReactBootStrap.Nav.Link&gt;<br></br>
+      &lt;ReactBootStrap.Nav.Link&gt;Contact&lt;/ReactBootStrap.Nav.Link&gt; <br></br>
+    &lt;/ReactBootStrap.Nav&gt;<br></br>
+  &lt;/ReactBootStrap.Navbar.Collapse&gt;<br></br>
+&lt;/ReactBootStrap.Navbar&gt;<br></br>
+&lt;div&gt;<br></br>
+&lt;div&gt;<br></br>
+</Router><br></br>
+
+  );<br></br>
+&#125;<br></br><br></br>
+
+export default Header;
+export default Header;
+  </pre>
+  
+  <p>
+A few things here: first and foremost, the most important thing we need to do is import the package, this allows us to use everything React Router has to offer. Next we are importing two pages from a new folder called 'Pages' which we will create soon. Next we are wrapping the entire navbar in a Router tag, so all our routes aply to the navigation. Let's continue along and make a directory named "Pages" in the 'src' folder. Inside it, let's make two files named 'Home.jsx' and 'Contact.jsx'. These will be the two main pages of our site. In 'Home.jsx', add the following code:
+  </p>
+  
+  <pre>
+    import About from '../Components/About/About';<br></br>
+import Profile from '../Components/Profile/Profile';<br></br>
+import Header from '../Components/Header/Header';<br></br>
+import Footer from '../Components/Footer/Footer';<br></br><br></br>
+
+export default function Home(){<br></br>
+    return(<br></br>
+        &lt;div&gt;<br></br>
+             &lt;Header/&gt;<br></br>
+             &lt;Profile/&gt;<br></br>
+             &lt;Footer/&gt;<br></br>
+        &lt;/div&gt;<br></br>
+    )<br></br>
+
+}
+  </pre>
+<p>
+  Use the same code just replace the function variable 'Home' to 'Contact'. These pages are where the Router will redirect the user based on the route. So, now that we have these in place, let's update the 'Header.jsx' component, where our Router is located.
+</p>
+
+<pre>
+  import './Header.css';<br></br>
+import * as ReactBootStrap from 'react-bootstrap';<br></br><br></br>
+import {Route, BrowserRouter as Router, Link} from "react-router-dom"; 
+import Home from "../../Pages/Home";
+import Contact from "../../Pages/Contact";
+
+
+
+function Header () &#123;<br></br>
+  return (<br></br>
+<Router><br></br>
+    &lt;div className=&quot;header&quot;&gt;<br></br>
+          &lt;div className=&quot;wrapper&quot;&gt;<br></br>
+   &lt;ReactBootStrap.Navbar className=&quot;navColor&quot; expand=&quot;lg&quot;&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Brand&gt;DAVID CASTANEDA&lt;/ReactBootStrap.Navbar.Brand&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Toggle aria-controls=&quot;basic-navbar-nav&quot; /&gt;<br></br>
+  &lt;ReactBootStrap.Navbar.Collapse id=&quot;basic-navbar-nav&quot;&gt;<br></br>
+    &lt;ReactBootStrap.Nav className=&quot;mr-auto&quot;&gt;<br></br>
+     &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/&quot;&gt;Home&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt;<br></br>
+      &lt;ReactBootStrap.Nav.Link&gt;&lt;Link to=&quot;/contact&quot;&gt;Contact&lt;/Link&gt;&lt;/ReactBootStrap.Nav.Link&gt; <br></br>
+    &lt;/ReactBootStrap.Nav&gt;<br></br>
+  &lt;/ReactBootStrap.Navbar.Collapse&gt;<br></br>
+&lt;/ReactBootStrap.Navbar&gt;<br></br>
+&lt;div&gt;<br></br>
+&lt;div&gt;<br></br>
+  &lt;Route path=&quot;/&quot; exact component={Home} /&gt;
+  &lt;Route path=&quot;/contact&quot; exact component={Contact} /&gt;
+&lt;/Router&gt;<br></br>
+
+  );<br></br>
+&#125;<br></br><br></br>
+
+export default Header;
+export default Header;
+  </pre>
+  
+
+
+
+
+
+
+
+
+
+  <p>
+We have just set up a successful router! We implemented the 'Link' so when a user clicks on it, they will be redirected to the page we set up. We used the 'Route' tag to establish that connection between the page and our Router. Similar to the view engine for express apps, this is how routes are established in React
+  </p>
+  
+
+ </body>
+</html>
