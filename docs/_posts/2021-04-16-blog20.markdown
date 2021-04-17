@@ -1,0 +1,124 @@
+---
+layout: post
+title: "Blog 20"
+date: 2020-04-16 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+
+
+<style>
+     {% include custom.css %} 
+</style>
+
+<title>Blog 20</title>
+
+<body>
+    <ul class="navbar">
+
+        <li class="navbar"><a class="home" href="http://dec98524.github.io/">Home</a></li>
+        <li class="navbar"><a href="https://github.com/dec98524/dec98524.github.io">Git Hub</a></li>
+        <li class="navbar"><a href="https://www.instagram.com/im.davidcastaneda/">Instagram</a></li>
+        <li class="navbar"><a href="https://twitter.com/refilldranks">Twitter</a></li>
+
+    </ul>
+    <br>
+
+    </div><br>
+    <br>
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left"><i>Welcome to my blog site!</i>
+    </marquee>
+
+    <center>
+        <img src="https://www.csun.edu/ua/2017logos/Seal-CSUN-Horizontal-186.png" alt="CSUN CIT" align="middle">
+    </center>
+
+    <h2>Introduction - Assignments Worked On</h2>
+
+    <p>This week I was introduced to backend development in my COMP 484 class. As stated in my last blog, I was assigned a 
+        final group project where myself and 4 other group members were tasked with creating a web app using a unique set of
+        frameworks. Last week went over the front-end, css related framework known as Bootstrap. If you have not yet been introduced
+        to Bootstrap, <a href="https://dec98524.github.io/senior/design/2020/10/16/blog6.html">my last blog</a> where I go over the 
+        basics of Bootstrap and how I was able to implement it into my personal website. Along with Bootstrap, my group decided to 
+        use the framework known as Node.js to handle all of our backend tasks on the server side.
+
+
+
+
+    </p>
+
+
+    <h1>What Is Node.js?</h1>
+    <center>
+        <img src="https://images8.alphacoders.com/380/thumb-1920-380534.png">
+    </center>
+    <p>Node.js is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser.
+        Using Chrome's powerful v8 engine, Node.js allows us to use JavaScript as a backend programming language, making it possible to run 
+        server-side code completely on JavaScript. Node.js is completely free and runs on various platforms, such as Windows, Mac OS, Linux and Unix.
+        Node.js has the ability to  generate dynamic page content, it can create, open, read, write, delete, and close files on the server, 
+        it can collect form data and also add, delete, modify data in your database. 
+    </p>
+
+
+    <h1>Getting Started - Installing Node</h1>
+    <center>
+        <img src="https://i.imgur.com/9VMj5Wo.png">
+    </center>
+    <p>Downloading and installing Node.js is very simple. To get Node.js on your system, simply head over to 
+        <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> and select your corresponding operating system. In my case, I have 
+        a Macbook Air, so I selected the MacOS installer option. Upon clicking, a download should begin and, once finished, you should have Node.js installed.
+        A quick way to do this is to go on your command line, in my case the terminal (Windows users can use cmd or powershell) and typing in the following command:
+        <br>
+        <code>
+            node -v
+        </code><br>
+        This should output the current version of Node.js installed on your system. If you see a version number, you are good to go.
+    </p>
+    <center>
+        <img src="https://i.imgur.com/XCBnC2N.png">
+    </center>
+
+    <h1>Setting up your first Node.js App</h1>
+
+    <p>
+        To start things off, we will go over how to set up a very basic Node app. Let's start by creating a file called firstnode.js. Inside this file, we will write a program that will initialize our server via localhost and we will also include a short message. To start we must understand how the Node.js framework operates. Node, contains a massive library of pre made packages, which are scripts included when you download Node.js. To reference these packages, you must include them in your file. There are many, but one example is http. This will allow us to create a server via localhost. To include it, we must type the following:
+        <br>
+        <code>
+            const http = require('http');
+        </code><br>
+        Once included, we as programmers will have access to the http package. Now that we have access to it, we can set up our server. Type the following code into your file:
+        <br>
+        <code>
+
+            http.createServer(function (req, res) {<br>
+                res.writeHead(200, {'Content-Type': 'text/plain'});<br>
+                res.end('Hello!');<br>
+              
+              }).listen(8080);<br>
+
+        </code><br>
+
+        We are using the http object to intialize our device as a server using the method .createServer. We are then passing a function with the parameters of req and res which are the responses and requests the server and browser are sending to one another. Then we establish a status code and what type of content we are sending with the .writeHead method. In this case, a 200 status code for a successful process and just some plain text. res.end contains our content, while ending the response process. We set up which port we want our localhost to use with the listen() object, in this case, we will use localhost:8080. Now that we are done with our code, we must run our file. Save everything and type the following in your terminal:
+        <br>
+        <code>
+            node firstnode.js
+        </code><br>
+        You will now be able to open a browswer, and type in http://localhost:8080 and see your new app!
+        <center>
+            <img src="https://i.imgur.com/O7sOcPZ.png">
+        </center>
+    </p>
+
+
+
+    <h2>Final Thoughts</h2>
+    <p>Although a bit difficult and confusing at first, I really enjoyed learning the basics of Node.js. Up until now, I had mainly used frontend frameworks to build websites, such as Bootstrap. I am glad I was finally able to start learning the importance of backend development. I know that this is just the start, and am eager to see the cool new apps I will be able to build with a combination of frontend and backend framewoks such as Bootstrap and Node.js. One thing I learned is just how much packasges Node.js has available. there are a number of packages you are able to install which provide the tools to make your programming less of a headache. Next week, I will go over some must have packages that Node.js provides and how to install them.</p>
+
+
+    <marquee style="color:black;font-size: 20pt" behavior="scroll" direction="left">Thanks for reading. See you next
+        week!</marquee>
+</body>
+
+</html> 
